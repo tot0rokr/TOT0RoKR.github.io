@@ -109,18 +109,15 @@ author:
   location         : "South Korea"
   email            : "tot0roprog@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tot0roprog@gmail.com"
+          #- label: "Email"
+          # icon: "fas fa-fw fa-envelope-square"
+          #url: "mailto:tot0roprog@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/TOT0RoKor"
+      url: "https://github.com/TOT0RoKR"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCZb8b8Eq6gId9sZNW2svDWA"
-    - label: "RSS"
-      icon: "fab fa-fw fa-rss"
-      url: "https://tot0roprog.github.io/feed.xml"
 
 # Site Footer
 footer:
@@ -130,13 +127,10 @@ footer:
       url: "mailto:tot0roprog@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/TOT0RoKor"
+      url: "https://github.com/TOT0RoKR"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCZb8b8Eq6gId9sZNW2svDWA"
-    - label: "RSS"
-      icon: "fab fa-fw fa-rss"
-      url: "https://tot0roprog.github.io/feed.xml"
 
 # Reading Files
 include:
