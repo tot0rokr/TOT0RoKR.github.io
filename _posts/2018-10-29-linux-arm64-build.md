@@ -9,10 +9,10 @@ tag:
 - gdb
 - 4.16
 - debug
+- kernel compile
+- kernel debugging
 categories:
 - Kernel Debugging
-- GDB
-- Kernel Compile
 ---
 
 # Linux4.16.0 arm64 kernel build

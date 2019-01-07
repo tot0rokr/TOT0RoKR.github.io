@@ -16,5 +16,5 @@ main:
    url: /posts/
  - title: "Category"
    url: /categories/
- - title: "tag"
+ - title: "Tag"
    url: /tags/
