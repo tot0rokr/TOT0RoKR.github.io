@@ -23,7 +23,7 @@ description              : "Amazing Kernel"
 url                      : "https://tot0rokr.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TOT0RoKR/TOT0RoKR.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/TOT0Ro.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -85,7 +85,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/logo.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/TOT0Ro.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "TOT0Ro"
-  avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/TOT0Ro.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Amazing Kernel Developer (is my dream)"
   location         : "South Korea"
   email            : "tot0roprog@gmail.com"
