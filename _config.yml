@@ -27,7 +27,7 @@ teaser                   : # "/assets/images/TOT0Ro.png" # path of fallback teas
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : "https-tot0rokor-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
