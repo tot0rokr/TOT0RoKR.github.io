@@ -114,7 +114,9 @@ target remote :1234
 > <https://code.i-harness.com/ko-kr/q/14fc388>
 
 ## You can do
-~~_너두? 야 나두._~~
+
+![cf 06](https://user-images.githubusercontent.com/24751868/50793967-22bfab80-130d-11e9-9908-9c844791783b.jpg){: width="60%" }
+![cf 09](https://user-images.githubusercontent.com/24751868/50793970-25ba9c00-130d-11e9-99b5-5451b7e9d052.jpg){: width="60%" }
 
 ### How to get ready for compiling
 
@@ -182,21 +184,21 @@ make Image
 ### How to update configuration file for debugging
 
 * **defconfig**
-![make_config](https://user-images.githubusercontent.com/24751868/47661000-8cb82800-dbdb-11e8-8e1b-241b2c293d54.PNG)
+![make_config](https://user-images.githubusercontent.com/24751868/47661000-8cb82800-dbdb-11e8-8e1b-241b2c293d54.PNG){: width="60%" }
 
 #### make menuconfig
 
 * **CONFIG\_DEBUG\_INFO=y**
-![debug_info](https://user-images.githubusercontent.com/24751868/47660994-8b86fb00-dbdb-11e8-9be1-dc20609faf3e.PNG)
+![debug_info](https://user-images.githubusercontent.com/24751868/47660994-8b86fb00-dbdb-11e8-9be1-dc20609faf3e.PNG){: width="60%" }
 
 * **CONFIG\_KGDB=y**
-![kgdb](https://user-images.githubusercontent.com/24751868/47660998-8c1f9180-dbdb-11e8-8bc5-b061636342fe.PNG)
+![kgdb](https://user-images.githubusercontent.com/24751868/47660998-8c1f9180-dbdb-11e8-8bc5-b061636342fe.PNG){: width="60%" }
 
 * **CONFIG\_KGDB\_SERIAL\_CONSOLE=y**
-![kgdb_serial_console](https://user-images.githubusercontent.com/24751868/47660999-8cb82800-dbdb-11e8-81f8-66dbb99bc577.PNG)
+![kgdb_serial_console](https://user-images.githubusercontent.com/24751868/47660999-8cb82800-dbdb-11e8-81f8-66dbb99bc577.PNG){: width="60%" }
 
 * **CONFIG\_FRAME\_POINTER=y**
-![frame_pointer](https://user-images.githubusercontent.com/24751868/47660996-8c1f9180-dbdb-11e8-8170-83169ca31590.PNG)
+![frame_pointer](https://user-images.githubusercontent.com/24751868/47660996-8c1f9180-dbdb-11e8-8170-83169ca31590.PNG){: width="60%" }
 
 > [http://studyfoss.egloos.com/5490783](http://studyfoss.egloos.com/5490783)
 
