@@ -12,12 +12,9 @@ main:
   #   url: /sitemap/
  - title: "Kernel 4.16 Code"
    url: /code4.16/startkernel/
- 
  - title: "Posts"
    url: /posts/
-
  - title: "Category"
    url: /categories/
-
  - title: "tag"
    url: /tags/
