@@ -18,12 +18,12 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "ko-KR"
 title                    : "TOT0Ro's Kernel Blog"
 title_separator          : "-"
-name                     : "TOT0Ro"
-description              : "Amazing Kernel"
+name                     : &name "TOT0Ro"
+description              : &description "Amazing Kernel Blog"
 url                      : "https://tot0rokr.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TOT0RoKR/TOT0RoKR.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/TOT0Ro.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # "/assets/images/TOT0Ro.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -197,7 +197,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 8 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -269,3 +269,11 @@ defaults:
       comments: true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Linux 4.16 arm64 kernel debug build"
 date: 2018-10-29
 excerpt: "gdb를 이용한 arm64 커널 구동 디버깅을 위한 커널 빌드."
@@ -9,7 +9,10 @@ tag:
 - gdb
 - 4.16
 - debug
-comments: true
+categories:
+- Kernel Debugging
+- GDB
+- Kernel Compile
 ---
 
 # Linux4.16.0 arm64 kernel build
