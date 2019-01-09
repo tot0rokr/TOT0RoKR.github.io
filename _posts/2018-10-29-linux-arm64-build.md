@@ -7,8 +7,8 @@ tag:
 - kernel
 - arm64
 - gdb
-- 4.16
 - debug
+- kernel4.16
 - kernel compile
 - kernel debugging
 categories:
@@ -184,21 +184,19 @@ make Image
 ### How to update configuration file for debugging
 
 * **defconfig**
-![make_config](https://user-images.githubusercontent.com/24751868/47661000-8cb82800-dbdb-11e8-8e1b-241b2c293d54.PNG){: width="60%" }
-
+![make_config](https://user-images.githubusercontent.com/24751868/47661000-8cb82800-dbdb-11e8-8e1b-241b2c293d54.PNG)
 #### make menuconfig
 
 * **CONFIG\_DEBUG\_INFO=y**
-![debug_info](https://user-images.githubusercontent.com/24751868/47660994-8b86fb00-dbdb-11e8-9be1-dc20609faf3e.PNG){: width="60%" }
+![debug_info](https://user-images.githubusercontent.com/24751868/47660994-8b86fb00-dbdb-11e8-9be1-dc20609faf3e.PNG)
 
 * **CONFIG\_KGDB=y**
-![kgdb](https://user-images.githubusercontent.com/24751868/47660998-8c1f9180-dbdb-11e8-8bc5-b061636342fe.PNG){: width="60%" }
+![kgdb](https://user-images.githubusercontent.com/24751868/47660998-8c1f9180-dbdb-11e8-8bc5-b061636342fe.PNG)
 
 * **CONFIG\_KGDB\_SERIAL\_CONSOLE=y**
-![kgdb_serial_console](https://user-images.githubusercontent.com/24751868/47660999-8cb82800-dbdb-11e8-81f8-66dbb99bc577.PNG){: width="60%" }
-
+![kgdb_serial_console](https://user-images.githubusercontent.com/24751868/47660999-8cb82800-dbdb-11e8-81f8-66dbb99bc577.PNG)
 * **CONFIG\_FRAME\_POINTER=y**
-![frame_pointer](https://user-images.githubusercontent.com/24751868/47660996-8c1f9180-dbdb-11e8-8170-83169ca31590.PNG){: width="60%" }
+![frame_pointer](https://user-images.githubusercontent.com/24751868/47660996-8c1f9180-dbdb-11e8-8170-83169ca31590.PNG)
 
 > [http://studyfoss.egloos.com/5490783](http://studyfoss.egloos.com/5490783)
 
