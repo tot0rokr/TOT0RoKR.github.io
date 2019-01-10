@@ -14,7 +14,7 @@ categories:
 - Kernel Debugging
 ---
 
-# Linux4.16.0 arm64 kernel build
+# Linux 4.16.0 arm64 kernel debug
 ### for debuging with KGDB
 ###### will add KDB later..
 
