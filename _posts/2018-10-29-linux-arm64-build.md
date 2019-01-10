@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Linux 4.16 arm64 kernel debug build"
 date: 2018-10-29
 excerpt: "gdb를 이용한 arm64 커널 구동 디버깅을 위한 커널 빌드."
