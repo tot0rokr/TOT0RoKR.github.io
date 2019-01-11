@@ -47,7 +47,9 @@ layout: default
       </section>
 
       <footer class="page__meta">
+        {% if page.collection == 'posts' %}
         <h2> 관련 내용에 대한 질문이나 태클을 환영합니다. 댓글 남겨주세요. </h2>
+        {% endif %}
         <br/><br/>
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
