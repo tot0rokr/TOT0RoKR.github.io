@@ -11,7 +11,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
  - title: "Kernel 4.16 Code"
-   url: /code4.16/startkernel/
+   url: /Arm64-Kernel-4_16/startkernel/
  - title: "Posts"
    url: /year-archive/
  - title: "Category"

@@ -269,6 +269,24 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_label: "목차"
+      toc_sticky: false
+      
+  # _posts/Arm64
+  - scope:
+      path: "_posts/Arm64"
+      type: posts
+    values:
+      categories:
+        - Arm64
+  # _posts/Debugging
+  - scope:
+      path: "_posts/Debugging"
+      type: posts
+    values:
+      categories:
+        - Debugging
   # _pages
   - scope:
       path: "_pages"

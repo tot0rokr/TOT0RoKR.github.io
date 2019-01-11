@@ -2,7 +2,6 @@
 title: "MOESI protocol"
 last_modified_at: 2019-01-10T23:15:00-09:00
 categories:
-- Arm64
 - Cache
 tags:
 - arm64
