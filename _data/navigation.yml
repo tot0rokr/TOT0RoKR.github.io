@@ -10,8 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
- - title: "Kernel 4.16 Code"
-   url: /Arm64-Kernel-4_16/startkernel/
+  #- title: "Kernel 4.16 Code"
+  #  url: /arm64kernel/start_kernel/
  - title: "Posts"
    url: /year-archive/
  - title: "Category"

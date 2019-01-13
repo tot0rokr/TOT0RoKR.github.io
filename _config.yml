@@ -280,6 +280,13 @@ defaults:
     values:
       categories:
         - Arm64
+  # _posts/linux
+  - scope:
+      path: "_posts/linux"
+      type: posts
+    values:
+      categories:
+        - KernelCode4.16
   # _posts/Debugging
   - scope:
       path: "_posts/Debugging"
@@ -294,4 +301,36 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # # _arm64kernel
+  # - scope:
+      # path: ""
+      # type: arm64kernel
+    # values:
+      # classes: wide
+      # layout: single
+      # author_profile: true
+      # read_time: true
+      # comments: true
+      # share: true
+      # related: true
+      # toc: true
+      # toc_label: "목차"
+      # toc_sticky: false
+      # sidebar:
+        # nav: "arm64kernel"
+      
+  # # _arm64kernel/4.16
+  # - scope:
+      # path: "_arm64kernel/4.16"
+      # type: arm64kernel_416
+      # sidebar:
+        # nav: "arm64kernel_416"
+
+  # # _arm64kernel/4.16/start_kernel
+  # - scope:
+      # path: "_arm64kernel/4.16/start_kernel"
+      # type: arm64kernel_416_start_kernel
+      # sidebar:
+        # nav: "arm64kernel_416_start_kernel"
 
