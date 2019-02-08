@@ -1,10 +1,11 @@
 ---
 title: "Omok creator"
 last_modified_at: 2019-02-08T11:52:00-09:00
+classes: wide
 categories:
 - Clang
 tags:
-- Clang
+- clang
 excerpt: "variable, loop, conditional만으로 오목 만들기 소스 생성코드"
 ---
 

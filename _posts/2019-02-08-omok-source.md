@@ -1,6 +1,7 @@
 ---
 title: "Omok Source"
 last_modified_at: 2019-02-08T12:07:00-09:00
+classes: wide
 categories:
 - Clang
 tags:
