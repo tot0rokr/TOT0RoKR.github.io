@@ -2,6 +2,8 @@
 title: "jump_label_init()"
 classes: wide
 excerpt: "jump label들에 대해 NOP과 JMP를 setting"
+date: 2019-01-14T02:52:00-09:00
+last_modified_at: 2019-02-14T03:08:00-09:00
 tag:
 - jump
 - likely
