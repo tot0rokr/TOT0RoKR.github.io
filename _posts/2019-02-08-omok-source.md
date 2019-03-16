@@ -745,956 +745,956 @@ int main()
                 /* 승리를 검사한다. */
 
                 ////////////////////// 가로 검사 ///////////////////////////////////
-                if(Pan0101==turn) { if(Pan0102==turn) { if(Pan0103==turn) { if(Pan0104==turn) { if(Pan0105==turn) { win++; } } } } }
-                if(Pan0102==turn) { if(Pan0103==turn) { if(Pan0104==turn) { if(Pan0105==turn) { if(Pan0106==turn) { win++; } } } } }
-                if(Pan0103==turn) { if(Pan0104==turn) { if(Pan0105==turn) { if(Pan0106==turn) { if(Pan0107==turn) { win++; } } } } }
-                if(Pan0104==turn) { if(Pan0105==turn) { if(Pan0106==turn) { if(Pan0107==turn) { if(Pan0108==turn) { win++; } } } } }
-                if(Pan0105==turn) { if(Pan0106==turn) { if(Pan0107==turn) { if(Pan0108==turn) { if(Pan0109==turn) { win++; } } } } }
-                if(Pan0106==turn) { if(Pan0107==turn) { if(Pan0108==turn) { if(Pan0109==turn) { if(Pan0110==turn) { win++; } } } } }
-                if(Pan0107==turn) { if(Pan0108==turn) { if(Pan0109==turn) { if(Pan0110==turn) { if(Pan0111==turn) { win++; } } } } }
-                if(Pan0108==turn) { if(Pan0109==turn) { if(Pan0110==turn) { if(Pan0111==turn) { if(Pan0112==turn) { win++; } } } } }
-                if(Pan0109==turn) { if(Pan0110==turn) { if(Pan0111==turn) { if(Pan0112==turn) { if(Pan0113==turn) { win++; } } } } }
-                if(Pan0110==turn) { if(Pan0111==turn) { if(Pan0112==turn) { if(Pan0113==turn) { if(Pan0114==turn) { win++; } } } } }
-                if(Pan0111==turn) { if(Pan0112==turn) { if(Pan0113==turn) { if(Pan0114==turn) { if(Pan0115==turn) { win++; } } } } }
-                if(Pan0112==turn) { if(Pan0113==turn) { if(Pan0114==turn) { if(Pan0115==turn) { if(Pan0116==turn) { win++; } } } } }
-                if(Pan0113==turn) { if(Pan0114==turn) { if(Pan0115==turn) { if(Pan0116==turn) { if(Pan0117==turn) { win++; } } } } }
-                if(Pan0114==turn) { if(Pan0115==turn) { if(Pan0116==turn) { if(Pan0117==turn) { if(Pan0118==turn) { win++; } } } } }
-                if(Pan0115==turn) { if(Pan0116==turn) { if(Pan0117==turn) { if(Pan0118==turn) { if(Pan0119==turn) { win++; } } } } }
-                if(Pan0201==turn) { if(Pan0202==turn) { if(Pan0203==turn) { if(Pan0204==turn) { if(Pan0205==turn) { win++; } } } } }
-                if(Pan0202==turn) { if(Pan0203==turn) { if(Pan0204==turn) { if(Pan0205==turn) { if(Pan0206==turn) { win++; } } } } }
-                if(Pan0203==turn) { if(Pan0204==turn) { if(Pan0205==turn) { if(Pan0206==turn) { if(Pan0207==turn) { win++; } } } } }
-                if(Pan0204==turn) { if(Pan0205==turn) { if(Pan0206==turn) { if(Pan0207==turn) { if(Pan0208==turn) { win++; } } } } }
-                if(Pan0205==turn) { if(Pan0206==turn) { if(Pan0207==turn) { if(Pan0208==turn) { if(Pan0209==turn) { win++; } } } } }
-                if(Pan0206==turn) { if(Pan0207==turn) { if(Pan0208==turn) { if(Pan0209==turn) { if(Pan0210==turn) { win++; } } } } }
-                if(Pan0207==turn) { if(Pan0208==turn) { if(Pan0209==turn) { if(Pan0210==turn) { if(Pan0211==turn) { win++; } } } } }
-                if(Pan0208==turn) { if(Pan0209==turn) { if(Pan0210==turn) { if(Pan0211==turn) { if(Pan0212==turn) { win++; } } } } }
-                if(Pan0209==turn) { if(Pan0210==turn) { if(Pan0211==turn) { if(Pan0212==turn) { if(Pan0213==turn) { win++; } } } } }
-                if(Pan0210==turn) { if(Pan0211==turn) { if(Pan0212==turn) { if(Pan0213==turn) { if(Pan0214==turn) { win++; } } } } }
-                if(Pan0211==turn) { if(Pan0212==turn) { if(Pan0213==turn) { if(Pan0214==turn) { if(Pan0215==turn) { win++; } } } } }
-                if(Pan0212==turn) { if(Pan0213==turn) { if(Pan0214==turn) { if(Pan0215==turn) { if(Pan0216==turn) { win++; } } } } }
-                if(Pan0213==turn) { if(Pan0214==turn) { if(Pan0215==turn) { if(Pan0216==turn) { if(Pan0217==turn) { win++; } } } } }
-                if(Pan0214==turn) { if(Pan0215==turn) { if(Pan0216==turn) { if(Pan0217==turn) { if(Pan0218==turn) { win++; } } } } }
-                if(Pan0215==turn) { if(Pan0216==turn) { if(Pan0217==turn) { if(Pan0218==turn) { if(Pan0219==turn) { win++; } } } } }
-                if(Pan0301==turn) { if(Pan0302==turn) { if(Pan0303==turn) { if(Pan0304==turn) { if(Pan0305==turn) { win++; } } } } }
-                if(Pan0302==turn) { if(Pan0303==turn) { if(Pan0304==turn) { if(Pan0305==turn) { if(Pan0306==turn) { win++; } } } } }
-                if(Pan0303==turn) { if(Pan0304==turn) { if(Pan0305==turn) { if(Pan0306==turn) { if(Pan0307==turn) { win++; } } } } }
-                if(Pan0304==turn) { if(Pan0305==turn) { if(Pan0306==turn) { if(Pan0307==turn) { if(Pan0308==turn) { win++; } } } } }
-                if(Pan0305==turn) { if(Pan0306==turn) { if(Pan0307==turn) { if(Pan0308==turn) { if(Pan0309==turn) { win++; } } } } }
-                if(Pan0306==turn) { if(Pan0307==turn) { if(Pan0308==turn) { if(Pan0309==turn) { if(Pan0310==turn) { win++; } } } } }
-                if(Pan0307==turn) { if(Pan0308==turn) { if(Pan0309==turn) { if(Pan0310==turn) { if(Pan0311==turn) { win++; } } } } }
-                if(Pan0308==turn) { if(Pan0309==turn) { if(Pan0310==turn) { if(Pan0311==turn) { if(Pan0312==turn) { win++; } } } } }
-                if(Pan0309==turn) { if(Pan0310==turn) { if(Pan0311==turn) { if(Pan0312==turn) { if(Pan0313==turn) { win++; } } } } }
-                if(Pan0310==turn) { if(Pan0311==turn) { if(Pan0312==turn) { if(Pan0313==turn) { if(Pan0314==turn) { win++; } } } } }
-                if(Pan0311==turn) { if(Pan0312==turn) { if(Pan0313==turn) { if(Pan0314==turn) { if(Pan0315==turn) { win++; } } } } }
-                if(Pan0312==turn) { if(Pan0313==turn) { if(Pan0314==turn) { if(Pan0315==turn) { if(Pan0316==turn) { win++; } } } } }
-                if(Pan0313==turn) { if(Pan0314==turn) { if(Pan0315==turn) { if(Pan0316==turn) { if(Pan0317==turn) { win++; } } } } }
-                if(Pan0314==turn) { if(Pan0315==turn) { if(Pan0316==turn) { if(Pan0317==turn) { if(Pan0318==turn) { win++; } } } } }
-                if(Pan0315==turn) { if(Pan0316==turn) { if(Pan0317==turn) { if(Pan0318==turn) { if(Pan0319==turn) { win++; } } } } }
-                if(Pan0401==turn) { if(Pan0402==turn) { if(Pan0403==turn) { if(Pan0404==turn) { if(Pan0405==turn) { win++; } } } } }
-                if(Pan0402==turn) { if(Pan0403==turn) { if(Pan0404==turn) { if(Pan0405==turn) { if(Pan0406==turn) { win++; } } } } }
-                if(Pan0403==turn) { if(Pan0404==turn) { if(Pan0405==turn) { if(Pan0406==turn) { if(Pan0407==turn) { win++; } } } } }
-                if(Pan0404==turn) { if(Pan0405==turn) { if(Pan0406==turn) { if(Pan0407==turn) { if(Pan0408==turn) { win++; } } } } }
-                if(Pan0405==turn) { if(Pan0406==turn) { if(Pan0407==turn) { if(Pan0408==turn) { if(Pan0409==turn) { win++; } } } } }
-                if(Pan0406==turn) { if(Pan0407==turn) { if(Pan0408==turn) { if(Pan0409==turn) { if(Pan0410==turn) { win++; } } } } }
-                if(Pan0407==turn) { if(Pan0408==turn) { if(Pan0409==turn) { if(Pan0410==turn) { if(Pan0411==turn) { win++; } } } } }
-                if(Pan0408==turn) { if(Pan0409==turn) { if(Pan0410==turn) { if(Pan0411==turn) { if(Pan0412==turn) { win++; } } } } }
-                if(Pan0409==turn) { if(Pan0410==turn) { if(Pan0411==turn) { if(Pan0412==turn) { if(Pan0413==turn) { win++; } } } } }
-                if(Pan0410==turn) { if(Pan0411==turn) { if(Pan0412==turn) { if(Pan0413==turn) { if(Pan0414==turn) { win++; } } } } }
-                if(Pan0411==turn) { if(Pan0412==turn) { if(Pan0413==turn) { if(Pan0414==turn) { if(Pan0415==turn) { win++; } } } } }
-                if(Pan0412==turn) { if(Pan0413==turn) { if(Pan0414==turn) { if(Pan0415==turn) { if(Pan0416==turn) { win++; } } } } }
-                if(Pan0413==turn) { if(Pan0414==turn) { if(Pan0415==turn) { if(Pan0416==turn) { if(Pan0417==turn) { win++; } } } } }
-                if(Pan0414==turn) { if(Pan0415==turn) { if(Pan0416==turn) { if(Pan0417==turn) { if(Pan0418==turn) { win++; } } } } }
-                if(Pan0415==turn) { if(Pan0416==turn) { if(Pan0417==turn) { if(Pan0418==turn) { if(Pan0419==turn) { win++; } } } } }
-                if(Pan0501==turn) { if(Pan0502==turn) { if(Pan0503==turn) { if(Pan0504==turn) { if(Pan0505==turn) { win++; } } } } }
-                if(Pan0502==turn) { if(Pan0503==turn) { if(Pan0504==turn) { if(Pan0505==turn) { if(Pan0506==turn) { win++; } } } } }
-                if(Pan0503==turn) { if(Pan0504==turn) { if(Pan0505==turn) { if(Pan0506==turn) { if(Pan0507==turn) { win++; } } } } }
-                if(Pan0504==turn) { if(Pan0505==turn) { if(Pan0506==turn) { if(Pan0507==turn) { if(Pan0508==turn) { win++; } } } } }
-                if(Pan0505==turn) { if(Pan0506==turn) { if(Pan0507==turn) { if(Pan0508==turn) { if(Pan0509==turn) { win++; } } } } }
-                if(Pan0506==turn) { if(Pan0507==turn) { if(Pan0508==turn) { if(Pan0509==turn) { if(Pan0510==turn) { win++; } } } } }
-                if(Pan0507==turn) { if(Pan0508==turn) { if(Pan0509==turn) { if(Pan0510==turn) { if(Pan0511==turn) { win++; } } } } }
-                if(Pan0508==turn) { if(Pan0509==turn) { if(Pan0510==turn) { if(Pan0511==turn) { if(Pan0512==turn) { win++; } } } } }
-                if(Pan0509==turn) { if(Pan0510==turn) { if(Pan0511==turn) { if(Pan0512==turn) { if(Pan0513==turn) { win++; } } } } }
-                if(Pan0510==turn) { if(Pan0511==turn) { if(Pan0512==turn) { if(Pan0513==turn) { if(Pan0514==turn) { win++; } } } } }
-                if(Pan0511==turn) { if(Pan0512==turn) { if(Pan0513==turn) { if(Pan0514==turn) { if(Pan0515==turn) { win++; } } } } }
-                if(Pan0512==turn) { if(Pan0513==turn) { if(Pan0514==turn) { if(Pan0515==turn) { if(Pan0516==turn) { win++; } } } } }
-                if(Pan0513==turn) { if(Pan0514==turn) { if(Pan0515==turn) { if(Pan0516==turn) { if(Pan0517==turn) { win++; } } } } }
-                if(Pan0514==turn) { if(Pan0515==turn) { if(Pan0516==turn) { if(Pan0517==turn) { if(Pan0518==turn) { win++; } } } } }
-                if(Pan0515==turn) { if(Pan0516==turn) { if(Pan0517==turn) { if(Pan0518==turn) { if(Pan0519==turn) { win++; } } } } }
-                if(Pan0601==turn) { if(Pan0602==turn) { if(Pan0603==turn) { if(Pan0604==turn) { if(Pan0605==turn) { win++; } } } } }
-                if(Pan0602==turn) { if(Pan0603==turn) { if(Pan0604==turn) { if(Pan0605==turn) { if(Pan0606==turn) { win++; } } } } }
-                if(Pan0603==turn) { if(Pan0604==turn) { if(Pan0605==turn) { if(Pan0606==turn) { if(Pan0607==turn) { win++; } } } } }
-                if(Pan0604==turn) { if(Pan0605==turn) { if(Pan0606==turn) { if(Pan0607==turn) { if(Pan0608==turn) { win++; } } } } }
-                if(Pan0605==turn) { if(Pan0606==turn) { if(Pan0607==turn) { if(Pan0608==turn) { if(Pan0609==turn) { win++; } } } } }
-                if(Pan0606==turn) { if(Pan0607==turn) { if(Pan0608==turn) { if(Pan0609==turn) { if(Pan0610==turn) { win++; } } } } }
-                if(Pan0607==turn) { if(Pan0608==turn) { if(Pan0609==turn) { if(Pan0610==turn) { if(Pan0611==turn) { win++; } } } } }
-                if(Pan0608==turn) { if(Pan0609==turn) { if(Pan0610==turn) { if(Pan0611==turn) { if(Pan0612==turn) { win++; } } } } }
-                if(Pan0609==turn) { if(Pan0610==turn) { if(Pan0611==turn) { if(Pan0612==turn) { if(Pan0613==turn) { win++; } } } } }
-                if(Pan0610==turn) { if(Pan0611==turn) { if(Pan0612==turn) { if(Pan0613==turn) { if(Pan0614==turn) { win++; } } } } }
-                if(Pan0611==turn) { if(Pan0612==turn) { if(Pan0613==turn) { if(Pan0614==turn) { if(Pan0615==turn) { win++; } } } } }
-                if(Pan0612==turn) { if(Pan0613==turn) { if(Pan0614==turn) { if(Pan0615==turn) { if(Pan0616==turn) { win++; } } } } }
-                if(Pan0613==turn) { if(Pan0614==turn) { if(Pan0615==turn) { if(Pan0616==turn) { if(Pan0617==turn) { win++; } } } } }
-                if(Pan0614==turn) { if(Pan0615==turn) { if(Pan0616==turn) { if(Pan0617==turn) { if(Pan0618==turn) { win++; } } } } }
-                if(Pan0615==turn) { if(Pan0616==turn) { if(Pan0617==turn) { if(Pan0618==turn) { if(Pan0619==turn) { win++; } } } } }
-                if(Pan0701==turn) { if(Pan0702==turn) { if(Pan0703==turn) { if(Pan0704==turn) { if(Pan0705==turn) { win++; } } } } }
-                if(Pan0702==turn) { if(Pan0703==turn) { if(Pan0704==turn) { if(Pan0705==turn) { if(Pan0706==turn) { win++; } } } } }
-                if(Pan0703==turn) { if(Pan0704==turn) { if(Pan0705==turn) { if(Pan0706==turn) { if(Pan0707==turn) { win++; } } } } }
-                if(Pan0704==turn) { if(Pan0705==turn) { if(Pan0706==turn) { if(Pan0707==turn) { if(Pan0708==turn) { win++; } } } } }
-                if(Pan0705==turn) { if(Pan0706==turn) { if(Pan0707==turn) { if(Pan0708==turn) { if(Pan0709==turn) { win++; } } } } }
-                if(Pan0706==turn) { if(Pan0707==turn) { if(Pan0708==turn) { if(Pan0709==turn) { if(Pan0710==turn) { win++; } } } } }
-                if(Pan0707==turn) { if(Pan0708==turn) { if(Pan0709==turn) { if(Pan0710==turn) { if(Pan0711==turn) { win++; } } } } }
-                if(Pan0708==turn) { if(Pan0709==turn) { if(Pan0710==turn) { if(Pan0711==turn) { if(Pan0712==turn) { win++; } } } } }
-                if(Pan0709==turn) { if(Pan0710==turn) { if(Pan0711==turn) { if(Pan0712==turn) { if(Pan0713==turn) { win++; } } } } }
-                if(Pan0710==turn) { if(Pan0711==turn) { if(Pan0712==turn) { if(Pan0713==turn) { if(Pan0714==turn) { win++; } } } } }
-                if(Pan0711==turn) { if(Pan0712==turn) { if(Pan0713==turn) { if(Pan0714==turn) { if(Pan0715==turn) { win++; } } } } }
-                if(Pan0712==turn) { if(Pan0713==turn) { if(Pan0714==turn) { if(Pan0715==turn) { if(Pan0716==turn) { win++; } } } } }
-                if(Pan0713==turn) { if(Pan0714==turn) { if(Pan0715==turn) { if(Pan0716==turn) { if(Pan0717==turn) { win++; } } } } }
-                if(Pan0714==turn) { if(Pan0715==turn) { if(Pan0716==turn) { if(Pan0717==turn) { if(Pan0718==turn) { win++; } } } } }
-                if(Pan0715==turn) { if(Pan0716==turn) { if(Pan0717==turn) { if(Pan0718==turn) { if(Pan0719==turn) { win++; } } } } }
-                if(Pan0801==turn) { if(Pan0802==turn) { if(Pan0803==turn) { if(Pan0804==turn) { if(Pan0805==turn) { win++; } } } } }
-                if(Pan0802==turn) { if(Pan0803==turn) { if(Pan0804==turn) { if(Pan0805==turn) { if(Pan0806==turn) { win++; } } } } }
-                if(Pan0803==turn) { if(Pan0804==turn) { if(Pan0805==turn) { if(Pan0806==turn) { if(Pan0807==turn) { win++; } } } } }
-                if(Pan0804==turn) { if(Pan0805==turn) { if(Pan0806==turn) { if(Pan0807==turn) { if(Pan0808==turn) { win++; } } } } }
-                if(Pan0805==turn) { if(Pan0806==turn) { if(Pan0807==turn) { if(Pan0808==turn) { if(Pan0809==turn) { win++; } } } } }
-                if(Pan0806==turn) { if(Pan0807==turn) { if(Pan0808==turn) { if(Pan0809==turn) { if(Pan0810==turn) { win++; } } } } }
-                if(Pan0807==turn) { if(Pan0808==turn) { if(Pan0809==turn) { if(Pan0810==turn) { if(Pan0811==turn) { win++; } } } } }
-                if(Pan0808==turn) { if(Pan0809==turn) { if(Pan0810==turn) { if(Pan0811==turn) { if(Pan0812==turn) { win++; } } } } }
-                if(Pan0809==turn) { if(Pan0810==turn) { if(Pan0811==turn) { if(Pan0812==turn) { if(Pan0813==turn) { win++; } } } } }
-                if(Pan0810==turn) { if(Pan0811==turn) { if(Pan0812==turn) { if(Pan0813==turn) { if(Pan0814==turn) { win++; } } } } }
-                if(Pan0811==turn) { if(Pan0812==turn) { if(Pan0813==turn) { if(Pan0814==turn) { if(Pan0815==turn) { win++; } } } } }
-                if(Pan0812==turn) { if(Pan0813==turn) { if(Pan0814==turn) { if(Pan0815==turn) { if(Pan0816==turn) { win++; } } } } }
-                if(Pan0813==turn) { if(Pan0814==turn) { if(Pan0815==turn) { if(Pan0816==turn) { if(Pan0817==turn) { win++; } } } } }
-                if(Pan0814==turn) { if(Pan0815==turn) { if(Pan0816==turn) { if(Pan0817==turn) { if(Pan0818==turn) { win++; } } } } }
-                if(Pan0815==turn) { if(Pan0816==turn) { if(Pan0817==turn) { if(Pan0818==turn) { if(Pan0819==turn) { win++; } } } } }
-                if(Pan0901==turn) { if(Pan0902==turn) { if(Pan0903==turn) { if(Pan0904==turn) { if(Pan0905==turn) { win++; } } } } }
-                if(Pan0902==turn) { if(Pan0903==turn) { if(Pan0904==turn) { if(Pan0905==turn) { if(Pan0906==turn) { win++; } } } } }
-                if(Pan0903==turn) { if(Pan0904==turn) { if(Pan0905==turn) { if(Pan0906==turn) { if(Pan0907==turn) { win++; } } } } }
-                if(Pan0904==turn) { if(Pan0905==turn) { if(Pan0906==turn) { if(Pan0907==turn) { if(Pan0908==turn) { win++; } } } } }
-                if(Pan0905==turn) { if(Pan0906==turn) { if(Pan0907==turn) { if(Pan0908==turn) { if(Pan0909==turn) { win++; } } } } }
-                if(Pan0906==turn) { if(Pan0907==turn) { if(Pan0908==turn) { if(Pan0909==turn) { if(Pan0910==turn) { win++; } } } } }
-                if(Pan0907==turn) { if(Pan0908==turn) { if(Pan0909==turn) { if(Pan0910==turn) { if(Pan0911==turn) { win++; } } } } }
-                if(Pan0908==turn) { if(Pan0909==turn) { if(Pan0910==turn) { if(Pan0911==turn) { if(Pan0912==turn) { win++; } } } } }
-                if(Pan0909==turn) { if(Pan0910==turn) { if(Pan0911==turn) { if(Pan0912==turn) { if(Pan0913==turn) { win++; } } } } }
-                if(Pan0910==turn) { if(Pan0911==turn) { if(Pan0912==turn) { if(Pan0913==turn) { if(Pan0914==turn) { win++; } } } } }
-                if(Pan0911==turn) { if(Pan0912==turn) { if(Pan0913==turn) { if(Pan0914==turn) { if(Pan0915==turn) { win++; } } } } }
-                if(Pan0912==turn) { if(Pan0913==turn) { if(Pan0914==turn) { if(Pan0915==turn) { if(Pan0916==turn) { win++; } } } } }
-                if(Pan0913==turn) { if(Pan0914==turn) { if(Pan0915==turn) { if(Pan0916==turn) { if(Pan0917==turn) { win++; } } } } }
-                if(Pan0914==turn) { if(Pan0915==turn) { if(Pan0916==turn) { if(Pan0917==turn) { if(Pan0918==turn) { win++; } } } } }
-                if(Pan0915==turn) { if(Pan0916==turn) { if(Pan0917==turn) { if(Pan0918==turn) { if(Pan0919==turn) { win++; } } } } }
-                if(Pan1001==turn) { if(Pan1002==turn) { if(Pan1003==turn) { if(Pan1004==turn) { if(Pan1005==turn) { win++; } } } } }
-                if(Pan1002==turn) { if(Pan1003==turn) { if(Pan1004==turn) { if(Pan1005==turn) { if(Pan1006==turn) { win++; } } } } }
-                if(Pan1003==turn) { if(Pan1004==turn) { if(Pan1005==turn) { if(Pan1006==turn) { if(Pan1007==turn) { win++; } } } } }
-                if(Pan1004==turn) { if(Pan1005==turn) { if(Pan1006==turn) { if(Pan1007==turn) { if(Pan1008==turn) { win++; } } } } }
-                if(Pan1005==turn) { if(Pan1006==turn) { if(Pan1007==turn) { if(Pan1008==turn) { if(Pan1009==turn) { win++; } } } } }
-                if(Pan1006==turn) { if(Pan1007==turn) { if(Pan1008==turn) { if(Pan1009==turn) { if(Pan1010==turn) { win++; } } } } }
-                if(Pan1007==turn) { if(Pan1008==turn) { if(Pan1009==turn) { if(Pan1010==turn) { if(Pan1011==turn) { win++; } } } } }
-                if(Pan1008==turn) { if(Pan1009==turn) { if(Pan1010==turn) { if(Pan1011==turn) { if(Pan1012==turn) { win++; } } } } }
-                if(Pan1009==turn) { if(Pan1010==turn) { if(Pan1011==turn) { if(Pan1012==turn) { if(Pan1013==turn) { win++; } } } } }
-                if(Pan1010==turn) { if(Pan1011==turn) { if(Pan1012==turn) { if(Pan1013==turn) { if(Pan1014==turn) { win++; } } } } }
-                if(Pan1011==turn) { if(Pan1012==turn) { if(Pan1013==turn) { if(Pan1014==turn) { if(Pan1015==turn) { win++; } } } } }
-                if(Pan1012==turn) { if(Pan1013==turn) { if(Pan1014==turn) { if(Pan1015==turn) { if(Pan1016==turn) { win++; } } } } }
-                if(Pan1013==turn) { if(Pan1014==turn) { if(Pan1015==turn) { if(Pan1016==turn) { if(Pan1017==turn) { win++; } } } } }
-                if(Pan1014==turn) { if(Pan1015==turn) { if(Pan1016==turn) { if(Pan1017==turn) { if(Pan1018==turn) { win++; } } } } }
-                if(Pan1015==turn) { if(Pan1016==turn) { if(Pan1017==turn) { if(Pan1018==turn) { if(Pan1019==turn) { win++; } } } } }
-                if(Pan1101==turn) { if(Pan1102==turn) { if(Pan1103==turn) { if(Pan1104==turn) { if(Pan1105==turn) { win++; } } } } }
-                if(Pan1102==turn) { if(Pan1103==turn) { if(Pan1104==turn) { if(Pan1105==turn) { if(Pan1106==turn) { win++; } } } } }
-                if(Pan1103==turn) { if(Pan1104==turn) { if(Pan1105==turn) { if(Pan1106==turn) { if(Pan1107==turn) { win++; } } } } }
-                if(Pan1104==turn) { if(Pan1105==turn) { if(Pan1106==turn) { if(Pan1107==turn) { if(Pan1108==turn) { win++; } } } } }
-                if(Pan1105==turn) { if(Pan1106==turn) { if(Pan1107==turn) { if(Pan1108==turn) { if(Pan1109==turn) { win++; } } } } }
-                if(Pan1106==turn) { if(Pan1107==turn) { if(Pan1108==turn) { if(Pan1109==turn) { if(Pan1110==turn) { win++; } } } } }
-                if(Pan1107==turn) { if(Pan1108==turn) { if(Pan1109==turn) { if(Pan1110==turn) { if(Pan1111==turn) { win++; } } } } }
-                if(Pan1108==turn) { if(Pan1109==turn) { if(Pan1110==turn) { if(Pan1111==turn) { if(Pan1112==turn) { win++; } } } } }
-                if(Pan1109==turn) { if(Pan1110==turn) { if(Pan1111==turn) { if(Pan1112==turn) { if(Pan1113==turn) { win++; } } } } }
-                if(Pan1110==turn) { if(Pan1111==turn) { if(Pan1112==turn) { if(Pan1113==turn) { if(Pan1114==turn) { win++; } } } } }
-                if(Pan1111==turn) { if(Pan1112==turn) { if(Pan1113==turn) { if(Pan1114==turn) { if(Pan1115==turn) { win++; } } } } }
-                if(Pan1112==turn) { if(Pan1113==turn) { if(Pan1114==turn) { if(Pan1115==turn) { if(Pan1116==turn) { win++; } } } } }
-                if(Pan1113==turn) { if(Pan1114==turn) { if(Pan1115==turn) { if(Pan1116==turn) { if(Pan1117==turn) { win++; } } } } }
-                if(Pan1114==turn) { if(Pan1115==turn) { if(Pan1116==turn) { if(Pan1117==turn) { if(Pan1118==turn) { win++; } } } } }
-                if(Pan1115==turn) { if(Pan1116==turn) { if(Pan1117==turn) { if(Pan1118==turn) { if(Pan1119==turn) { win++; } } } } }
-                if(Pan1201==turn) { if(Pan1202==turn) { if(Pan1203==turn) { if(Pan1204==turn) { if(Pan1205==turn) { win++; } } } } }
-                if(Pan1202==turn) { if(Pan1203==turn) { if(Pan1204==turn) { if(Pan1205==turn) { if(Pan1206==turn) { win++; } } } } }
-                if(Pan1203==turn) { if(Pan1204==turn) { if(Pan1205==turn) { if(Pan1206==turn) { if(Pan1207==turn) { win++; } } } } }
-                if(Pan1204==turn) { if(Pan1205==turn) { if(Pan1206==turn) { if(Pan1207==turn) { if(Pan1208==turn) { win++; } } } } }
-                if(Pan1205==turn) { if(Pan1206==turn) { if(Pan1207==turn) { if(Pan1208==turn) { if(Pan1209==turn) { win++; } } } } }
-                if(Pan1206==turn) { if(Pan1207==turn) { if(Pan1208==turn) { if(Pan1209==turn) { if(Pan1210==turn) { win++; } } } } }
-                if(Pan1207==turn) { if(Pan1208==turn) { if(Pan1209==turn) { if(Pan1210==turn) { if(Pan1211==turn) { win++; } } } } }
-                if(Pan1208==turn) { if(Pan1209==turn) { if(Pan1210==turn) { if(Pan1211==turn) { if(Pan1212==turn) { win++; } } } } }
-                if(Pan1209==turn) { if(Pan1210==turn) { if(Pan1211==turn) { if(Pan1212==turn) { if(Pan1213==turn) { win++; } } } } }
-                if(Pan1210==turn) { if(Pan1211==turn) { if(Pan1212==turn) { if(Pan1213==turn) { if(Pan1214==turn) { win++; } } } } }
-                if(Pan1211==turn) { if(Pan1212==turn) { if(Pan1213==turn) { if(Pan1214==turn) { if(Pan1215==turn) { win++; } } } } }
-                if(Pan1212==turn) { if(Pan1213==turn) { if(Pan1214==turn) { if(Pan1215==turn) { if(Pan1216==turn) { win++; } } } } }
-                if(Pan1213==turn) { if(Pan1214==turn) { if(Pan1215==turn) { if(Pan1216==turn) { if(Pan1217==turn) { win++; } } } } }
-                if(Pan1214==turn) { if(Pan1215==turn) { if(Pan1216==turn) { if(Pan1217==turn) { if(Pan1218==turn) { win++; } } } } }
-                if(Pan1215==turn) { if(Pan1216==turn) { if(Pan1217==turn) { if(Pan1218==turn) { if(Pan1219==turn) { win++; } } } } }
-                if(Pan1301==turn) { if(Pan1302==turn) { if(Pan1303==turn) { if(Pan1304==turn) { if(Pan1305==turn) { win++; } } } } }
-                if(Pan1302==turn) { if(Pan1303==turn) { if(Pan1304==turn) { if(Pan1305==turn) { if(Pan1306==turn) { win++; } } } } }
-                if(Pan1303==turn) { if(Pan1304==turn) { if(Pan1305==turn) { if(Pan1306==turn) { if(Pan1307==turn) { win++; } } } } }
-                if(Pan1304==turn) { if(Pan1305==turn) { if(Pan1306==turn) { if(Pan1307==turn) { if(Pan1308==turn) { win++; } } } } }
-                if(Pan1305==turn) { if(Pan1306==turn) { if(Pan1307==turn) { if(Pan1308==turn) { if(Pan1309==turn) { win++; } } } } }
-                if(Pan1306==turn) { if(Pan1307==turn) { if(Pan1308==turn) { if(Pan1309==turn) { if(Pan1310==turn) { win++; } } } } }
-                if(Pan1307==turn) { if(Pan1308==turn) { if(Pan1309==turn) { if(Pan1310==turn) { if(Pan1311==turn) { win++; } } } } }
-                if(Pan1308==turn) { if(Pan1309==turn) { if(Pan1310==turn) { if(Pan1311==turn) { if(Pan1312==turn) { win++; } } } } }
-                if(Pan1309==turn) { if(Pan1310==turn) { if(Pan1311==turn) { if(Pan1312==turn) { if(Pan1313==turn) { win++; } } } } }
-                if(Pan1310==turn) { if(Pan1311==turn) { if(Pan1312==turn) { if(Pan1313==turn) { if(Pan1314==turn) { win++; } } } } }
-                if(Pan1311==turn) { if(Pan1312==turn) { if(Pan1313==turn) { if(Pan1314==turn) { if(Pan1315==turn) { win++; } } } } }
-                if(Pan1312==turn) { if(Pan1313==turn) { if(Pan1314==turn) { if(Pan1315==turn) { if(Pan1316==turn) { win++; } } } } }
-                if(Pan1313==turn) { if(Pan1314==turn) { if(Pan1315==turn) { if(Pan1316==turn) { if(Pan1317==turn) { win++; } } } } }
-                if(Pan1314==turn) { if(Pan1315==turn) { if(Pan1316==turn) { if(Pan1317==turn) { if(Pan1318==turn) { win++; } } } } }
-                if(Pan1315==turn) { if(Pan1316==turn) { if(Pan1317==turn) { if(Pan1318==turn) { if(Pan1319==turn) { win++; } } } } }
-                if(Pan1401==turn) { if(Pan1402==turn) { if(Pan1403==turn) { if(Pan1404==turn) { if(Pan1405==turn) { win++; } } } } }
-                if(Pan1402==turn) { if(Pan1403==turn) { if(Pan1404==turn) { if(Pan1405==turn) { if(Pan1406==turn) { win++; } } } } }
-                if(Pan1403==turn) { if(Pan1404==turn) { if(Pan1405==turn) { if(Pan1406==turn) { if(Pan1407==turn) { win++; } } } } }
-                if(Pan1404==turn) { if(Pan1405==turn) { if(Pan1406==turn) { if(Pan1407==turn) { if(Pan1408==turn) { win++; } } } } }
-                if(Pan1405==turn) { if(Pan1406==turn) { if(Pan1407==turn) { if(Pan1408==turn) { if(Pan1409==turn) { win++; } } } } }
-                if(Pan1406==turn) { if(Pan1407==turn) { if(Pan1408==turn) { if(Pan1409==turn) { if(Pan1410==turn) { win++; } } } } }
-                if(Pan1407==turn) { if(Pan1408==turn) { if(Pan1409==turn) { if(Pan1410==turn) { if(Pan1411==turn) { win++; } } } } }
-                if(Pan1408==turn) { if(Pan1409==turn) { if(Pan1410==turn) { if(Pan1411==turn) { if(Pan1412==turn) { win++; } } } } }
-                if(Pan1409==turn) { if(Pan1410==turn) { if(Pan1411==turn) { if(Pan1412==turn) { if(Pan1413==turn) { win++; } } } } }
-                if(Pan1410==turn) { if(Pan1411==turn) { if(Pan1412==turn) { if(Pan1413==turn) { if(Pan1414==turn) { win++; } } } } }
-                if(Pan1411==turn) { if(Pan1412==turn) { if(Pan1413==turn) { if(Pan1414==turn) { if(Pan1415==turn) { win++; } } } } }
-                if(Pan1412==turn) { if(Pan1413==turn) { if(Pan1414==turn) { if(Pan1415==turn) { if(Pan1416==turn) { win++; } } } } }
-                if(Pan1413==turn) { if(Pan1414==turn) { if(Pan1415==turn) { if(Pan1416==turn) { if(Pan1417==turn) { win++; } } } } }
-                if(Pan1414==turn) { if(Pan1415==turn) { if(Pan1416==turn) { if(Pan1417==turn) { if(Pan1418==turn) { win++; } } } } }
-                if(Pan1415==turn) { if(Pan1416==turn) { if(Pan1417==turn) { if(Pan1418==turn) { if(Pan1419==turn) { win++; } } } } }
-                if(Pan1501==turn) { if(Pan1502==turn) { if(Pan1503==turn) { if(Pan1504==turn) { if(Pan1505==turn) { win++; } } } } }
-                if(Pan1502==turn) { if(Pan1503==turn) { if(Pan1504==turn) { if(Pan1505==turn) { if(Pan1506==turn) { win++; } } } } }
-                if(Pan1503==turn) { if(Pan1504==turn) { if(Pan1505==turn) { if(Pan1506==turn) { if(Pan1507==turn) { win++; } } } } }
-                if(Pan1504==turn) { if(Pan1505==turn) { if(Pan1506==turn) { if(Pan1507==turn) { if(Pan1508==turn) { win++; } } } } }
-                if(Pan1505==turn) { if(Pan1506==turn) { if(Pan1507==turn) { if(Pan1508==turn) { if(Pan1509==turn) { win++; } } } } }
-                if(Pan1506==turn) { if(Pan1507==turn) { if(Pan1508==turn) { if(Pan1509==turn) { if(Pan1510==turn) { win++; } } } } }
-                if(Pan1507==turn) { if(Pan1508==turn) { if(Pan1509==turn) { if(Pan1510==turn) { if(Pan1511==turn) { win++; } } } } }
-                if(Pan1508==turn) { if(Pan1509==turn) { if(Pan1510==turn) { if(Pan1511==turn) { if(Pan1512==turn) { win++; } } } } }
-                if(Pan1509==turn) { if(Pan1510==turn) { if(Pan1511==turn) { if(Pan1512==turn) { if(Pan1513==turn) { win++; } } } } }
-                if(Pan1510==turn) { if(Pan1511==turn) { if(Pan1512==turn) { if(Pan1513==turn) { if(Pan1514==turn) { win++; } } } } }
-                if(Pan1511==turn) { if(Pan1512==turn) { if(Pan1513==turn) { if(Pan1514==turn) { if(Pan1515==turn) { win++; } } } } }
-                if(Pan1512==turn) { if(Pan1513==turn) { if(Pan1514==turn) { if(Pan1515==turn) { if(Pan1516==turn) { win++; } } } } }
-                if(Pan1513==turn) { if(Pan1514==turn) { if(Pan1515==turn) { if(Pan1516==turn) { if(Pan1517==turn) { win++; } } } } }
-                if(Pan1514==turn) { if(Pan1515==turn) { if(Pan1516==turn) { if(Pan1517==turn) { if(Pan1518==turn) { win++; } } } } }
-                if(Pan1515==turn) { if(Pan1516==turn) { if(Pan1517==turn) { if(Pan1518==turn) { if(Pan1519==turn) { win++; } } } } }
-                if(Pan1601==turn) { if(Pan1602==turn) { if(Pan1603==turn) { if(Pan1604==turn) { if(Pan1605==turn) { win++; } } } } }
-                if(Pan1602==turn) { if(Pan1603==turn) { if(Pan1604==turn) { if(Pan1605==turn) { if(Pan1606==turn) { win++; } } } } }
-                if(Pan1603==turn) { if(Pan1604==turn) { if(Pan1605==turn) { if(Pan1606==turn) { if(Pan1607==turn) { win++; } } } } }
-                if(Pan1604==turn) { if(Pan1605==turn) { if(Pan1606==turn) { if(Pan1607==turn) { if(Pan1608==turn) { win++; } } } } }
-                if(Pan1605==turn) { if(Pan1606==turn) { if(Pan1607==turn) { if(Pan1608==turn) { if(Pan1609==turn) { win++; } } } } }
-                if(Pan1606==turn) { if(Pan1607==turn) { if(Pan1608==turn) { if(Pan1609==turn) { if(Pan1610==turn) { win++; } } } } }
-                if(Pan1607==turn) { if(Pan1608==turn) { if(Pan1609==turn) { if(Pan1610==turn) { if(Pan1611==turn) { win++; } } } } }
-                if(Pan1608==turn) { if(Pan1609==turn) { if(Pan1610==turn) { if(Pan1611==turn) { if(Pan1612==turn) { win++; } } } } }
-                if(Pan1609==turn) { if(Pan1610==turn) { if(Pan1611==turn) { if(Pan1612==turn) { if(Pan1613==turn) { win++; } } } } }
-                if(Pan1610==turn) { if(Pan1611==turn) { if(Pan1612==turn) { if(Pan1613==turn) { if(Pan1614==turn) { win++; } } } } }
-                if(Pan1611==turn) { if(Pan1612==turn) { if(Pan1613==turn) { if(Pan1614==turn) { if(Pan1615==turn) { win++; } } } } }
-                if(Pan1612==turn) { if(Pan1613==turn) { if(Pan1614==turn) { if(Pan1615==turn) { if(Pan1616==turn) { win++; } } } } }
-                if(Pan1613==turn) { if(Pan1614==turn) { if(Pan1615==turn) { if(Pan1616==turn) { if(Pan1617==turn) { win++; } } } } }
-                if(Pan1614==turn) { if(Pan1615==turn) { if(Pan1616==turn) { if(Pan1617==turn) { if(Pan1618==turn) { win++; } } } } }
-                if(Pan1615==turn) { if(Pan1616==turn) { if(Pan1617==turn) { if(Pan1618==turn) { if(Pan1619==turn) { win++; } } } } }
-                if(Pan1701==turn) { if(Pan1702==turn) { if(Pan1703==turn) { if(Pan1704==turn) { if(Pan1705==turn) { win++; } } } } }
-                if(Pan1702==turn) { if(Pan1703==turn) { if(Pan1704==turn) { if(Pan1705==turn) { if(Pan1706==turn) { win++; } } } } }
-                if(Pan1703==turn) { if(Pan1704==turn) { if(Pan1705==turn) { if(Pan1706==turn) { if(Pan1707==turn) { win++; } } } } }
-                if(Pan1704==turn) { if(Pan1705==turn) { if(Pan1706==turn) { if(Pan1707==turn) { if(Pan1708==turn) { win++; } } } } }
-                if(Pan1705==turn) { if(Pan1706==turn) { if(Pan1707==turn) { if(Pan1708==turn) { if(Pan1709==turn) { win++; } } } } }
-                if(Pan1706==turn) { if(Pan1707==turn) { if(Pan1708==turn) { if(Pan1709==turn) { if(Pan1710==turn) { win++; } } } } }
-                if(Pan1707==turn) { if(Pan1708==turn) { if(Pan1709==turn) { if(Pan1710==turn) { if(Pan1711==turn) { win++; } } } } }
-                if(Pan1708==turn) { if(Pan1709==turn) { if(Pan1710==turn) { if(Pan1711==turn) { if(Pan1712==turn) { win++; } } } } }
-                if(Pan1709==turn) { if(Pan1710==turn) { if(Pan1711==turn) { if(Pan1712==turn) { if(Pan1713==turn) { win++; } } } } }
-                if(Pan1710==turn) { if(Pan1711==turn) { if(Pan1712==turn) { if(Pan1713==turn) { if(Pan1714==turn) { win++; } } } } }
-                if(Pan1711==turn) { if(Pan1712==turn) { if(Pan1713==turn) { if(Pan1714==turn) { if(Pan1715==turn) { win++; } } } } }
-                if(Pan1712==turn) { if(Pan1713==turn) { if(Pan1714==turn) { if(Pan1715==turn) { if(Pan1716==turn) { win++; } } } } }
-                if(Pan1713==turn) { if(Pan1714==turn) { if(Pan1715==turn) { if(Pan1716==turn) { if(Pan1717==turn) { win++; } } } } }
-                if(Pan1714==turn) { if(Pan1715==turn) { if(Pan1716==turn) { if(Pan1717==turn) { if(Pan1718==turn) { win++; } } } } }
-                if(Pan1715==turn) { if(Pan1716==turn) { if(Pan1717==turn) { if(Pan1718==turn) { if(Pan1719==turn) { win++; } } } } }
-                if(Pan1801==turn) { if(Pan1802==turn) { if(Pan1803==turn) { if(Pan1804==turn) { if(Pan1805==turn) { win++; } } } } }
-                if(Pan1802==turn) { if(Pan1803==turn) { if(Pan1804==turn) { if(Pan1805==turn) { if(Pan1806==turn) { win++; } } } } }
-                if(Pan1803==turn) { if(Pan1804==turn) { if(Pan1805==turn) { if(Pan1806==turn) { if(Pan1807==turn) { win++; } } } } }
-                if(Pan1804==turn) { if(Pan1805==turn) { if(Pan1806==turn) { if(Pan1807==turn) { if(Pan1808==turn) { win++; } } } } }
-                if(Pan1805==turn) { if(Pan1806==turn) { if(Pan1807==turn) { if(Pan1808==turn) { if(Pan1809==turn) { win++; } } } } }
-                if(Pan1806==turn) { if(Pan1807==turn) { if(Pan1808==turn) { if(Pan1809==turn) { if(Pan1810==turn) { win++; } } } } }
-                if(Pan1807==turn) { if(Pan1808==turn) { if(Pan1809==turn) { if(Pan1810==turn) { if(Pan1811==turn) { win++; } } } } }
-                if(Pan1808==turn) { if(Pan1809==turn) { if(Pan1810==turn) { if(Pan1811==turn) { if(Pan1812==turn) { win++; } } } } }
-                if(Pan1809==turn) { if(Pan1810==turn) { if(Pan1811==turn) { if(Pan1812==turn) { if(Pan1813==turn) { win++; } } } } }
-                if(Pan1810==turn) { if(Pan1811==turn) { if(Pan1812==turn) { if(Pan1813==turn) { if(Pan1814==turn) { win++; } } } } }
-                if(Pan1811==turn) { if(Pan1812==turn) { if(Pan1813==turn) { if(Pan1814==turn) { if(Pan1815==turn) { win++; } } } } }
-                if(Pan1812==turn) { if(Pan1813==turn) { if(Pan1814==turn) { if(Pan1815==turn) { if(Pan1816==turn) { win++; } } } } }
-                if(Pan1813==turn) { if(Pan1814==turn) { if(Pan1815==turn) { if(Pan1816==turn) { if(Pan1817==turn) { win++; } } } } }
-                if(Pan1814==turn) { if(Pan1815==turn) { if(Pan1816==turn) { if(Pan1817==turn) { if(Pan1818==turn) { win++; } } } } }
-                if(Pan1815==turn) { if(Pan1816==turn) { if(Pan1817==turn) { if(Pan1818==turn) { if(Pan1819==turn) { win++; } } } } }
-                if(Pan1901==turn) { if(Pan1902==turn) { if(Pan1903==turn) { if(Pan1904==turn) { if(Pan1905==turn) { win++; } } } } }
-                if(Pan1902==turn) { if(Pan1903==turn) { if(Pan1904==turn) { if(Pan1905==turn) { if(Pan1906==turn) { win++; } } } } }
-                if(Pan1903==turn) { if(Pan1904==turn) { if(Pan1905==turn) { if(Pan1906==turn) { if(Pan1907==turn) { win++; } } } } }
-                if(Pan1904==turn) { if(Pan1905==turn) { if(Pan1906==turn) { if(Pan1907==turn) { if(Pan1908==turn) { win++; } } } } }
-                if(Pan1905==turn) { if(Pan1906==turn) { if(Pan1907==turn) { if(Pan1908==turn) { if(Pan1909==turn) { win++; } } } } }
-                if(Pan1906==turn) { if(Pan1907==turn) { if(Pan1908==turn) { if(Pan1909==turn) { if(Pan1910==turn) { win++; } } } } }
-                if(Pan1907==turn) { if(Pan1908==turn) { if(Pan1909==turn) { if(Pan1910==turn) { if(Pan1911==turn) { win++; } } } } }
-                if(Pan1908==turn) { if(Pan1909==turn) { if(Pan1910==turn) { if(Pan1911==turn) { if(Pan1912==turn) { win++; } } } } }
-                if(Pan1909==turn) { if(Pan1910==turn) { if(Pan1911==turn) { if(Pan1912==turn) { if(Pan1913==turn) { win++; } } } } }
-                if(Pan1910==turn) { if(Pan1911==turn) { if(Pan1912==turn) { if(Pan1913==turn) { if(Pan1914==turn) { win++; } } } } }
-                if(Pan1911==turn) { if(Pan1912==turn) { if(Pan1913==turn) { if(Pan1914==turn) { if(Pan1915==turn) { win++; } } } } }
-                if(Pan1912==turn) { if(Pan1913==turn) { if(Pan1914==turn) { if(Pan1915==turn) { if(Pan1916==turn) { win++; } } } } }
-                if(Pan1913==turn) { if(Pan1914==turn) { if(Pan1915==turn) { if(Pan1916==turn) { if(Pan1917==turn) { win++; } } } } }
-                if(Pan1914==turn) { if(Pan1915==turn) { if(Pan1916==turn) { if(Pan1917==turn) { if(Pan1918==turn) { win++; } } } } }
-                if(Pan1915==turn) { if(Pan1916==turn) { if(Pan1917==turn) { if(Pan1918==turn) { if(Pan1919==turn) { win++; } } } } }
+                if(pan0101==turn)  if(pan0102==turn)  if(pan0103==turn)  if(pan0104==turn)  if(pan0105==turn)  win++;     
+                if(pan0102==turn)  if(pan0103==turn)  if(pan0104==turn)  if(pan0105==turn)  if(pan0106==turn)  win++;     
+                if(pan0103==turn)  if(pan0104==turn)  if(pan0105==turn)  if(pan0106==turn)  if(pan0107==turn)  win++;     
+                if(pan0104==turn)  if(pan0105==turn)  if(pan0106==turn)  if(pan0107==turn)  if(pan0108==turn)  win++;     
+                if(pan0105==turn)  if(pan0106==turn)  if(pan0107==turn)  if(pan0108==turn)  if(pan0109==turn)  win++;     
+                if(pan0106==turn)  if(pan0107==turn)  if(pan0108==turn)  if(pan0109==turn)  if(pan0110==turn)  win++;     
+                if(pan0107==turn)  if(pan0108==turn)  if(pan0109==turn)  if(pan0110==turn)  if(pan0111==turn)  win++;     
+                if(pan0108==turn)  if(pan0109==turn)  if(pan0110==turn)  if(pan0111==turn)  if(pan0112==turn)  win++;     
+                if(pan0109==turn)  if(pan0110==turn)  if(pan0111==turn)  if(pan0112==turn)  if(pan0113==turn)  win++;     
+                if(pan0110==turn)  if(pan0111==turn)  if(pan0112==turn)  if(pan0113==turn)  if(pan0114==turn)  win++;     
+                if(pan0111==turn)  if(pan0112==turn)  if(pan0113==turn)  if(pan0114==turn)  if(pan0115==turn)  win++;     
+                if(pan0112==turn)  if(pan0113==turn)  if(pan0114==turn)  if(pan0115==turn)  if(pan0116==turn)  win++;     
+                if(pan0113==turn)  if(pan0114==turn)  if(pan0115==turn)  if(pan0116==turn)  if(pan0117==turn)  win++;     
+                if(pan0114==turn)  if(pan0115==turn)  if(pan0116==turn)  if(pan0117==turn)  if(pan0118==turn)  win++;     
+                if(pan0115==turn)  if(pan0116==turn)  if(pan0117==turn)  if(pan0118==turn)  if(pan0119==turn)  win++;     
+                if(pan0201==turn)  if(pan0202==turn)  if(pan0203==turn)  if(pan0204==turn)  if(pan0205==turn)  win++;     
+                if(pan0202==turn)  if(pan0203==turn)  if(pan0204==turn)  if(pan0205==turn)  if(pan0206==turn)  win++;     
+                if(pan0203==turn)  if(pan0204==turn)  if(pan0205==turn)  if(pan0206==turn)  if(pan0207==turn)  win++;     
+                if(pan0204==turn)  if(pan0205==turn)  if(pan0206==turn)  if(pan0207==turn)  if(pan0208==turn)  win++;     
+                if(pan0205==turn)  if(pan0206==turn)  if(pan0207==turn)  if(pan0208==turn)  if(pan0209==turn)  win++;     
+                if(pan0206==turn)  if(pan0207==turn)  if(pan0208==turn)  if(pan0209==turn)  if(pan0210==turn)  win++;     
+                if(pan0207==turn)  if(pan0208==turn)  if(pan0209==turn)  if(pan0210==turn)  if(pan0211==turn)  win++;     
+                if(pan0208==turn)  if(pan0209==turn)  if(pan0210==turn)  if(pan0211==turn)  if(pan0212==turn)  win++;     
+                if(pan0209==turn)  if(pan0210==turn)  if(pan0211==turn)  if(pan0212==turn)  if(pan0213==turn)  win++;     
+                if(pan0210==turn)  if(pan0211==turn)  if(pan0212==turn)  if(pan0213==turn)  if(pan0214==turn)  win++;     
+                if(pan0211==turn)  if(pan0212==turn)  if(pan0213==turn)  if(pan0214==turn)  if(pan0215==turn)  win++;     
+                if(pan0212==turn)  if(pan0213==turn)  if(pan0214==turn)  if(pan0215==turn)  if(pan0216==turn)  win++;     
+                if(pan0213==turn)  if(pan0214==turn)  if(pan0215==turn)  if(pan0216==turn)  if(pan0217==turn)  win++;     
+                if(pan0214==turn)  if(pan0215==turn)  if(pan0216==turn)  if(pan0217==turn)  if(pan0218==turn)  win++;     
+                if(pan0215==turn)  if(pan0216==turn)  if(pan0217==turn)  if(pan0218==turn)  if(pan0219==turn)  win++;     
+                if(pan0301==turn)  if(pan0302==turn)  if(pan0303==turn)  if(pan0304==turn)  if(pan0305==turn)  win++;     
+                if(pan0302==turn)  if(pan0303==turn)  if(pan0304==turn)  if(pan0305==turn)  if(pan0306==turn)  win++;     
+                if(pan0303==turn)  if(pan0304==turn)  if(pan0305==turn)  if(pan0306==turn)  if(pan0307==turn)  win++;     
+                if(pan0304==turn)  if(pan0305==turn)  if(pan0306==turn)  if(pan0307==turn)  if(pan0308==turn)  win++;     
+                if(pan0305==turn)  if(pan0306==turn)  if(pan0307==turn)  if(pan0308==turn)  if(pan0309==turn)  win++;     
+                if(pan0306==turn)  if(pan0307==turn)  if(pan0308==turn)  if(pan0309==turn)  if(pan0310==turn)  win++;     
+                if(pan0307==turn)  if(pan0308==turn)  if(pan0309==turn)  if(pan0310==turn)  if(pan0311==turn)  win++;     
+                if(pan0308==turn)  if(pan0309==turn)  if(pan0310==turn)  if(pan0311==turn)  if(pan0312==turn)  win++;     
+                if(pan0309==turn)  if(pan0310==turn)  if(pan0311==turn)  if(pan0312==turn)  if(pan0313==turn)  win++;     
+                if(pan0310==turn)  if(pan0311==turn)  if(pan0312==turn)  if(pan0313==turn)  if(pan0314==turn)  win++;     
+                if(pan0311==turn)  if(pan0312==turn)  if(pan0313==turn)  if(pan0314==turn)  if(pan0315==turn)  win++;     
+                if(pan0312==turn)  if(pan0313==turn)  if(pan0314==turn)  if(pan0315==turn)  if(pan0316==turn)  win++;     
+                if(pan0313==turn)  if(pan0314==turn)  if(pan0315==turn)  if(pan0316==turn)  if(pan0317==turn)  win++;     
+                if(pan0314==turn)  if(pan0315==turn)  if(pan0316==turn)  if(pan0317==turn)  if(pan0318==turn)  win++;     
+                if(pan0315==turn)  if(pan0316==turn)  if(pan0317==turn)  if(pan0318==turn)  if(pan0319==turn)  win++;     
+                if(pan0401==turn)  if(pan0402==turn)  if(pan0403==turn)  if(pan0404==turn)  if(pan0405==turn)  win++;     
+                if(pan0402==turn)  if(pan0403==turn)  if(pan0404==turn)  if(pan0405==turn)  if(pan0406==turn)  win++;     
+                if(pan0403==turn)  if(pan0404==turn)  if(pan0405==turn)  if(pan0406==turn)  if(pan0407==turn)  win++;     
+                if(pan0404==turn)  if(pan0405==turn)  if(pan0406==turn)  if(pan0407==turn)  if(pan0408==turn)  win++;     
+                if(pan0405==turn)  if(pan0406==turn)  if(pan0407==turn)  if(pan0408==turn)  if(pan0409==turn)  win++;     
+                if(pan0406==turn)  if(pan0407==turn)  if(pan0408==turn)  if(pan0409==turn)  if(pan0410==turn)  win++;     
+                if(pan0407==turn)  if(pan0408==turn)  if(pan0409==turn)  if(pan0410==turn)  if(pan0411==turn)  win++;     
+                if(pan0408==turn)  if(pan0409==turn)  if(pan0410==turn)  if(pan0411==turn)  if(pan0412==turn)  win++;     
+                if(pan0409==turn)  if(pan0410==turn)  if(pan0411==turn)  if(pan0412==turn)  if(pan0413==turn)  win++;     
+                if(pan0410==turn)  if(pan0411==turn)  if(pan0412==turn)  if(pan0413==turn)  if(pan0414==turn)  win++;     
+                if(pan0411==turn)  if(pan0412==turn)  if(pan0413==turn)  if(pan0414==turn)  if(pan0415==turn)  win++;     
+                if(pan0412==turn)  if(pan0413==turn)  if(pan0414==turn)  if(pan0415==turn)  if(pan0416==turn)  win++;     
+                if(pan0413==turn)  if(pan0414==turn)  if(pan0415==turn)  if(pan0416==turn)  if(pan0417==turn)  win++;     
+                if(pan0414==turn)  if(pan0415==turn)  if(pan0416==turn)  if(pan0417==turn)  if(pan0418==turn)  win++;     
+                if(pan0415==turn)  if(pan0416==turn)  if(pan0417==turn)  if(pan0418==turn)  if(pan0419==turn)  win++;     
+                if(pan0501==turn)  if(pan0502==turn)  if(pan0503==turn)  if(pan0504==turn)  if(pan0505==turn)  win++;     
+                if(pan0502==turn)  if(pan0503==turn)  if(pan0504==turn)  if(pan0505==turn)  if(pan0506==turn)  win++;     
+                if(pan0503==turn)  if(pan0504==turn)  if(pan0505==turn)  if(pan0506==turn)  if(pan0507==turn)  win++;     
+                if(pan0504==turn)  if(pan0505==turn)  if(pan0506==turn)  if(pan0507==turn)  if(pan0508==turn)  win++;     
+                if(pan0505==turn)  if(pan0506==turn)  if(pan0507==turn)  if(pan0508==turn)  if(pan0509==turn)  win++;     
+                if(pan0506==turn)  if(pan0507==turn)  if(pan0508==turn)  if(pan0509==turn)  if(pan0510==turn)  win++;     
+                if(pan0507==turn)  if(pan0508==turn)  if(pan0509==turn)  if(pan0510==turn)  if(pan0511==turn)  win++;     
+                if(pan0508==turn)  if(pan0509==turn)  if(pan0510==turn)  if(pan0511==turn)  if(pan0512==turn)  win++;     
+                if(pan0509==turn)  if(pan0510==turn)  if(pan0511==turn)  if(pan0512==turn)  if(pan0513==turn)  win++;     
+                if(pan0510==turn)  if(pan0511==turn)  if(pan0512==turn)  if(pan0513==turn)  if(pan0514==turn)  win++;     
+                if(pan0511==turn)  if(pan0512==turn)  if(pan0513==turn)  if(pan0514==turn)  if(pan0515==turn)  win++;     
+                if(pan0512==turn)  if(pan0513==turn)  if(pan0514==turn)  if(pan0515==turn)  if(pan0516==turn)  win++;     
+                if(pan0513==turn)  if(pan0514==turn)  if(pan0515==turn)  if(pan0516==turn)  if(pan0517==turn)  win++;     
+                if(pan0514==turn)  if(pan0515==turn)  if(pan0516==turn)  if(pan0517==turn)  if(pan0518==turn)  win++;     
+                if(pan0515==turn)  if(pan0516==turn)  if(pan0517==turn)  if(pan0518==turn)  if(pan0519==turn)  win++;     
+                if(pan0601==turn)  if(pan0602==turn)  if(pan0603==turn)  if(pan0604==turn)  if(pan0605==turn)  win++;     
+                if(pan0602==turn)  if(pan0603==turn)  if(pan0604==turn)  if(pan0605==turn)  if(pan0606==turn)  win++;     
+                if(pan0603==turn)  if(pan0604==turn)  if(pan0605==turn)  if(pan0606==turn)  if(pan0607==turn)  win++;     
+                if(pan0604==turn)  if(pan0605==turn)  if(pan0606==turn)  if(pan0607==turn)  if(pan0608==turn)  win++;     
+                if(pan0605==turn)  if(pan0606==turn)  if(pan0607==turn)  if(pan0608==turn)  if(pan0609==turn)  win++;     
+                if(pan0606==turn)  if(pan0607==turn)  if(pan0608==turn)  if(pan0609==turn)  if(pan0610==turn)  win++;     
+                if(pan0607==turn)  if(pan0608==turn)  if(pan0609==turn)  if(pan0610==turn)  if(pan0611==turn)  win++;     
+                if(pan0608==turn)  if(pan0609==turn)  if(pan0610==turn)  if(pan0611==turn)  if(pan0612==turn)  win++;     
+                if(pan0609==turn)  if(pan0610==turn)  if(pan0611==turn)  if(pan0612==turn)  if(pan0613==turn)  win++;     
+                if(pan0610==turn)  if(pan0611==turn)  if(pan0612==turn)  if(pan0613==turn)  if(pan0614==turn)  win++;     
+                if(pan0611==turn)  if(pan0612==turn)  if(pan0613==turn)  if(pan0614==turn)  if(pan0615==turn)  win++;     
+                if(pan0612==turn)  if(pan0613==turn)  if(pan0614==turn)  if(pan0615==turn)  if(pan0616==turn)  win++;     
+                if(pan0613==turn)  if(pan0614==turn)  if(pan0615==turn)  if(pan0616==turn)  if(pan0617==turn)  win++;     
+                if(pan0614==turn)  if(pan0615==turn)  if(pan0616==turn)  if(pan0617==turn)  if(pan0618==turn)  win++;     
+                if(pan0615==turn)  if(pan0616==turn)  if(pan0617==turn)  if(pan0618==turn)  if(pan0619==turn)  win++;     
+                if(pan0701==turn)  if(pan0702==turn)  if(pan0703==turn)  if(pan0704==turn)  if(pan0705==turn)  win++;     
+                if(pan0702==turn)  if(pan0703==turn)  if(pan0704==turn)  if(pan0705==turn)  if(pan0706==turn)  win++;     
+                if(pan0703==turn)  if(pan0704==turn)  if(pan0705==turn)  if(pan0706==turn)  if(pan0707==turn)  win++;     
+                if(pan0704==turn)  if(pan0705==turn)  if(pan0706==turn)  if(pan0707==turn)  if(pan0708==turn)  win++;     
+                if(pan0705==turn)  if(pan0706==turn)  if(pan0707==turn)  if(pan0708==turn)  if(pan0709==turn)  win++;     
+                if(pan0706==turn)  if(pan0707==turn)  if(pan0708==turn)  if(pan0709==turn)  if(pan0710==turn)  win++;     
+                if(pan0707==turn)  if(pan0708==turn)  if(pan0709==turn)  if(pan0710==turn)  if(pan0711==turn)  win++;     
+                if(pan0708==turn)  if(pan0709==turn)  if(pan0710==turn)  if(pan0711==turn)  if(pan0712==turn)  win++;     
+                if(pan0709==turn)  if(pan0710==turn)  if(pan0711==turn)  if(pan0712==turn)  if(pan0713==turn)  win++;     
+                if(pan0710==turn)  if(pan0711==turn)  if(pan0712==turn)  if(pan0713==turn)  if(pan0714==turn)  win++;     
+                if(pan0711==turn)  if(pan0712==turn)  if(pan0713==turn)  if(pan0714==turn)  if(pan0715==turn)  win++;     
+                if(pan0712==turn)  if(pan0713==turn)  if(pan0714==turn)  if(pan0715==turn)  if(pan0716==turn)  win++;     
+                if(pan0713==turn)  if(pan0714==turn)  if(pan0715==turn)  if(pan0716==turn)  if(pan0717==turn)  win++;     
+                if(pan0714==turn)  if(pan0715==turn)  if(pan0716==turn)  if(pan0717==turn)  if(pan0718==turn)  win++;     
+                if(pan0715==turn)  if(pan0716==turn)  if(pan0717==turn)  if(pan0718==turn)  if(pan0719==turn)  win++;     
+                if(pan0801==turn)  if(pan0802==turn)  if(pan0803==turn)  if(pan0804==turn)  if(pan0805==turn)  win++;     
+                if(pan0802==turn)  if(pan0803==turn)  if(pan0804==turn)  if(pan0805==turn)  if(pan0806==turn)  win++;     
+                if(pan0803==turn)  if(pan0804==turn)  if(pan0805==turn)  if(pan0806==turn)  if(pan0807==turn)  win++;     
+                if(pan0804==turn)  if(pan0805==turn)  if(pan0806==turn)  if(pan0807==turn)  if(pan0808==turn)  win++;     
+                if(pan0805==turn)  if(pan0806==turn)  if(pan0807==turn)  if(pan0808==turn)  if(pan0809==turn)  win++;     
+                if(pan0806==turn)  if(pan0807==turn)  if(pan0808==turn)  if(pan0809==turn)  if(pan0810==turn)  win++;     
+                if(pan0807==turn)  if(pan0808==turn)  if(pan0809==turn)  if(pan0810==turn)  if(pan0811==turn)  win++;     
+                if(pan0808==turn)  if(pan0809==turn)  if(pan0810==turn)  if(pan0811==turn)  if(pan0812==turn)  win++;     
+                if(pan0809==turn)  if(pan0810==turn)  if(pan0811==turn)  if(pan0812==turn)  if(pan0813==turn)  win++;     
+                if(pan0810==turn)  if(pan0811==turn)  if(pan0812==turn)  if(pan0813==turn)  if(pan0814==turn)  win++;     
+                if(pan0811==turn)  if(pan0812==turn)  if(pan0813==turn)  if(pan0814==turn)  if(pan0815==turn)  win++;     
+                if(pan0812==turn)  if(pan0813==turn)  if(pan0814==turn)  if(pan0815==turn)  if(pan0816==turn)  win++;     
+                if(pan0813==turn)  if(pan0814==turn)  if(pan0815==turn)  if(pan0816==turn)  if(pan0817==turn)  win++;     
+                if(pan0814==turn)  if(pan0815==turn)  if(pan0816==turn)  if(pan0817==turn)  if(pan0818==turn)  win++;     
+                if(pan0815==turn)  if(pan0816==turn)  if(pan0817==turn)  if(pan0818==turn)  if(pan0819==turn)  win++;     
+                if(pan0901==turn)  if(pan0902==turn)  if(pan0903==turn)  if(pan0904==turn)  if(pan0905==turn)  win++;     
+                if(pan0902==turn)  if(pan0903==turn)  if(pan0904==turn)  if(pan0905==turn)  if(pan0906==turn)  win++;     
+                if(pan0903==turn)  if(pan0904==turn)  if(pan0905==turn)  if(pan0906==turn)  if(pan0907==turn)  win++;     
+                if(pan0904==turn)  if(pan0905==turn)  if(pan0906==turn)  if(pan0907==turn)  if(pan0908==turn)  win++;     
+                if(pan0905==turn)  if(pan0906==turn)  if(pan0907==turn)  if(pan0908==turn)  if(pan0909==turn)  win++;     
+                if(pan0906==turn)  if(pan0907==turn)  if(pan0908==turn)  if(pan0909==turn)  if(pan0910==turn)  win++;     
+                if(pan0907==turn)  if(pan0908==turn)  if(pan0909==turn)  if(pan0910==turn)  if(pan0911==turn)  win++;     
+                if(pan0908==turn)  if(pan0909==turn)  if(pan0910==turn)  if(pan0911==turn)  if(pan0912==turn)  win++;     
+                if(pan0909==turn)  if(pan0910==turn)  if(pan0911==turn)  if(pan0912==turn)  if(pan0913==turn)  win++;     
+                if(pan0910==turn)  if(pan0911==turn)  if(pan0912==turn)  if(pan0913==turn)  if(pan0914==turn)  win++;     
+                if(pan0911==turn)  if(pan0912==turn)  if(pan0913==turn)  if(pan0914==turn)  if(pan0915==turn)  win++;     
+                if(pan0912==turn)  if(pan0913==turn)  if(pan0914==turn)  if(pan0915==turn)  if(pan0916==turn)  win++;     
+                if(pan0913==turn)  if(pan0914==turn)  if(pan0915==turn)  if(pan0916==turn)  if(pan0917==turn)  win++;     
+                if(pan0914==turn)  if(pan0915==turn)  if(pan0916==turn)  if(pan0917==turn)  if(pan0918==turn)  win++;     
+                if(pan0915==turn)  if(pan0916==turn)  if(pan0917==turn)  if(pan0918==turn)  if(pan0919==turn)  win++;     
+                if(pan1001==turn)  if(pan1002==turn)  if(pan1003==turn)  if(pan1004==turn)  if(pan1005==turn)  win++;     
+                if(pan1002==turn)  if(pan1003==turn)  if(pan1004==turn)  if(pan1005==turn)  if(pan1006==turn)  win++;     
+                if(pan1003==turn)  if(pan1004==turn)  if(pan1005==turn)  if(pan1006==turn)  if(pan1007==turn)  win++;     
+                if(pan1004==turn)  if(pan1005==turn)  if(pan1006==turn)  if(pan1007==turn)  if(pan1008==turn)  win++;     
+                if(pan1005==turn)  if(pan1006==turn)  if(pan1007==turn)  if(pan1008==turn)  if(pan1009==turn)  win++;     
+                if(pan1006==turn)  if(pan1007==turn)  if(pan1008==turn)  if(pan1009==turn)  if(pan1010==turn)  win++;     
+                if(pan1007==turn)  if(pan1008==turn)  if(pan1009==turn)  if(pan1010==turn)  if(pan1011==turn)  win++;     
+                if(pan1008==turn)  if(pan1009==turn)  if(pan1010==turn)  if(pan1011==turn)  if(pan1012==turn)  win++;     
+                if(pan1009==turn)  if(pan1010==turn)  if(pan1011==turn)  if(pan1012==turn)  if(pan1013==turn)  win++;     
+                if(pan1010==turn)  if(pan1011==turn)  if(pan1012==turn)  if(pan1013==turn)  if(pan1014==turn)  win++;     
+                if(pan1011==turn)  if(pan1012==turn)  if(pan1013==turn)  if(pan1014==turn)  if(pan1015==turn)  win++;     
+                if(pan1012==turn)  if(pan1013==turn)  if(pan1014==turn)  if(pan1015==turn)  if(pan1016==turn)  win++;     
+                if(pan1013==turn)  if(pan1014==turn)  if(pan1015==turn)  if(pan1016==turn)  if(pan1017==turn)  win++;     
+                if(pan1014==turn)  if(pan1015==turn)  if(pan1016==turn)  if(pan1017==turn)  if(pan1018==turn)  win++;     
+                if(pan1015==turn)  if(pan1016==turn)  if(pan1017==turn)  if(pan1018==turn)  if(pan1019==turn)  win++;     
+                if(pan1101==turn)  if(pan1102==turn)  if(pan1103==turn)  if(pan1104==turn)  if(pan1105==turn)  win++;     
+                if(pan1102==turn)  if(pan1103==turn)  if(pan1104==turn)  if(pan1105==turn)  if(pan1106==turn)  win++;     
+                if(pan1103==turn)  if(pan1104==turn)  if(pan1105==turn)  if(pan1106==turn)  if(pan1107==turn)  win++;     
+                if(pan1104==turn)  if(pan1105==turn)  if(pan1106==turn)  if(pan1107==turn)  if(pan1108==turn)  win++;     
+                if(pan1105==turn)  if(pan1106==turn)  if(pan1107==turn)  if(pan1108==turn)  if(pan1109==turn)  win++;     
+                if(pan1106==turn)  if(pan1107==turn)  if(pan1108==turn)  if(pan1109==turn)  if(pan1110==turn)  win++;     
+                if(pan1107==turn)  if(pan1108==turn)  if(pan1109==turn)  if(pan1110==turn)  if(pan1111==turn)  win++;     
+                if(pan1108==turn)  if(pan1109==turn)  if(pan1110==turn)  if(pan1111==turn)  if(pan1112==turn)  win++;     
+                if(pan1109==turn)  if(pan1110==turn)  if(pan1111==turn)  if(pan1112==turn)  if(pan1113==turn)  win++;     
+                if(pan1110==turn)  if(pan1111==turn)  if(pan1112==turn)  if(pan1113==turn)  if(pan1114==turn)  win++;     
+                if(pan1111==turn)  if(pan1112==turn)  if(pan1113==turn)  if(pan1114==turn)  if(pan1115==turn)  win++;     
+                if(pan1112==turn)  if(pan1113==turn)  if(pan1114==turn)  if(pan1115==turn)  if(pan1116==turn)  win++;     
+                if(pan1113==turn)  if(pan1114==turn)  if(pan1115==turn)  if(pan1116==turn)  if(pan1117==turn)  win++;     
+                if(pan1114==turn)  if(pan1115==turn)  if(pan1116==turn)  if(pan1117==turn)  if(pan1118==turn)  win++;     
+                if(pan1115==turn)  if(pan1116==turn)  if(pan1117==turn)  if(pan1118==turn)  if(pan1119==turn)  win++;     
+                if(pan1201==turn)  if(pan1202==turn)  if(pan1203==turn)  if(pan1204==turn)  if(pan1205==turn)  win++;     
+                if(pan1202==turn)  if(pan1203==turn)  if(pan1204==turn)  if(pan1205==turn)  if(pan1206==turn)  win++;     
+                if(pan1203==turn)  if(pan1204==turn)  if(pan1205==turn)  if(pan1206==turn)  if(pan1207==turn)  win++;     
+                if(pan1204==turn)  if(pan1205==turn)  if(pan1206==turn)  if(pan1207==turn)  if(pan1208==turn)  win++;     
+                if(pan1205==turn)  if(pan1206==turn)  if(pan1207==turn)  if(pan1208==turn)  if(pan1209==turn)  win++;     
+                if(pan1206==turn)  if(pan1207==turn)  if(pan1208==turn)  if(pan1209==turn)  if(pan1210==turn)  win++;     
+                if(pan1207==turn)  if(pan1208==turn)  if(pan1209==turn)  if(pan1210==turn)  if(pan1211==turn)  win++;     
+                if(pan1208==turn)  if(pan1209==turn)  if(pan1210==turn)  if(pan1211==turn)  if(pan1212==turn)  win++;     
+                if(pan1209==turn)  if(pan1210==turn)  if(pan1211==turn)  if(pan1212==turn)  if(pan1213==turn)  win++;     
+                if(pan1210==turn)  if(pan1211==turn)  if(pan1212==turn)  if(pan1213==turn)  if(pan1214==turn)  win++;     
+                if(pan1211==turn)  if(pan1212==turn)  if(pan1213==turn)  if(pan1214==turn)  if(pan1215==turn)  win++;     
+                if(pan1212==turn)  if(pan1213==turn)  if(pan1214==turn)  if(pan1215==turn)  if(pan1216==turn)  win++;     
+                if(pan1213==turn)  if(pan1214==turn)  if(pan1215==turn)  if(pan1216==turn)  if(pan1217==turn)  win++;     
+                if(pan1214==turn)  if(pan1215==turn)  if(pan1216==turn)  if(pan1217==turn)  if(pan1218==turn)  win++;     
+                if(pan1215==turn)  if(pan1216==turn)  if(pan1217==turn)  if(pan1218==turn)  if(pan1219==turn)  win++;     
+                if(pan1301==turn)  if(pan1302==turn)  if(pan1303==turn)  if(pan1304==turn)  if(pan1305==turn)  win++;     
+                if(pan1302==turn)  if(pan1303==turn)  if(pan1304==turn)  if(pan1305==turn)  if(pan1306==turn)  win++;     
+                if(pan1303==turn)  if(pan1304==turn)  if(pan1305==turn)  if(pan1306==turn)  if(pan1307==turn)  win++;     
+                if(pan1304==turn)  if(pan1305==turn)  if(pan1306==turn)  if(pan1307==turn)  if(pan1308==turn)  win++;     
+                if(pan1305==turn)  if(pan1306==turn)  if(pan1307==turn)  if(pan1308==turn)  if(pan1309==turn)  win++;     
+                if(pan1306==turn)  if(pan1307==turn)  if(pan1308==turn)  if(pan1309==turn)  if(pan1310==turn)  win++;     
+                if(pan1307==turn)  if(pan1308==turn)  if(pan1309==turn)  if(pan1310==turn)  if(pan1311==turn)  win++;     
+                if(pan1308==turn)  if(pan1309==turn)  if(pan1310==turn)  if(pan1311==turn)  if(pan1312==turn)  win++;     
+                if(pan1309==turn)  if(pan1310==turn)  if(pan1311==turn)  if(pan1312==turn)  if(pan1313==turn)  win++;     
+                if(pan1310==turn)  if(pan1311==turn)  if(pan1312==turn)  if(pan1313==turn)  if(pan1314==turn)  win++;     
+                if(pan1311==turn)  if(pan1312==turn)  if(pan1313==turn)  if(pan1314==turn)  if(pan1315==turn)  win++;     
+                if(pan1312==turn)  if(pan1313==turn)  if(pan1314==turn)  if(pan1315==turn)  if(pan1316==turn)  win++;     
+                if(pan1313==turn)  if(pan1314==turn)  if(pan1315==turn)  if(pan1316==turn)  if(pan1317==turn)  win++;     
+                if(pan1314==turn)  if(pan1315==turn)  if(pan1316==turn)  if(pan1317==turn)  if(pan1318==turn)  win++;     
+                if(pan1315==turn)  if(pan1316==turn)  if(pan1317==turn)  if(pan1318==turn)  if(pan1319==turn)  win++;     
+                if(pan1401==turn)  if(pan1402==turn)  if(pan1403==turn)  if(pan1404==turn)  if(pan1405==turn)  win++;     
+                if(pan1402==turn)  if(pan1403==turn)  if(pan1404==turn)  if(pan1405==turn)  if(pan1406==turn)  win++;     
+                if(pan1403==turn)  if(pan1404==turn)  if(pan1405==turn)  if(pan1406==turn)  if(pan1407==turn)  win++;     
+                if(pan1404==turn)  if(pan1405==turn)  if(pan1406==turn)  if(pan1407==turn)  if(pan1408==turn)  win++;     
+                if(pan1405==turn)  if(pan1406==turn)  if(pan1407==turn)  if(pan1408==turn)  if(pan1409==turn)  win++;     
+                if(pan1406==turn)  if(pan1407==turn)  if(pan1408==turn)  if(pan1409==turn)  if(pan1410==turn)  win++;     
+                if(pan1407==turn)  if(pan1408==turn)  if(pan1409==turn)  if(pan1410==turn)  if(pan1411==turn)  win++;     
+                if(pan1408==turn)  if(pan1409==turn)  if(pan1410==turn)  if(pan1411==turn)  if(pan1412==turn)  win++;     
+                if(pan1409==turn)  if(pan1410==turn)  if(pan1411==turn)  if(pan1412==turn)  if(pan1413==turn)  win++;     
+                if(pan1410==turn)  if(pan1411==turn)  if(pan1412==turn)  if(pan1413==turn)  if(pan1414==turn)  win++;     
+                if(pan1411==turn)  if(pan1412==turn)  if(pan1413==turn)  if(pan1414==turn)  if(pan1415==turn)  win++;     
+                if(pan1412==turn)  if(pan1413==turn)  if(pan1414==turn)  if(pan1415==turn)  if(pan1416==turn)  win++;     
+                if(pan1413==turn)  if(pan1414==turn)  if(pan1415==turn)  if(pan1416==turn)  if(pan1417==turn)  win++;     
+                if(pan1414==turn)  if(pan1415==turn)  if(pan1416==turn)  if(pan1417==turn)  if(pan1418==turn)  win++;     
+                if(pan1415==turn)  if(pan1416==turn)  if(pan1417==turn)  if(pan1418==turn)  if(pan1419==turn)  win++;     
+                if(pan1501==turn)  if(pan1502==turn)  if(pan1503==turn)  if(pan1504==turn)  if(pan1505==turn)  win++;     
+                if(pan1502==turn)  if(pan1503==turn)  if(pan1504==turn)  if(pan1505==turn)  if(pan1506==turn)  win++;     
+                if(pan1503==turn)  if(pan1504==turn)  if(pan1505==turn)  if(pan1506==turn)  if(pan1507==turn)  win++;     
+                if(pan1504==turn)  if(pan1505==turn)  if(pan1506==turn)  if(pan1507==turn)  if(pan1508==turn)  win++;     
+                if(pan1505==turn)  if(pan1506==turn)  if(pan1507==turn)  if(pan1508==turn)  if(pan1509==turn)  win++;     
+                if(pan1506==turn)  if(pan1507==turn)  if(pan1508==turn)  if(pan1509==turn)  if(pan1510==turn)  win++;     
+                if(pan1507==turn)  if(pan1508==turn)  if(pan1509==turn)  if(pan1510==turn)  if(pan1511==turn)  win++;     
+                if(pan1508==turn)  if(pan1509==turn)  if(pan1510==turn)  if(pan1511==turn)  if(pan1512==turn)  win++;     
+                if(pan1509==turn)  if(pan1510==turn)  if(pan1511==turn)  if(pan1512==turn)  if(pan1513==turn)  win++;     
+                if(pan1510==turn)  if(pan1511==turn)  if(pan1512==turn)  if(pan1513==turn)  if(pan1514==turn)  win++;     
+                if(pan1511==turn)  if(pan1512==turn)  if(pan1513==turn)  if(pan1514==turn)  if(pan1515==turn)  win++;     
+                if(pan1512==turn)  if(pan1513==turn)  if(pan1514==turn)  if(pan1515==turn)  if(pan1516==turn)  win++;     
+                if(pan1513==turn)  if(pan1514==turn)  if(pan1515==turn)  if(pan1516==turn)  if(pan1517==turn)  win++;     
+                if(pan1514==turn)  if(pan1515==turn)  if(pan1516==turn)  if(pan1517==turn)  if(pan1518==turn)  win++;     
+                if(pan1515==turn)  if(pan1516==turn)  if(pan1517==turn)  if(pan1518==turn)  if(pan1519==turn)  win++;     
+                if(pan1601==turn)  if(pan1602==turn)  if(pan1603==turn)  if(pan1604==turn)  if(pan1605==turn)  win++;     
+                if(pan1602==turn)  if(pan1603==turn)  if(pan1604==turn)  if(pan1605==turn)  if(pan1606==turn)  win++;     
+                if(pan1603==turn)  if(pan1604==turn)  if(pan1605==turn)  if(pan1606==turn)  if(pan1607==turn)  win++;     
+                if(pan1604==turn)  if(pan1605==turn)  if(pan1606==turn)  if(pan1607==turn)  if(pan1608==turn)  win++;     
+                if(pan1605==turn)  if(pan1606==turn)  if(pan1607==turn)  if(pan1608==turn)  if(pan1609==turn)  win++;     
+                if(pan1606==turn)  if(pan1607==turn)  if(pan1608==turn)  if(pan1609==turn)  if(pan1610==turn)  win++;     
+                if(pan1607==turn)  if(pan1608==turn)  if(pan1609==turn)  if(pan1610==turn)  if(pan1611==turn)  win++;     
+                if(pan1608==turn)  if(pan1609==turn)  if(pan1610==turn)  if(pan1611==turn)  if(pan1612==turn)  win++;     
+                if(pan1609==turn)  if(pan1610==turn)  if(pan1611==turn)  if(pan1612==turn)  if(pan1613==turn)  win++;     
+                if(pan1610==turn)  if(pan1611==turn)  if(pan1612==turn)  if(pan1613==turn)  if(pan1614==turn)  win++;     
+                if(pan1611==turn)  if(pan1612==turn)  if(pan1613==turn)  if(pan1614==turn)  if(pan1615==turn)  win++;     
+                if(pan1612==turn)  if(pan1613==turn)  if(pan1614==turn)  if(pan1615==turn)  if(pan1616==turn)  win++;     
+                if(pan1613==turn)  if(pan1614==turn)  if(pan1615==turn)  if(pan1616==turn)  if(pan1617==turn)  win++;     
+                if(pan1614==turn)  if(pan1615==turn)  if(pan1616==turn)  if(pan1617==turn)  if(pan1618==turn)  win++;     
+                if(pan1615==turn)  if(pan1616==turn)  if(pan1617==turn)  if(pan1618==turn)  if(pan1619==turn)  win++;     
+                if(pan1701==turn)  if(pan1702==turn)  if(pan1703==turn)  if(pan1704==turn)  if(pan1705==turn)  win++;     
+                if(pan1702==turn)  if(pan1703==turn)  if(pan1704==turn)  if(pan1705==turn)  if(pan1706==turn)  win++;     
+                if(pan1703==turn)  if(pan1704==turn)  if(pan1705==turn)  if(pan1706==turn)  if(pan1707==turn)  win++;     
+                if(pan1704==turn)  if(pan1705==turn)  if(pan1706==turn)  if(pan1707==turn)  if(pan1708==turn)  win++;     
+                if(pan1705==turn)  if(pan1706==turn)  if(pan1707==turn)  if(pan1708==turn)  if(pan1709==turn)  win++;     
+                if(pan1706==turn)  if(pan1707==turn)  if(pan1708==turn)  if(pan1709==turn)  if(pan1710==turn)  win++;     
+                if(pan1707==turn)  if(pan1708==turn)  if(pan1709==turn)  if(pan1710==turn)  if(pan1711==turn)  win++;     
+                if(pan1708==turn)  if(pan1709==turn)  if(pan1710==turn)  if(pan1711==turn)  if(pan1712==turn)  win++;     
+                if(pan1709==turn)  if(pan1710==turn)  if(pan1711==turn)  if(pan1712==turn)  if(pan1713==turn)  win++;     
+                if(pan1710==turn)  if(pan1711==turn)  if(pan1712==turn)  if(pan1713==turn)  if(pan1714==turn)  win++;     
+                if(pan1711==turn)  if(pan1712==turn)  if(pan1713==turn)  if(pan1714==turn)  if(pan1715==turn)  win++;     
+                if(pan1712==turn)  if(pan1713==turn)  if(pan1714==turn)  if(pan1715==turn)  if(pan1716==turn)  win++;     
+                if(pan1713==turn)  if(pan1714==turn)  if(pan1715==turn)  if(pan1716==turn)  if(pan1717==turn)  win++;     
+                if(pan1714==turn)  if(pan1715==turn)  if(pan1716==turn)  if(pan1717==turn)  if(pan1718==turn)  win++;     
+                if(pan1715==turn)  if(pan1716==turn)  if(pan1717==turn)  if(pan1718==turn)  if(pan1719==turn)  win++;     
+                if(pan1801==turn)  if(pan1802==turn)  if(pan1803==turn)  if(pan1804==turn)  if(pan1805==turn)  win++;     
+                if(pan1802==turn)  if(pan1803==turn)  if(pan1804==turn)  if(pan1805==turn)  if(pan1806==turn)  win++;     
+                if(pan1803==turn)  if(pan1804==turn)  if(pan1805==turn)  if(pan1806==turn)  if(pan1807==turn)  win++;     
+                if(pan1804==turn)  if(pan1805==turn)  if(pan1806==turn)  if(pan1807==turn)  if(pan1808==turn)  win++;     
+                if(pan1805==turn)  if(pan1806==turn)  if(pan1807==turn)  if(pan1808==turn)  if(pan1809==turn)  win++;     
+                if(pan1806==turn)  if(pan1807==turn)  if(pan1808==turn)  if(pan1809==turn)  if(pan1810==turn)  win++;     
+                if(pan1807==turn)  if(pan1808==turn)  if(pan1809==turn)  if(pan1810==turn)  if(pan1811==turn)  win++;     
+                if(pan1808==turn)  if(pan1809==turn)  if(pan1810==turn)  if(pan1811==turn)  if(pan1812==turn)  win++;     
+                if(pan1809==turn)  if(pan1810==turn)  if(pan1811==turn)  if(pan1812==turn)  if(pan1813==turn)  win++;     
+                if(pan1810==turn)  if(pan1811==turn)  if(pan1812==turn)  if(pan1813==turn)  if(pan1814==turn)  win++;     
+                if(pan1811==turn)  if(pan1812==turn)  if(pan1813==turn)  if(pan1814==turn)  if(pan1815==turn)  win++;     
+                if(pan1812==turn)  if(pan1813==turn)  if(pan1814==turn)  if(pan1815==turn)  if(pan1816==turn)  win++;     
+                if(pan1813==turn)  if(pan1814==turn)  if(pan1815==turn)  if(pan1816==turn)  if(pan1817==turn)  win++;     
+                if(pan1814==turn)  if(pan1815==turn)  if(pan1816==turn)  if(pan1817==turn)  if(pan1818==turn)  win++;     
+                if(pan1815==turn)  if(pan1816==turn)  if(pan1817==turn)  if(pan1818==turn)  if(pan1819==turn)  win++;     
+                if(pan1901==turn)  if(pan1902==turn)  if(pan1903==turn)  if(pan1904==turn)  if(pan1905==turn)  win++;     
+                if(pan1902==turn)  if(pan1903==turn)  if(pan1904==turn)  if(pan1905==turn)  if(pan1906==turn)  win++;     
+                if(pan1903==turn)  if(pan1904==turn)  if(pan1905==turn)  if(pan1906==turn)  if(pan1907==turn)  win++;     
+                if(pan1904==turn)  if(pan1905==turn)  if(pan1906==turn)  if(pan1907==turn)  if(pan1908==turn)  win++;     
+                if(pan1905==turn)  if(pan1906==turn)  if(pan1907==turn)  if(pan1908==turn)  if(pan1909==turn)  win++;     
+                if(pan1906==turn)  if(pan1907==turn)  if(pan1908==turn)  if(pan1909==turn)  if(pan1910==turn)  win++;     
+                if(pan1907==turn)  if(pan1908==turn)  if(pan1909==turn)  if(pan1910==turn)  if(pan1911==turn)  win++;     
+                if(pan1908==turn)  if(pan1909==turn)  if(pan1910==turn)  if(pan1911==turn)  if(pan1912==turn)  win++;     
+                if(pan1909==turn)  if(pan1910==turn)  if(pan1911==turn)  if(pan1912==turn)  if(pan1913==turn)  win++;     
+                if(pan1910==turn)  if(pan1911==turn)  if(pan1912==turn)  if(pan1913==turn)  if(pan1914==turn)  win++;     
+                if(pan1911==turn)  if(pan1912==turn)  if(pan1913==turn)  if(pan1914==turn)  if(pan1915==turn)  win++;     
+                if(pan1912==turn)  if(pan1913==turn)  if(pan1914==turn)  if(pan1915==turn)  if(pan1916==turn)  win++;     
+                if(pan1913==turn)  if(pan1914==turn)  if(pan1915==turn)  if(pan1916==turn)  if(pan1917==turn)  win++;     
+                if(pan1914==turn)  if(pan1915==turn)  if(pan1916==turn)  if(pan1917==turn)  if(pan1918==turn)  win++;     
+                if(pan1915==turn)  if(pan1916==turn)  if(pan1917==turn)  if(pan1918==turn)  if(pan1919==turn)  win++;     
 
                 /////////////////// 세로 검사 ////////////////////////////////////
-                if(Pan0101==turn) { if(Pan0201==turn) { if(Pan0301==turn) { if(Pan0401==turn) { if(Pan0501==turn) { win++; } } } } }
-                if(Pan0102==turn) { if(Pan0202==turn) { if(Pan0302==turn) { if(Pan0402==turn) { if(Pan0502==turn) { win++; } } } } }
-                if(Pan0103==turn) { if(Pan0203==turn) { if(Pan0303==turn) { if(Pan0403==turn) { if(Pan0503==turn) { win++; } } } } }
-                if(Pan0104==turn) { if(Pan0204==turn) { if(Pan0304==turn) { if(Pan0404==turn) { if(Pan0504==turn) { win++; } } } } }
-                if(Pan0105==turn) { if(Pan0205==turn) { if(Pan0305==turn) { if(Pan0405==turn) { if(Pan0505==turn) { win++; } } } } }
-                if(Pan0106==turn) { if(Pan0206==turn) { if(Pan0306==turn) { if(Pan0406==turn) { if(Pan0506==turn) { win++; } } } } }
-                if(Pan0107==turn) { if(Pan0207==turn) { if(Pan0307==turn) { if(Pan0407==turn) { if(Pan0507==turn) { win++; } } } } }
-                if(Pan0108==turn) { if(Pan0208==turn) { if(Pan0308==turn) { if(Pan0408==turn) { if(Pan0508==turn) { win++; } } } } }
-                if(Pan0109==turn) { if(Pan0209==turn) { if(Pan0309==turn) { if(Pan0409==turn) { if(Pan0509==turn) { win++; } } } } }
-                if(Pan0110==turn) { if(Pan0210==turn) { if(Pan0310==turn) { if(Pan0410==turn) { if(Pan0510==turn) { win++; } } } } }
-                if(Pan0111==turn) { if(Pan0211==turn) { if(Pan0311==turn) { if(Pan0411==turn) { if(Pan0511==turn) { win++; } } } } }
-                if(Pan0112==turn) { if(Pan0212==turn) { if(Pan0312==turn) { if(Pan0412==turn) { if(Pan0512==turn) { win++; } } } } }
-                if(Pan0113==turn) { if(Pan0213==turn) { if(Pan0313==turn) { if(Pan0413==turn) { if(Pan0513==turn) { win++; } } } } }
-                if(Pan0114==turn) { if(Pan0214==turn) { if(Pan0314==turn) { if(Pan0414==turn) { if(Pan0514==turn) { win++; } } } } }
-                if(Pan0115==turn) { if(Pan0215==turn) { if(Pan0315==turn) { if(Pan0415==turn) { if(Pan0515==turn) { win++; } } } } }
-                if(Pan0116==turn) { if(Pan0216==turn) { if(Pan0316==turn) { if(Pan0416==turn) { if(Pan0516==turn) { win++; } } } } }
-                if(Pan0117==turn) { if(Pan0217==turn) { if(Pan0317==turn) { if(Pan0417==turn) { if(Pan0517==turn) { win++; } } } } }
-                if(Pan0118==turn) { if(Pan0218==turn) { if(Pan0318==turn) { if(Pan0418==turn) { if(Pan0518==turn) { win++; } } } } }
-                if(Pan0119==turn) { if(Pan0219==turn) { if(Pan0319==turn) { if(Pan0419==turn) { if(Pan0519==turn) { win++; } } } } }
-                if(Pan0201==turn) { if(Pan0301==turn) { if(Pan0401==turn) { if(Pan0501==turn) { if(Pan0601==turn) { win++; } } } } }
-                if(Pan0202==turn) { if(Pan0302==turn) { if(Pan0402==turn) { if(Pan0502==turn) { if(Pan0602==turn) { win++; } } } } }
-                if(Pan0203==turn) { if(Pan0303==turn) { if(Pan0403==turn) { if(Pan0503==turn) { if(Pan0603==turn) { win++; } } } } }
-                if(Pan0204==turn) { if(Pan0304==turn) { if(Pan0404==turn) { if(Pan0504==turn) { if(Pan0604==turn) { win++; } } } } }
-                if(Pan0205==turn) { if(Pan0305==turn) { if(Pan0405==turn) { if(Pan0505==turn) { if(Pan0605==turn) { win++; } } } } }
-                if(Pan0206==turn) { if(Pan0306==turn) { if(Pan0406==turn) { if(Pan0506==turn) { if(Pan0606==turn) { win++; } } } } }
-                if(Pan0207==turn) { if(Pan0307==turn) { if(Pan0407==turn) { if(Pan0507==turn) { if(Pan0607==turn) { win++; } } } } }
-                if(Pan0208==turn) { if(Pan0308==turn) { if(Pan0408==turn) { if(Pan0508==turn) { if(Pan0608==turn) { win++; } } } } }
-                if(Pan0209==turn) { if(Pan0309==turn) { if(Pan0409==turn) { if(Pan0509==turn) { if(Pan0609==turn) { win++; } } } } }
-                if(Pan0210==turn) { if(Pan0310==turn) { if(Pan0410==turn) { if(Pan0510==turn) { if(Pan0610==turn) { win++; } } } } }
-                if(Pan0211==turn) { if(Pan0311==turn) { if(Pan0411==turn) { if(Pan0511==turn) { if(Pan0611==turn) { win++; } } } } }
-                if(Pan0212==turn) { if(Pan0312==turn) { if(Pan0412==turn) { if(Pan0512==turn) { if(Pan0612==turn) { win++; } } } } }
-                if(Pan0213==turn) { if(Pan0313==turn) { if(Pan0413==turn) { if(Pan0513==turn) { if(Pan0613==turn) { win++; } } } } }
-                if(Pan0214==turn) { if(Pan0314==turn) { if(Pan0414==turn) { if(Pan0514==turn) { if(Pan0614==turn) { win++; } } } } }
-                if(Pan0215==turn) { if(Pan0315==turn) { if(Pan0415==turn) { if(Pan0515==turn) { if(Pan0615==turn) { win++; } } } } }
-                if(Pan0216==turn) { if(Pan0316==turn) { if(Pan0416==turn) { if(Pan0516==turn) { if(Pan0616==turn) { win++; } } } } }
-                if(Pan0217==turn) { if(Pan0317==turn) { if(Pan0417==turn) { if(Pan0517==turn) { if(Pan0617==turn) { win++; } } } } }
-                if(Pan0218==turn) { if(Pan0318==turn) { if(Pan0418==turn) { if(Pan0518==turn) { if(Pan0618==turn) { win++; } } } } }
-                if(Pan0219==turn) { if(Pan0319==turn) { if(Pan0419==turn) { if(Pan0519==turn) { if(Pan0619==turn) { win++; } } } } }
-                if(Pan0301==turn) { if(Pan0401==turn) { if(Pan0501==turn) { if(Pan0601==turn) { if(Pan0701==turn) { win++; } } } } }
-                if(Pan0302==turn) { if(Pan0402==turn) { if(Pan0502==turn) { if(Pan0602==turn) { if(Pan0702==turn) { win++; } } } } }
-                if(Pan0303==turn) { if(Pan0403==turn) { if(Pan0503==turn) { if(Pan0603==turn) { if(Pan0703==turn) { win++; } } } } }
-                if(Pan0304==turn) { if(Pan0404==turn) { if(Pan0504==turn) { if(Pan0604==turn) { if(Pan0704==turn) { win++; } } } } }
-                if(Pan0305==turn) { if(Pan0405==turn) { if(Pan0505==turn) { if(Pan0605==turn) { if(Pan0705==turn) { win++; } } } } }
-                if(Pan0306==turn) { if(Pan0406==turn) { if(Pan0506==turn) { if(Pan0606==turn) { if(Pan0706==turn) { win++; } } } } }
-                if(Pan0307==turn) { if(Pan0407==turn) { if(Pan0507==turn) { if(Pan0607==turn) { if(Pan0707==turn) { win++; } } } } }
-                if(Pan0308==turn) { if(Pan0408==turn) { if(Pan0508==turn) { if(Pan0608==turn) { if(Pan0708==turn) { win++; } } } } }
-                if(Pan0309==turn) { if(Pan0409==turn) { if(Pan0509==turn) { if(Pan0609==turn) { if(Pan0709==turn) { win++; } } } } }
-                if(Pan0310==turn) { if(Pan0410==turn) { if(Pan0510==turn) { if(Pan0610==turn) { if(Pan0710==turn) { win++; } } } } }
-                if(Pan0311==turn) { if(Pan0411==turn) { if(Pan0511==turn) { if(Pan0611==turn) { if(Pan0711==turn) { win++; } } } } }
-                if(Pan0312==turn) { if(Pan0412==turn) { if(Pan0512==turn) { if(Pan0612==turn) { if(Pan0712==turn) { win++; } } } } }
-                if(Pan0313==turn) { if(Pan0413==turn) { if(Pan0513==turn) { if(Pan0613==turn) { if(Pan0713==turn) { win++; } } } } }
-                if(Pan0314==turn) { if(Pan0414==turn) { if(Pan0514==turn) { if(Pan0614==turn) { if(Pan0714==turn) { win++; } } } } }
-                if(Pan0315==turn) { if(Pan0415==turn) { if(Pan0515==turn) { if(Pan0615==turn) { if(Pan0715==turn) { win++; } } } } }
-                if(Pan0316==turn) { if(Pan0416==turn) { if(Pan0516==turn) { if(Pan0616==turn) { if(Pan0716==turn) { win++; } } } } }
-                if(Pan0317==turn) { if(Pan0417==turn) { if(Pan0517==turn) { if(Pan0617==turn) { if(Pan0717==turn) { win++; } } } } }
-                if(Pan0318==turn) { if(Pan0418==turn) { if(Pan0518==turn) { if(Pan0618==turn) { if(Pan0718==turn) { win++; } } } } }
-                if(Pan0319==turn) { if(Pan0419==turn) { if(Pan0519==turn) { if(Pan0619==turn) { if(Pan0719==turn) { win++; } } } } }
-                if(Pan0401==turn) { if(Pan0501==turn) { if(Pan0601==turn) { if(Pan0701==turn) { if(Pan0801==turn) { win++; } } } } }
-                if(Pan0402==turn) { if(Pan0502==turn) { if(Pan0602==turn) { if(Pan0702==turn) { if(Pan0802==turn) { win++; } } } } }
-                if(Pan0403==turn) { if(Pan0503==turn) { if(Pan0603==turn) { if(Pan0703==turn) { if(Pan0803==turn) { win++; } } } } }
-                if(Pan0404==turn) { if(Pan0504==turn) { if(Pan0604==turn) { if(Pan0704==turn) { if(Pan0804==turn) { win++; } } } } }
-                if(Pan0405==turn) { if(Pan0505==turn) { if(Pan0605==turn) { if(Pan0705==turn) { if(Pan0805==turn) { win++; } } } } }
-                if(Pan0406==turn) { if(Pan0506==turn) { if(Pan0606==turn) { if(Pan0706==turn) { if(Pan0806==turn) { win++; } } } } }
-                if(Pan0407==turn) { if(Pan0507==turn) { if(Pan0607==turn) { if(Pan0707==turn) { if(Pan0807==turn) { win++; } } } } }
-                if(Pan0408==turn) { if(Pan0508==turn) { if(Pan0608==turn) { if(Pan0708==turn) { if(Pan0808==turn) { win++; } } } } }
-                if(Pan0409==turn) { if(Pan0509==turn) { if(Pan0609==turn) { if(Pan0709==turn) { if(Pan0809==turn) { win++; } } } } }
-                if(Pan0410==turn) { if(Pan0510==turn) { if(Pan0610==turn) { if(Pan0710==turn) { if(Pan0810==turn) { win++; } } } } }
-                if(Pan0411==turn) { if(Pan0511==turn) { if(Pan0611==turn) { if(Pan0711==turn) { if(Pan0811==turn) { win++; } } } } }
-                if(Pan0412==turn) { if(Pan0512==turn) { if(Pan0612==turn) { if(Pan0712==turn) { if(Pan0812==turn) { win++; } } } } }
-                if(Pan0413==turn) { if(Pan0513==turn) { if(Pan0613==turn) { if(Pan0713==turn) { if(Pan0813==turn) { win++; } } } } }
-                if(Pan0414==turn) { if(Pan0514==turn) { if(Pan0614==turn) { if(Pan0714==turn) { if(Pan0814==turn) { win++; } } } } }
-                if(Pan0415==turn) { if(Pan0515==turn) { if(Pan0615==turn) { if(Pan0715==turn) { if(Pan0815==turn) { win++; } } } } }
-                if(Pan0416==turn) { if(Pan0516==turn) { if(Pan0616==turn) { if(Pan0716==turn) { if(Pan0816==turn) { win++; } } } } }
-                if(Pan0417==turn) { if(Pan0517==turn) { if(Pan0617==turn) { if(Pan0717==turn) { if(Pan0817==turn) { win++; } } } } }
-                if(Pan0418==turn) { if(Pan0518==turn) { if(Pan0618==turn) { if(Pan0718==turn) { if(Pan0818==turn) { win++; } } } } }
-                if(Pan0419==turn) { if(Pan0519==turn) { if(Pan0619==turn) { if(Pan0719==turn) { if(Pan0819==turn) { win++; } } } } }
-                if(Pan0501==turn) { if(Pan0601==turn) { if(Pan0701==turn) { if(Pan0801==turn) { if(Pan0901==turn) { win++; } } } } }
-                if(Pan0502==turn) { if(Pan0602==turn) { if(Pan0702==turn) { if(Pan0802==turn) { if(Pan0902==turn) { win++; } } } } }
-                if(Pan0503==turn) { if(Pan0603==turn) { if(Pan0703==turn) { if(Pan0803==turn) { if(Pan0903==turn) { win++; } } } } }
-                if(Pan0504==turn) { if(Pan0604==turn) { if(Pan0704==turn) { if(Pan0804==turn) { if(Pan0904==turn) { win++; } } } } }
-                if(Pan0505==turn) { if(Pan0605==turn) { if(Pan0705==turn) { if(Pan0805==turn) { if(Pan0905==turn) { win++; } } } } }
-                if(Pan0506==turn) { if(Pan0606==turn) { if(Pan0706==turn) { if(Pan0806==turn) { if(Pan0906==turn) { win++; } } } } }
-                if(Pan0507==turn) { if(Pan0607==turn) { if(Pan0707==turn) { if(Pan0807==turn) { if(Pan0907==turn) { win++; } } } } }
-                if(Pan0508==turn) { if(Pan0608==turn) { if(Pan0708==turn) { if(Pan0808==turn) { if(Pan0908==turn) { win++; } } } } }
-                if(Pan0509==turn) { if(Pan0609==turn) { if(Pan0709==turn) { if(Pan0809==turn) { if(Pan0909==turn) { win++; } } } } }
-                if(Pan0510==turn) { if(Pan0610==turn) { if(Pan0710==turn) { if(Pan0810==turn) { if(Pan0910==turn) { win++; } } } } }
-                if(Pan0511==turn) { if(Pan0611==turn) { if(Pan0711==turn) { if(Pan0811==turn) { if(Pan0911==turn) { win++; } } } } }
-                if(Pan0512==turn) { if(Pan0612==turn) { if(Pan0712==turn) { if(Pan0812==turn) { if(Pan0912==turn) { win++; } } } } }
-                if(Pan0513==turn) { if(Pan0613==turn) { if(Pan0713==turn) { if(Pan0813==turn) { if(Pan0913==turn) { win++; } } } } }
-                if(Pan0514==turn) { if(Pan0614==turn) { if(Pan0714==turn) { if(Pan0814==turn) { if(Pan0914==turn) { win++; } } } } }
-                if(Pan0515==turn) { if(Pan0615==turn) { if(Pan0715==turn) { if(Pan0815==turn) { if(Pan0915==turn) { win++; } } } } }
-                if(Pan0516==turn) { if(Pan0616==turn) { if(Pan0716==turn) { if(Pan0816==turn) { if(Pan0916==turn) { win++; } } } } }
-                if(Pan0517==turn) { if(Pan0617==turn) { if(Pan0717==turn) { if(Pan0817==turn) { if(Pan0917==turn) { win++; } } } } }
-                if(Pan0518==turn) { if(Pan0618==turn) { if(Pan0718==turn) { if(Pan0818==turn) { if(Pan0918==turn) { win++; } } } } }
-                if(Pan0519==turn) { if(Pan0619==turn) { if(Pan0719==turn) { if(Pan0819==turn) { if(Pan0919==turn) { win++; } } } } }
-                if(Pan0601==turn) { if(Pan0701==turn) { if(Pan0801==turn) { if(Pan0901==turn) { if(Pan1001==turn) { win++; } } } } }
-                if(Pan0602==turn) { if(Pan0702==turn) { if(Pan0802==turn) { if(Pan0902==turn) { if(Pan1002==turn) { win++; } } } } }
-                if(Pan0603==turn) { if(Pan0703==turn) { if(Pan0803==turn) { if(Pan0903==turn) { if(Pan1003==turn) { win++; } } } } }
-                if(Pan0604==turn) { if(Pan0704==turn) { if(Pan0804==turn) { if(Pan0904==turn) { if(Pan1004==turn) { win++; } } } } }
-                if(Pan0605==turn) { if(Pan0705==turn) { if(Pan0805==turn) { if(Pan0905==turn) { if(Pan1005==turn) { win++; } } } } }
-                if(Pan0606==turn) { if(Pan0706==turn) { if(Pan0806==turn) { if(Pan0906==turn) { if(Pan1006==turn) { win++; } } } } }
-                if(Pan0607==turn) { if(Pan0707==turn) { if(Pan0807==turn) { if(Pan0907==turn) { if(Pan1007==turn) { win++; } } } } }
-                if(Pan0608==turn) { if(Pan0708==turn) { if(Pan0808==turn) { if(Pan0908==turn) { if(Pan1008==turn) { win++; } } } } }
-                if(Pan0609==turn) { if(Pan0709==turn) { if(Pan0809==turn) { if(Pan0909==turn) { if(Pan1009==turn) { win++; } } } } }
-                if(Pan0610==turn) { if(Pan0710==turn) { if(Pan0810==turn) { if(Pan0910==turn) { if(Pan1010==turn) { win++; } } } } }
-                if(Pan0611==turn) { if(Pan0711==turn) { if(Pan0811==turn) { if(Pan0911==turn) { if(Pan1011==turn) { win++; } } } } }
-                if(Pan0612==turn) { if(Pan0712==turn) { if(Pan0812==turn) { if(Pan0912==turn) { if(Pan1012==turn) { win++; } } } } }
-                if(Pan0613==turn) { if(Pan0713==turn) { if(Pan0813==turn) { if(Pan0913==turn) { if(Pan1013==turn) { win++; } } } } }
-                if(Pan0614==turn) { if(Pan0714==turn) { if(Pan0814==turn) { if(Pan0914==turn) { if(Pan1014==turn) { win++; } } } } }
-                if(Pan0615==turn) { if(Pan0715==turn) { if(Pan0815==turn) { if(Pan0915==turn) { if(Pan1015==turn) { win++; } } } } }
-                if(Pan0616==turn) { if(Pan0716==turn) { if(Pan0816==turn) { if(Pan0916==turn) { if(Pan1016==turn) { win++; } } } } }
-                if(Pan0617==turn) { if(Pan0717==turn) { if(Pan0817==turn) { if(Pan0917==turn) { if(Pan1017==turn) { win++; } } } } }
-                if(Pan0618==turn) { if(Pan0718==turn) { if(Pan0818==turn) { if(Pan0918==turn) { if(Pan1018==turn) { win++; } } } } }
-                if(Pan0619==turn) { if(Pan0719==turn) { if(Pan0819==turn) { if(Pan0919==turn) { if(Pan1019==turn) { win++; } } } } }
-                if(Pan0701==turn) { if(Pan0801==turn) { if(Pan0901==turn) { if(Pan1001==turn) { if(Pan1101==turn) { win++; } } } } }
-                if(Pan0702==turn) { if(Pan0802==turn) { if(Pan0902==turn) { if(Pan1002==turn) { if(Pan1102==turn) { win++; } } } } }
-                if(Pan0703==turn) { if(Pan0803==turn) { if(Pan0903==turn) { if(Pan1003==turn) { if(Pan1103==turn) { win++; } } } } }
-                if(Pan0704==turn) { if(Pan0804==turn) { if(Pan0904==turn) { if(Pan1004==turn) { if(Pan1104==turn) { win++; } } } } }
-                if(Pan0705==turn) { if(Pan0805==turn) { if(Pan0905==turn) { if(Pan1005==turn) { if(Pan1105==turn) { win++; } } } } }
-                if(Pan0706==turn) { if(Pan0806==turn) { if(Pan0906==turn) { if(Pan1006==turn) { if(Pan1106==turn) { win++; } } } } }
-                if(Pan0707==turn) { if(Pan0807==turn) { if(Pan0907==turn) { if(Pan1007==turn) { if(Pan1107==turn) { win++; } } } } }
-                if(Pan0708==turn) { if(Pan0808==turn) { if(Pan0908==turn) { if(Pan1008==turn) { if(Pan1108==turn) { win++; } } } } }
-                if(Pan0709==turn) { if(Pan0809==turn) { if(Pan0909==turn) { if(Pan1009==turn) { if(Pan1109==turn) { win++; } } } } }
-                if(Pan0710==turn) { if(Pan0810==turn) { if(Pan0910==turn) { if(Pan1010==turn) { if(Pan1110==turn) { win++; } } } } }
-                if(Pan0711==turn) { if(Pan0811==turn) { if(Pan0911==turn) { if(Pan1011==turn) { if(Pan1111==turn) { win++; } } } } }
-                if(Pan0712==turn) { if(Pan0812==turn) { if(Pan0912==turn) { if(Pan1012==turn) { if(Pan1112==turn) { win++; } } } } }
-                if(Pan0713==turn) { if(Pan0813==turn) { if(Pan0913==turn) { if(Pan1013==turn) { if(Pan1113==turn) { win++; } } } } }
-                if(Pan0714==turn) { if(Pan0814==turn) { if(Pan0914==turn) { if(Pan1014==turn) { if(Pan1114==turn) { win++; } } } } }
-                if(Pan0715==turn) { if(Pan0815==turn) { if(Pan0915==turn) { if(Pan1015==turn) { if(Pan1115==turn) { win++; } } } } }
-                if(Pan0716==turn) { if(Pan0816==turn) { if(Pan0916==turn) { if(Pan1016==turn) { if(Pan1116==turn) { win++; } } } } }
-                if(Pan0717==turn) { if(Pan0817==turn) { if(Pan0917==turn) { if(Pan1017==turn) { if(Pan1117==turn) { win++; } } } } }
-                if(Pan0718==turn) { if(Pan0818==turn) { if(Pan0918==turn) { if(Pan1018==turn) { if(Pan1118==turn) { win++; } } } } }
-                if(Pan0719==turn) { if(Pan0819==turn) { if(Pan0919==turn) { if(Pan1019==turn) { if(Pan1119==turn) { win++; } } } } }
-                if(Pan0801==turn) { if(Pan0901==turn) { if(Pan1001==turn) { if(Pan1101==turn) { if(Pan1201==turn) { win++; } } } } }
-                if(Pan0802==turn) { if(Pan0902==turn) { if(Pan1002==turn) { if(Pan1102==turn) { if(Pan1202==turn) { win++; } } } } }
-                if(Pan0803==turn) { if(Pan0903==turn) { if(Pan1003==turn) { if(Pan1103==turn) { if(Pan1203==turn) { win++; } } } } }
-                if(Pan0804==turn) { if(Pan0904==turn) { if(Pan1004==turn) { if(Pan1104==turn) { if(Pan1204==turn) { win++; } } } } }
-                if(Pan0805==turn) { if(Pan0905==turn) { if(Pan1005==turn) { if(Pan1105==turn) { if(Pan1205==turn) { win++; } } } } }
-                if(Pan0806==turn) { if(Pan0906==turn) { if(Pan1006==turn) { if(Pan1106==turn) { if(Pan1206==turn) { win++; } } } } }
-                if(Pan0807==turn) { if(Pan0907==turn) { if(Pan1007==turn) { if(Pan1107==turn) { if(Pan1207==turn) { win++; } } } } }
-                if(Pan0808==turn) { if(Pan0908==turn) { if(Pan1008==turn) { if(Pan1108==turn) { if(Pan1208==turn) { win++; } } } } }
-                if(Pan0809==turn) { if(Pan0909==turn) { if(Pan1009==turn) { if(Pan1109==turn) { if(Pan1209==turn) { win++; } } } } }
-                if(Pan0810==turn) { if(Pan0910==turn) { if(Pan1010==turn) { if(Pan1110==turn) { if(Pan1210==turn) { win++; } } } } }
-                if(Pan0811==turn) { if(Pan0911==turn) { if(Pan1011==turn) { if(Pan1111==turn) { if(Pan1211==turn) { win++; } } } } }
-                if(Pan0812==turn) { if(Pan0912==turn) { if(Pan1012==turn) { if(Pan1112==turn) { if(Pan1212==turn) { win++; } } } } }
-                if(Pan0813==turn) { if(Pan0913==turn) { if(Pan1013==turn) { if(Pan1113==turn) { if(Pan1213==turn) { win++; } } } } }
-                if(Pan0814==turn) { if(Pan0914==turn) { if(Pan1014==turn) { if(Pan1114==turn) { if(Pan1214==turn) { win++; } } } } }
-                if(Pan0815==turn) { if(Pan0915==turn) { if(Pan1015==turn) { if(Pan1115==turn) { if(Pan1215==turn) { win++; } } } } }
-                if(Pan0816==turn) { if(Pan0916==turn) { if(Pan1016==turn) { if(Pan1116==turn) { if(Pan1216==turn) { win++; } } } } }
-                if(Pan0817==turn) { if(Pan0917==turn) { if(Pan1017==turn) { if(Pan1117==turn) { if(Pan1217==turn) { win++; } } } } }
-                if(Pan0818==turn) { if(Pan0918==turn) { if(Pan1018==turn) { if(Pan1118==turn) { if(Pan1218==turn) { win++; } } } } }
-                if(Pan0819==turn) { if(Pan0919==turn) { if(Pan1019==turn) { if(Pan1119==turn) { if(Pan1219==turn) { win++; } } } } }
-                if(Pan0901==turn) { if(Pan1001==turn) { if(Pan1101==turn) { if(Pan1201==turn) { if(Pan1301==turn) { win++; } } } } }
-                if(Pan0902==turn) { if(Pan1002==turn) { if(Pan1102==turn) { if(Pan1202==turn) { if(Pan1302==turn) { win++; } } } } }
-                if(Pan0903==turn) { if(Pan1003==turn) { if(Pan1103==turn) { if(Pan1203==turn) { if(Pan1303==turn) { win++; } } } } }
-                if(Pan0904==turn) { if(Pan1004==turn) { if(Pan1104==turn) { if(Pan1204==turn) { if(Pan1304==turn) { win++; } } } } }
-                if(Pan0905==turn) { if(Pan1005==turn) { if(Pan1105==turn) { if(Pan1205==turn) { if(Pan1305==turn) { win++; } } } } }
-                if(Pan0906==turn) { if(Pan1006==turn) { if(Pan1106==turn) { if(Pan1206==turn) { if(Pan1306==turn) { win++; } } } } }
-                if(Pan0907==turn) { if(Pan1007==turn) { if(Pan1107==turn) { if(Pan1207==turn) { if(Pan1307==turn) { win++; } } } } }
-                if(Pan0908==turn) { if(Pan1008==turn) { if(Pan1108==turn) { if(Pan1208==turn) { if(Pan1308==turn) { win++; } } } } }
-                if(Pan0909==turn) { if(Pan1009==turn) { if(Pan1109==turn) { if(Pan1209==turn) { if(Pan1309==turn) { win++; } } } } }
-                if(Pan0910==turn) { if(Pan1010==turn) { if(Pan1110==turn) { if(Pan1210==turn) { if(Pan1310==turn) { win++; } } } } }
-                if(Pan0911==turn) { if(Pan1011==turn) { if(Pan1111==turn) { if(Pan1211==turn) { if(Pan1311==turn) { win++; } } } } }
-                if(Pan0912==turn) { if(Pan1012==turn) { if(Pan1112==turn) { if(Pan1212==turn) { if(Pan1312==turn) { win++; } } } } }
-                if(Pan0913==turn) { if(Pan1013==turn) { if(Pan1113==turn) { if(Pan1213==turn) { if(Pan1313==turn) { win++; } } } } }
-                if(Pan0914==turn) { if(Pan1014==turn) { if(Pan1114==turn) { if(Pan1214==turn) { if(Pan1314==turn) { win++; } } } } }
-                if(Pan0915==turn) { if(Pan1015==turn) { if(Pan1115==turn) { if(Pan1215==turn) { if(Pan1315==turn) { win++; } } } } }
-                if(Pan0916==turn) { if(Pan1016==turn) { if(Pan1116==turn) { if(Pan1216==turn) { if(Pan1316==turn) { win++; } } } } }
-                if(Pan0917==turn) { if(Pan1017==turn) { if(Pan1117==turn) { if(Pan1217==turn) { if(Pan1317==turn) { win++; } } } } }
-                if(Pan0918==turn) { if(Pan1018==turn) { if(Pan1118==turn) { if(Pan1218==turn) { if(Pan1318==turn) { win++; } } } } }
-                if(Pan0919==turn) { if(Pan1019==turn) { if(Pan1119==turn) { if(Pan1219==turn) { if(Pan1319==turn) { win++; } } } } }
-                if(Pan1001==turn) { if(Pan1101==turn) { if(Pan1201==turn) { if(Pan1301==turn) { if(Pan1401==turn) { win++; } } } } }
-                if(Pan1002==turn) { if(Pan1102==turn) { if(Pan1202==turn) { if(Pan1302==turn) { if(Pan1402==turn) { win++; } } } } }
-                if(Pan1003==turn) { if(Pan1103==turn) { if(Pan1203==turn) { if(Pan1303==turn) { if(Pan1403==turn) { win++; } } } } }
-                if(Pan1004==turn) { if(Pan1104==turn) { if(Pan1204==turn) { if(Pan1304==turn) { if(Pan1404==turn) { win++; } } } } }
-                if(Pan1005==turn) { if(Pan1105==turn) { if(Pan1205==turn) { if(Pan1305==turn) { if(Pan1405==turn) { win++; } } } } }
-                if(Pan1006==turn) { if(Pan1106==turn) { if(Pan1206==turn) { if(Pan1306==turn) { if(Pan1406==turn) { win++; } } } } }
-                if(Pan1007==turn) { if(Pan1107==turn) { if(Pan1207==turn) { if(Pan1307==turn) { if(Pan1407==turn) { win++; } } } } }
-                if(Pan1008==turn) { if(Pan1108==turn) { if(Pan1208==turn) { if(Pan1308==turn) { if(Pan1408==turn) { win++; } } } } }
-                if(Pan1009==turn) { if(Pan1109==turn) { if(Pan1209==turn) { if(Pan1309==turn) { if(Pan1409==turn) { win++; } } } } }
-                if(Pan1010==turn) { if(Pan1110==turn) { if(Pan1210==turn) { if(Pan1310==turn) { if(Pan1410==turn) { win++; } } } } }
-                if(Pan1011==turn) { if(Pan1111==turn) { if(Pan1211==turn) { if(Pan1311==turn) { if(Pan1411==turn) { win++; } } } } }
-                if(Pan1012==turn) { if(Pan1112==turn) { if(Pan1212==turn) { if(Pan1312==turn) { if(Pan1412==turn) { win++; } } } } }
-                if(Pan1013==turn) { if(Pan1113==turn) { if(Pan1213==turn) { if(Pan1313==turn) { if(Pan1413==turn) { win++; } } } } }
-                if(Pan1014==turn) { if(Pan1114==turn) { if(Pan1214==turn) { if(Pan1314==turn) { if(Pan1414==turn) { win++; } } } } }
-                if(Pan1015==turn) { if(Pan1115==turn) { if(Pan1215==turn) { if(Pan1315==turn) { if(Pan1415==turn) { win++; } } } } }
-                if(Pan1016==turn) { if(Pan1116==turn) { if(Pan1216==turn) { if(Pan1316==turn) { if(Pan1416==turn) { win++; } } } } }
-                if(Pan1017==turn) { if(Pan1117==turn) { if(Pan1217==turn) { if(Pan1317==turn) { if(Pan1417==turn) { win++; } } } } }
-                if(Pan1018==turn) { if(Pan1118==turn) { if(Pan1218==turn) { if(Pan1318==turn) { if(Pan1418==turn) { win++; } } } } }
-                if(Pan1019==turn) { if(Pan1119==turn) { if(Pan1219==turn) { if(Pan1319==turn) { if(Pan1419==turn) { win++; } } } } }
-                if(Pan1101==turn) { if(Pan1201==turn) { if(Pan1301==turn) { if(Pan1401==turn) { if(Pan1501==turn) { win++; } } } } }
-                if(Pan1102==turn) { if(Pan1202==turn) { if(Pan1302==turn) { if(Pan1402==turn) { if(Pan1502==turn) { win++; } } } } }
-                if(Pan1103==turn) { if(Pan1203==turn) { if(Pan1303==turn) { if(Pan1403==turn) { if(Pan1503==turn) { win++; } } } } }
-                if(Pan1104==turn) { if(Pan1204==turn) { if(Pan1304==turn) { if(Pan1404==turn) { if(Pan1504==turn) { win++; } } } } }
-                if(Pan1105==turn) { if(Pan1205==turn) { if(Pan1305==turn) { if(Pan1405==turn) { if(Pan1505==turn) { win++; } } } } }
-                if(Pan1106==turn) { if(Pan1206==turn) { if(Pan1306==turn) { if(Pan1406==turn) { if(Pan1506==turn) { win++; } } } } }
-                if(Pan1107==turn) { if(Pan1207==turn) { if(Pan1307==turn) { if(Pan1407==turn) { if(Pan1507==turn) { win++; } } } } }
-                if(Pan1108==turn) { if(Pan1208==turn) { if(Pan1308==turn) { if(Pan1408==turn) { if(Pan1508==turn) { win++; } } } } }
-                if(Pan1109==turn) { if(Pan1209==turn) { if(Pan1309==turn) { if(Pan1409==turn) { if(Pan1509==turn) { win++; } } } } }
-                if(Pan1110==turn) { if(Pan1210==turn) { if(Pan1310==turn) { if(Pan1410==turn) { if(Pan1510==turn) { win++; } } } } }
-                if(Pan1111==turn) { if(Pan1211==turn) { if(Pan1311==turn) { if(Pan1411==turn) { if(Pan1511==turn) { win++; } } } } }
-                if(Pan1112==turn) { if(Pan1212==turn) { if(Pan1312==turn) { if(Pan1412==turn) { if(Pan1512==turn) { win++; } } } } }
-                if(Pan1113==turn) { if(Pan1213==turn) { if(Pan1313==turn) { if(Pan1413==turn) { if(Pan1513==turn) { win++; } } } } }
-                if(Pan1114==turn) { if(Pan1214==turn) { if(Pan1314==turn) { if(Pan1414==turn) { if(Pan1514==turn) { win++; } } } } }
-                if(Pan1115==turn) { if(Pan1215==turn) { if(Pan1315==turn) { if(Pan1415==turn) { if(Pan1515==turn) { win++; } } } } }
-                if(Pan1116==turn) { if(Pan1216==turn) { if(Pan1316==turn) { if(Pan1416==turn) { if(Pan1516==turn) { win++; } } } } }
-                if(Pan1117==turn) { if(Pan1217==turn) { if(Pan1317==turn) { if(Pan1417==turn) { if(Pan1517==turn) { win++; } } } } }
-                if(Pan1118==turn) { if(Pan1218==turn) { if(Pan1318==turn) { if(Pan1418==turn) { if(Pan1518==turn) { win++; } } } } }
-                if(Pan1119==turn) { if(Pan1219==turn) { if(Pan1319==turn) { if(Pan1419==turn) { if(Pan1519==turn) { win++; } } } } }
-                if(Pan1201==turn) { if(Pan1301==turn) { if(Pan1401==turn) { if(Pan1501==turn) { if(Pan1601==turn) { win++; } } } } }
-                if(Pan1202==turn) { if(Pan1302==turn) { if(Pan1402==turn) { if(Pan1502==turn) { if(Pan1602==turn) { win++; } } } } }
-                if(Pan1203==turn) { if(Pan1303==turn) { if(Pan1403==turn) { if(Pan1503==turn) { if(Pan1603==turn) { win++; } } } } }
-                if(Pan1204==turn) { if(Pan1304==turn) { if(Pan1404==turn) { if(Pan1504==turn) { if(Pan1604==turn) { win++; } } } } }
-                if(Pan1205==turn) { if(Pan1305==turn) { if(Pan1405==turn) { if(Pan1505==turn) { if(Pan1605==turn) { win++; } } } } }
-                if(Pan1206==turn) { if(Pan1306==turn) { if(Pan1406==turn) { if(Pan1506==turn) { if(Pan1606==turn) { win++; } } } } }
-                if(Pan1207==turn) { if(Pan1307==turn) { if(Pan1407==turn) { if(Pan1507==turn) { if(Pan1607==turn) { win++; } } } } }
-                if(Pan1208==turn) { if(Pan1308==turn) { if(Pan1408==turn) { if(Pan1508==turn) { if(Pan1608==turn) { win++; } } } } }
-                if(Pan1209==turn) { if(Pan1309==turn) { if(Pan1409==turn) { if(Pan1509==turn) { if(Pan1609==turn) { win++; } } } } }
-                if(Pan1210==turn) { if(Pan1310==turn) { if(Pan1410==turn) { if(Pan1510==turn) { if(Pan1610==turn) { win++; } } } } }
-                if(Pan1211==turn) { if(Pan1311==turn) { if(Pan1411==turn) { if(Pan1511==turn) { if(Pan1611==turn) { win++; } } } } }
-                if(Pan1212==turn) { if(Pan1312==turn) { if(Pan1412==turn) { if(Pan1512==turn) { if(Pan1612==turn) { win++; } } } } }
-                if(Pan1213==turn) { if(Pan1313==turn) { if(Pan1413==turn) { if(Pan1513==turn) { if(Pan1613==turn) { win++; } } } } }
-                if(Pan1214==turn) { if(Pan1314==turn) { if(Pan1414==turn) { if(Pan1514==turn) { if(Pan1614==turn) { win++; } } } } }
-                if(Pan1215==turn) { if(Pan1315==turn) { if(Pan1415==turn) { if(Pan1515==turn) { if(Pan1615==turn) { win++; } } } } }
-                if(Pan1216==turn) { if(Pan1316==turn) { if(Pan1416==turn) { if(Pan1516==turn) { if(Pan1616==turn) { win++; } } } } }
-                if(Pan1217==turn) { if(Pan1317==turn) { if(Pan1417==turn) { if(Pan1517==turn) { if(Pan1617==turn) { win++; } } } } }
-                if(Pan1218==turn) { if(Pan1318==turn) { if(Pan1418==turn) { if(Pan1518==turn) { if(Pan1618==turn) { win++; } } } } }
-                if(Pan1219==turn) { if(Pan1319==turn) { if(Pan1419==turn) { if(Pan1519==turn) { if(Pan1619==turn) { win++; } } } } }
-                if(Pan1301==turn) { if(Pan1401==turn) { if(Pan1501==turn) { if(Pan1601==turn) { if(Pan1701==turn) { win++; } } } } }
-                if(Pan1302==turn) { if(Pan1402==turn) { if(Pan1502==turn) { if(Pan1602==turn) { if(Pan1702==turn) { win++; } } } } }
-                if(Pan1303==turn) { if(Pan1403==turn) { if(Pan1503==turn) { if(Pan1603==turn) { if(Pan1703==turn) { win++; } } } } }
-                if(Pan1304==turn) { if(Pan1404==turn) { if(Pan1504==turn) { if(Pan1604==turn) { if(Pan1704==turn) { win++; } } } } }
-                if(Pan1305==turn) { if(Pan1405==turn) { if(Pan1505==turn) { if(Pan1605==turn) { if(Pan1705==turn) { win++; } } } } }
-                if(Pan1306==turn) { if(Pan1406==turn) { if(Pan1506==turn) { if(Pan1606==turn) { if(Pan1706==turn) { win++; } } } } }
-                if(Pan1307==turn) { if(Pan1407==turn) { if(Pan1507==turn) { if(Pan1607==turn) { if(Pan1707==turn) { win++; } } } } }
-                if(Pan1308==turn) { if(Pan1408==turn) { if(Pan1508==turn) { if(Pan1608==turn) { if(Pan1708==turn) { win++; } } } } }
-                if(Pan1309==turn) { if(Pan1409==turn) { if(Pan1509==turn) { if(Pan1609==turn) { if(Pan1709==turn) { win++; } } } } }
-                if(Pan1310==turn) { if(Pan1410==turn) { if(Pan1510==turn) { if(Pan1610==turn) { if(Pan1710==turn) { win++; } } } } }
-                if(Pan1311==turn) { if(Pan1411==turn) { if(Pan1511==turn) { if(Pan1611==turn) { if(Pan1711==turn) { win++; } } } } }
-                if(Pan1312==turn) { if(Pan1412==turn) { if(Pan1512==turn) { if(Pan1612==turn) { if(Pan1712==turn) { win++; } } } } }
-                if(Pan1313==turn) { if(Pan1413==turn) { if(Pan1513==turn) { if(Pan1613==turn) { if(Pan1713==turn) { win++; } } } } }
-                if(Pan1314==turn) { if(Pan1414==turn) { if(Pan1514==turn) { if(Pan1614==turn) { if(Pan1714==turn) { win++; } } } } }
-                if(Pan1315==turn) { if(Pan1415==turn) { if(Pan1515==turn) { if(Pan1615==turn) { if(Pan1715==turn) { win++; } } } } }
-                if(Pan1316==turn) { if(Pan1416==turn) { if(Pan1516==turn) { if(Pan1616==turn) { if(Pan1716==turn) { win++; } } } } }
-                if(Pan1317==turn) { if(Pan1417==turn) { if(Pan1517==turn) { if(Pan1617==turn) { if(Pan1717==turn) { win++; } } } } }
-                if(Pan1318==turn) { if(Pan1418==turn) { if(Pan1518==turn) { if(Pan1618==turn) { if(Pan1718==turn) { win++; } } } } }
-                if(Pan1319==turn) { if(Pan1419==turn) { if(Pan1519==turn) { if(Pan1619==turn) { if(Pan1719==turn) { win++; } } } } }
-                if(Pan1401==turn) { if(Pan1501==turn) { if(Pan1601==turn) { if(Pan1701==turn) { if(Pan1801==turn) { win++; } } } } }
-                if(Pan1402==turn) { if(Pan1502==turn) { if(Pan1602==turn) { if(Pan1702==turn) { if(Pan1802==turn) { win++; } } } } }
-                if(Pan1403==turn) { if(Pan1503==turn) { if(Pan1603==turn) { if(Pan1703==turn) { if(Pan1803==turn) { win++; } } } } }
-                if(Pan1404==turn) { if(Pan1504==turn) { if(Pan1604==turn) { if(Pan1704==turn) { if(Pan1804==turn) { win++; } } } } }
-                if(Pan1405==turn) { if(Pan1505==turn) { if(Pan1605==turn) { if(Pan1705==turn) { if(Pan1805==turn) { win++; } } } } }
-                if(Pan1406==turn) { if(Pan1506==turn) { if(Pan1606==turn) { if(Pan1706==turn) { if(Pan1806==turn) { win++; } } } } }
-                if(Pan1407==turn) { if(Pan1507==turn) { if(Pan1607==turn) { if(Pan1707==turn) { if(Pan1807==turn) { win++; } } } } }
-                if(Pan1408==turn) { if(Pan1508==turn) { if(Pan1608==turn) { if(Pan1708==turn) { if(Pan1808==turn) { win++; } } } } }
-                if(Pan1409==turn) { if(Pan1509==turn) { if(Pan1609==turn) { if(Pan1709==turn) { if(Pan1809==turn) { win++; } } } } }
-                if(Pan1410==turn) { if(Pan1510==turn) { if(Pan1610==turn) { if(Pan1710==turn) { if(Pan1810==turn) { win++; } } } } }
-                if(Pan1411==turn) { if(Pan1511==turn) { if(Pan1611==turn) { if(Pan1711==turn) { if(Pan1811==turn) { win++; } } } } }
-                if(Pan1412==turn) { if(Pan1512==turn) { if(Pan1612==turn) { if(Pan1712==turn) { if(Pan1812==turn) { win++; } } } } }
-                if(Pan1413==turn) { if(Pan1513==turn) { if(Pan1613==turn) { if(Pan1713==turn) { if(Pan1813==turn) { win++; } } } } }
-                if(Pan1414==turn) { if(Pan1514==turn) { if(Pan1614==turn) { if(Pan1714==turn) { if(Pan1814==turn) { win++; } } } } }
-                if(Pan1415==turn) { if(Pan1515==turn) { if(Pan1615==turn) { if(Pan1715==turn) { if(Pan1815==turn) { win++; } } } } }
-                if(Pan1416==turn) { if(Pan1516==turn) { if(Pan1616==turn) { if(Pan1716==turn) { if(Pan1816==turn) { win++; } } } } }
-                if(Pan1417==turn) { if(Pan1517==turn) { if(Pan1617==turn) { if(Pan1717==turn) { if(Pan1817==turn) { win++; } } } } }
-                if(Pan1418==turn) { if(Pan1518==turn) { if(Pan1618==turn) { if(Pan1718==turn) { if(Pan1818==turn) { win++; } } } } }
-                if(Pan1419==turn) { if(Pan1519==turn) { if(Pan1619==turn) { if(Pan1719==turn) { if(Pan1819==turn) { win++; } } } } }
-                if(Pan1501==turn) { if(Pan1601==turn) { if(Pan1701==turn) { if(Pan1801==turn) { if(Pan1901==turn) { win++; } } } } }
-                if(Pan1502==turn) { if(Pan1602==turn) { if(Pan1702==turn) { if(Pan1802==turn) { if(Pan1902==turn) { win++; } } } } }
-                if(Pan1503==turn) { if(Pan1603==turn) { if(Pan1703==turn) { if(Pan1803==turn) { if(Pan1903==turn) { win++; } } } } }
-                if(Pan1504==turn) { if(Pan1604==turn) { if(Pan1704==turn) { if(Pan1804==turn) { if(Pan1904==turn) { win++; } } } } }
-                if(Pan1505==turn) { if(Pan1605==turn) { if(Pan1705==turn) { if(Pan1805==turn) { if(Pan1905==turn) { win++; } } } } }
-                if(Pan1506==turn) { if(Pan1606==turn) { if(Pan1706==turn) { if(Pan1806==turn) { if(Pan1906==turn) { win++; } } } } }
-                if(Pan1507==turn) { if(Pan1607==turn) { if(Pan1707==turn) { if(Pan1807==turn) { if(Pan1907==turn) { win++; } } } } }
-                if(Pan1508==turn) { if(Pan1608==turn) { if(Pan1708==turn) { if(Pan1808==turn) { if(Pan1908==turn) { win++; } } } } }
-                if(Pan1509==turn) { if(Pan1609==turn) { if(Pan1709==turn) { if(Pan1809==turn) { if(Pan1909==turn) { win++; } } } } }
-                if(Pan1510==turn) { if(Pan1610==turn) { if(Pan1710==turn) { if(Pan1810==turn) { if(Pan1910==turn) { win++; } } } } }
-                if(Pan1511==turn) { if(Pan1611==turn) { if(Pan1711==turn) { if(Pan1811==turn) { if(Pan1911==turn) { win++; } } } } }
-                if(Pan1512==turn) { if(Pan1612==turn) { if(Pan1712==turn) { if(Pan1812==turn) { if(Pan1912==turn) { win++; } } } } }
-                if(Pan1513==turn) { if(Pan1613==turn) { if(Pan1713==turn) { if(Pan1813==turn) { if(Pan1913==turn) { win++; } } } } }
-                if(Pan1514==turn) { if(Pan1614==turn) { if(Pan1714==turn) { if(Pan1814==turn) { if(Pan1914==turn) { win++; } } } } }
-                if(Pan1515==turn) { if(Pan1615==turn) { if(Pan1715==turn) { if(Pan1815==turn) { if(Pan1915==turn) { win++; } } } } }
-                if(Pan1516==turn) { if(Pan1616==turn) { if(Pan1716==turn) { if(Pan1816==turn) { if(Pan1916==turn) { win++; } } } } }
-                if(Pan1517==turn) { if(Pan1617==turn) { if(Pan1717==turn) { if(Pan1817==turn) { if(Pan1917==turn) { win++; } } } } }
-                if(Pan1518==turn) { if(Pan1618==turn) { if(Pan1718==turn) { if(Pan1818==turn) { if(Pan1918==turn) { win++; } } } } }
-                if(Pan1519==turn) { if(Pan1619==turn) { if(Pan1719==turn) { if(Pan1819==turn) { if(Pan1919==turn) { win++; } } } } }
+                if(pan0101==turn)  if(pan0201==turn)  if(pan0301==turn)  if(pan0401==turn)  if(pan0501==turn)  win++;     
+                if(pan0102==turn)  if(pan0202==turn)  if(pan0302==turn)  if(pan0402==turn)  if(pan0502==turn)  win++;     
+                if(pan0103==turn)  if(pan0203==turn)  if(pan0303==turn)  if(pan0403==turn)  if(pan0503==turn)  win++;     
+                if(pan0104==turn)  if(pan0204==turn)  if(pan0304==turn)  if(pan0404==turn)  if(pan0504==turn)  win++;     
+                if(pan0105==turn)  if(pan0205==turn)  if(pan0305==turn)  if(pan0405==turn)  if(pan0505==turn)  win++;     
+                if(pan0106==turn)  if(pan0206==turn)  if(pan0306==turn)  if(pan0406==turn)  if(pan0506==turn)  win++;     
+                if(pan0107==turn)  if(pan0207==turn)  if(pan0307==turn)  if(pan0407==turn)  if(pan0507==turn)  win++;     
+                if(pan0108==turn)  if(pan0208==turn)  if(pan0308==turn)  if(pan0408==turn)  if(pan0508==turn)  win++;     
+                if(pan0109==turn)  if(pan0209==turn)  if(pan0309==turn)  if(pan0409==turn)  if(pan0509==turn)  win++;     
+                if(pan0110==turn)  if(pan0210==turn)  if(pan0310==turn)  if(pan0410==turn)  if(pan0510==turn)  win++;     
+                if(pan0111==turn)  if(pan0211==turn)  if(pan0311==turn)  if(pan0411==turn)  if(pan0511==turn)  win++;     
+                if(pan0112==turn)  if(pan0212==turn)  if(pan0312==turn)  if(pan0412==turn)  if(pan0512==turn)  win++;     
+                if(pan0113==turn)  if(pan0213==turn)  if(pan0313==turn)  if(pan0413==turn)  if(pan0513==turn)  win++;     
+                if(pan0114==turn)  if(pan0214==turn)  if(pan0314==turn)  if(pan0414==turn)  if(pan0514==turn)  win++;     
+                if(pan0115==turn)  if(pan0215==turn)  if(pan0315==turn)  if(pan0415==turn)  if(pan0515==turn)  win++;     
+                if(pan0116==turn)  if(pan0216==turn)  if(pan0316==turn)  if(pan0416==turn)  if(pan0516==turn)  win++;     
+                if(pan0117==turn)  if(pan0217==turn)  if(pan0317==turn)  if(pan0417==turn)  if(pan0517==turn)  win++;     
+                if(pan0118==turn)  if(pan0218==turn)  if(pan0318==turn)  if(pan0418==turn)  if(pan0518==turn)  win++;     
+                if(pan0119==turn)  if(pan0219==turn)  if(pan0319==turn)  if(pan0419==turn)  if(pan0519==turn)  win++;     
+                if(pan0201==turn)  if(pan0301==turn)  if(pan0401==turn)  if(pan0501==turn)  if(pan0601==turn)  win++;     
+                if(pan0202==turn)  if(pan0302==turn)  if(pan0402==turn)  if(pan0502==turn)  if(pan0602==turn)  win++;     
+                if(pan0203==turn)  if(pan0303==turn)  if(pan0403==turn)  if(pan0503==turn)  if(pan0603==turn)  win++;     
+                if(pan0204==turn)  if(pan0304==turn)  if(pan0404==turn)  if(pan0504==turn)  if(pan0604==turn)  win++;     
+                if(pan0205==turn)  if(pan0305==turn)  if(pan0405==turn)  if(pan0505==turn)  if(pan0605==turn)  win++;     
+                if(pan0206==turn)  if(pan0306==turn)  if(pan0406==turn)  if(pan0506==turn)  if(pan0606==turn)  win++;     
+                if(pan0207==turn)  if(pan0307==turn)  if(pan0407==turn)  if(pan0507==turn)  if(pan0607==turn)  win++;     
+                if(pan0208==turn)  if(pan0308==turn)  if(pan0408==turn)  if(pan0508==turn)  if(pan0608==turn)  win++;     
+                if(pan0209==turn)  if(pan0309==turn)  if(pan0409==turn)  if(pan0509==turn)  if(pan0609==turn)  win++;     
+                if(pan0210==turn)  if(pan0310==turn)  if(pan0410==turn)  if(pan0510==turn)  if(pan0610==turn)  win++;     
+                if(pan0211==turn)  if(pan0311==turn)  if(pan0411==turn)  if(pan0511==turn)  if(pan0611==turn)  win++;     
+                if(pan0212==turn)  if(pan0312==turn)  if(pan0412==turn)  if(pan0512==turn)  if(pan0612==turn)  win++;     
+                if(pan0213==turn)  if(pan0313==turn)  if(pan0413==turn)  if(pan0513==turn)  if(pan0613==turn)  win++;     
+                if(pan0214==turn)  if(pan0314==turn)  if(pan0414==turn)  if(pan0514==turn)  if(pan0614==turn)  win++;     
+                if(pan0215==turn)  if(pan0315==turn)  if(pan0415==turn)  if(pan0515==turn)  if(pan0615==turn)  win++;     
+                if(pan0216==turn)  if(pan0316==turn)  if(pan0416==turn)  if(pan0516==turn)  if(pan0616==turn)  win++;     
+                if(pan0217==turn)  if(pan0317==turn)  if(pan0417==turn)  if(pan0517==turn)  if(pan0617==turn)  win++;     
+                if(pan0218==turn)  if(pan0318==turn)  if(pan0418==turn)  if(pan0518==turn)  if(pan0618==turn)  win++;     
+                if(pan0219==turn)  if(pan0319==turn)  if(pan0419==turn)  if(pan0519==turn)  if(pan0619==turn)  win++;     
+                if(pan0301==turn)  if(pan0401==turn)  if(pan0501==turn)  if(pan0601==turn)  if(pan0701==turn)  win++;     
+                if(pan0302==turn)  if(pan0402==turn)  if(pan0502==turn)  if(pan0602==turn)  if(pan0702==turn)  win++;     
+                if(pan0303==turn)  if(pan0403==turn)  if(pan0503==turn)  if(pan0603==turn)  if(pan0703==turn)  win++;     
+                if(pan0304==turn)  if(pan0404==turn)  if(pan0504==turn)  if(pan0604==turn)  if(pan0704==turn)  win++;     
+                if(pan0305==turn)  if(pan0405==turn)  if(pan0505==turn)  if(pan0605==turn)  if(pan0705==turn)  win++;     
+                if(pan0306==turn)  if(pan0406==turn)  if(pan0506==turn)  if(pan0606==turn)  if(pan0706==turn)  win++;     
+                if(pan0307==turn)  if(pan0407==turn)  if(pan0507==turn)  if(pan0607==turn)  if(pan0707==turn)  win++;     
+                if(pan0308==turn)  if(pan0408==turn)  if(pan0508==turn)  if(pan0608==turn)  if(pan0708==turn)  win++;     
+                if(pan0309==turn)  if(pan0409==turn)  if(pan0509==turn)  if(pan0609==turn)  if(pan0709==turn)  win++;     
+                if(pan0310==turn)  if(pan0410==turn)  if(pan0510==turn)  if(pan0610==turn)  if(pan0710==turn)  win++;     
+                if(pan0311==turn)  if(pan0411==turn)  if(pan0511==turn)  if(pan0611==turn)  if(pan0711==turn)  win++;     
+                if(pan0312==turn)  if(pan0412==turn)  if(pan0512==turn)  if(pan0612==turn)  if(pan0712==turn)  win++;     
+                if(pan0313==turn)  if(pan0413==turn)  if(pan0513==turn)  if(pan0613==turn)  if(pan0713==turn)  win++;     
+                if(pan0314==turn)  if(pan0414==turn)  if(pan0514==turn)  if(pan0614==turn)  if(pan0714==turn)  win++;     
+                if(pan0315==turn)  if(pan0415==turn)  if(pan0515==turn)  if(pan0615==turn)  if(pan0715==turn)  win++;     
+                if(pan0316==turn)  if(pan0416==turn)  if(pan0516==turn)  if(pan0616==turn)  if(pan0716==turn)  win++;     
+                if(pan0317==turn)  if(pan0417==turn)  if(pan0517==turn)  if(pan0617==turn)  if(pan0717==turn)  win++;     
+                if(pan0318==turn)  if(pan0418==turn)  if(pan0518==turn)  if(pan0618==turn)  if(pan0718==turn)  win++;     
+                if(pan0319==turn)  if(pan0419==turn)  if(pan0519==turn)  if(pan0619==turn)  if(pan0719==turn)  win++;     
+                if(pan0401==turn)  if(pan0501==turn)  if(pan0601==turn)  if(pan0701==turn)  if(pan0801==turn)  win++;     
+                if(pan0402==turn)  if(pan0502==turn)  if(pan0602==turn)  if(pan0702==turn)  if(pan0802==turn)  win++;     
+                if(pan0403==turn)  if(pan0503==turn)  if(pan0603==turn)  if(pan0703==turn)  if(pan0803==turn)  win++;     
+                if(pan0404==turn)  if(pan0504==turn)  if(pan0604==turn)  if(pan0704==turn)  if(pan0804==turn)  win++;     
+                if(pan0405==turn)  if(pan0505==turn)  if(pan0605==turn)  if(pan0705==turn)  if(pan0805==turn)  win++;     
+                if(pan0406==turn)  if(pan0506==turn)  if(pan0606==turn)  if(pan0706==turn)  if(pan0806==turn)  win++;     
+                if(pan0407==turn)  if(pan0507==turn)  if(pan0607==turn)  if(pan0707==turn)  if(pan0807==turn)  win++;     
+                if(pan0408==turn)  if(pan0508==turn)  if(pan0608==turn)  if(pan0708==turn)  if(pan0808==turn)  win++;     
+                if(pan0409==turn)  if(pan0509==turn)  if(pan0609==turn)  if(pan0709==turn)  if(pan0809==turn)  win++;     
+                if(pan0410==turn)  if(pan0510==turn)  if(pan0610==turn)  if(pan0710==turn)  if(pan0810==turn)  win++;     
+                if(pan0411==turn)  if(pan0511==turn)  if(pan0611==turn)  if(pan0711==turn)  if(pan0811==turn)  win++;     
+                if(pan0412==turn)  if(pan0512==turn)  if(pan0612==turn)  if(pan0712==turn)  if(pan0812==turn)  win++;     
+                if(pan0413==turn)  if(pan0513==turn)  if(pan0613==turn)  if(pan0713==turn)  if(pan0813==turn)  win++;     
+                if(pan0414==turn)  if(pan0514==turn)  if(pan0614==turn)  if(pan0714==turn)  if(pan0814==turn)  win++;     
+                if(pan0415==turn)  if(pan0515==turn)  if(pan0615==turn)  if(pan0715==turn)  if(pan0815==turn)  win++;     
+                if(pan0416==turn)  if(pan0516==turn)  if(pan0616==turn)  if(pan0716==turn)  if(pan0816==turn)  win++;     
+                if(pan0417==turn)  if(pan0517==turn)  if(pan0617==turn)  if(pan0717==turn)  if(pan0817==turn)  win++;     
+                if(pan0418==turn)  if(pan0518==turn)  if(pan0618==turn)  if(pan0718==turn)  if(pan0818==turn)  win++;     
+                if(pan0419==turn)  if(pan0519==turn)  if(pan0619==turn)  if(pan0719==turn)  if(pan0819==turn)  win++;     
+                if(pan0501==turn)  if(pan0601==turn)  if(pan0701==turn)  if(pan0801==turn)  if(pan0901==turn)  win++;     
+                if(pan0502==turn)  if(pan0602==turn)  if(pan0702==turn)  if(pan0802==turn)  if(pan0902==turn)  win++;     
+                if(pan0503==turn)  if(pan0603==turn)  if(pan0703==turn)  if(pan0803==turn)  if(pan0903==turn)  win++;     
+                if(pan0504==turn)  if(pan0604==turn)  if(pan0704==turn)  if(pan0804==turn)  if(pan0904==turn)  win++;     
+                if(pan0505==turn)  if(pan0605==turn)  if(pan0705==turn)  if(pan0805==turn)  if(pan0905==turn)  win++;     
+                if(pan0506==turn)  if(pan0606==turn)  if(pan0706==turn)  if(pan0806==turn)  if(pan0906==turn)  win++;     
+                if(pan0507==turn)  if(pan0607==turn)  if(pan0707==turn)  if(pan0807==turn)  if(pan0907==turn)  win++;     
+                if(pan0508==turn)  if(pan0608==turn)  if(pan0708==turn)  if(pan0808==turn)  if(pan0908==turn)  win++;     
+                if(pan0509==turn)  if(pan0609==turn)  if(pan0709==turn)  if(pan0809==turn)  if(pan0909==turn)  win++;     
+                if(pan0510==turn)  if(pan0610==turn)  if(pan0710==turn)  if(pan0810==turn)  if(pan0910==turn)  win++;     
+                if(pan0511==turn)  if(pan0611==turn)  if(pan0711==turn)  if(pan0811==turn)  if(pan0911==turn)  win++;     
+                if(pan0512==turn)  if(pan0612==turn)  if(pan0712==turn)  if(pan0812==turn)  if(pan0912==turn)  win++;     
+                if(pan0513==turn)  if(pan0613==turn)  if(pan0713==turn)  if(pan0813==turn)  if(pan0913==turn)  win++;     
+                if(pan0514==turn)  if(pan0614==turn)  if(pan0714==turn)  if(pan0814==turn)  if(pan0914==turn)  win++;     
+                if(pan0515==turn)  if(pan0615==turn)  if(pan0715==turn)  if(pan0815==turn)  if(pan0915==turn)  win++;     
+                if(pan0516==turn)  if(pan0616==turn)  if(pan0716==turn)  if(pan0816==turn)  if(pan0916==turn)  win++;     
+                if(pan0517==turn)  if(pan0617==turn)  if(pan0717==turn)  if(pan0817==turn)  if(pan0917==turn)  win++;     
+                if(pan0518==turn)  if(pan0618==turn)  if(pan0718==turn)  if(pan0818==turn)  if(pan0918==turn)  win++;     
+                if(pan0519==turn)  if(pan0619==turn)  if(pan0719==turn)  if(pan0819==turn)  if(pan0919==turn)  win++;     
+                if(pan0601==turn)  if(pan0701==turn)  if(pan0801==turn)  if(pan0901==turn)  if(pan1001==turn)  win++;     
+                if(pan0602==turn)  if(pan0702==turn)  if(pan0802==turn)  if(pan0902==turn)  if(pan1002==turn)  win++;     
+                if(pan0603==turn)  if(pan0703==turn)  if(pan0803==turn)  if(pan0903==turn)  if(pan1003==turn)  win++;     
+                if(pan0604==turn)  if(pan0704==turn)  if(pan0804==turn)  if(pan0904==turn)  if(pan1004==turn)  win++;     
+                if(pan0605==turn)  if(pan0705==turn)  if(pan0805==turn)  if(pan0905==turn)  if(pan1005==turn)  win++;     
+                if(pan0606==turn)  if(pan0706==turn)  if(pan0806==turn)  if(pan0906==turn)  if(pan1006==turn)  win++;     
+                if(pan0607==turn)  if(pan0707==turn)  if(pan0807==turn)  if(pan0907==turn)  if(pan1007==turn)  win++;     
+                if(pan0608==turn)  if(pan0708==turn)  if(pan0808==turn)  if(pan0908==turn)  if(pan1008==turn)  win++;     
+                if(pan0609==turn)  if(pan0709==turn)  if(pan0809==turn)  if(pan0909==turn)  if(pan1009==turn)  win++;     
+                if(pan0610==turn)  if(pan0710==turn)  if(pan0810==turn)  if(pan0910==turn)  if(pan1010==turn)  win++;     
+                if(pan0611==turn)  if(pan0711==turn)  if(pan0811==turn)  if(pan0911==turn)  if(pan1011==turn)  win++;     
+                if(pan0612==turn)  if(pan0712==turn)  if(pan0812==turn)  if(pan0912==turn)  if(pan1012==turn)  win++;     
+                if(pan0613==turn)  if(pan0713==turn)  if(pan0813==turn)  if(pan0913==turn)  if(pan1013==turn)  win++;     
+                if(pan0614==turn)  if(pan0714==turn)  if(pan0814==turn)  if(pan0914==turn)  if(pan1014==turn)  win++;     
+                if(pan0615==turn)  if(pan0715==turn)  if(pan0815==turn)  if(pan0915==turn)  if(pan1015==turn)  win++;     
+                if(pan0616==turn)  if(pan0716==turn)  if(pan0816==turn)  if(pan0916==turn)  if(pan1016==turn)  win++;     
+                if(pan0617==turn)  if(pan0717==turn)  if(pan0817==turn)  if(pan0917==turn)  if(pan1017==turn)  win++;     
+                if(pan0618==turn)  if(pan0718==turn)  if(pan0818==turn)  if(pan0918==turn)  if(pan1018==turn)  win++;     
+                if(pan0619==turn)  if(pan0719==turn)  if(pan0819==turn)  if(pan0919==turn)  if(pan1019==turn)  win++;     
+                if(pan0701==turn)  if(pan0801==turn)  if(pan0901==turn)  if(pan1001==turn)  if(pan1101==turn)  win++;     
+                if(pan0702==turn)  if(pan0802==turn)  if(pan0902==turn)  if(pan1002==turn)  if(pan1102==turn)  win++;     
+                if(pan0703==turn)  if(pan0803==turn)  if(pan0903==turn)  if(pan1003==turn)  if(pan1103==turn)  win++;     
+                if(pan0704==turn)  if(pan0804==turn)  if(pan0904==turn)  if(pan1004==turn)  if(pan1104==turn)  win++;     
+                if(pan0705==turn)  if(pan0805==turn)  if(pan0905==turn)  if(pan1005==turn)  if(pan1105==turn)  win++;     
+                if(pan0706==turn)  if(pan0806==turn)  if(pan0906==turn)  if(pan1006==turn)  if(pan1106==turn)  win++;     
+                if(pan0707==turn)  if(pan0807==turn)  if(pan0907==turn)  if(pan1007==turn)  if(pan1107==turn)  win++;     
+                if(pan0708==turn)  if(pan0808==turn)  if(pan0908==turn)  if(pan1008==turn)  if(pan1108==turn)  win++;     
+                if(pan0709==turn)  if(pan0809==turn)  if(pan0909==turn)  if(pan1009==turn)  if(pan1109==turn)  win++;     
+                if(pan0710==turn)  if(pan0810==turn)  if(pan0910==turn)  if(pan1010==turn)  if(pan1110==turn)  win++;     
+                if(pan0711==turn)  if(pan0811==turn)  if(pan0911==turn)  if(pan1011==turn)  if(pan1111==turn)  win++;     
+                if(pan0712==turn)  if(pan0812==turn)  if(pan0912==turn)  if(pan1012==turn)  if(pan1112==turn)  win++;     
+                if(pan0713==turn)  if(pan0813==turn)  if(pan0913==turn)  if(pan1013==turn)  if(pan1113==turn)  win++;     
+                if(pan0714==turn)  if(pan0814==turn)  if(pan0914==turn)  if(pan1014==turn)  if(pan1114==turn)  win++;     
+                if(pan0715==turn)  if(pan0815==turn)  if(pan0915==turn)  if(pan1015==turn)  if(pan1115==turn)  win++;     
+                if(pan0716==turn)  if(pan0816==turn)  if(pan0916==turn)  if(pan1016==turn)  if(pan1116==turn)  win++;     
+                if(pan0717==turn)  if(pan0817==turn)  if(pan0917==turn)  if(pan1017==turn)  if(pan1117==turn)  win++;     
+                if(pan0718==turn)  if(pan0818==turn)  if(pan0918==turn)  if(pan1018==turn)  if(pan1118==turn)  win++;     
+                if(pan0719==turn)  if(pan0819==turn)  if(pan0919==turn)  if(pan1019==turn)  if(pan1119==turn)  win++;     
+                if(pan0801==turn)  if(pan0901==turn)  if(pan1001==turn)  if(pan1101==turn)  if(pan1201==turn)  win++;     
+                if(pan0802==turn)  if(pan0902==turn)  if(pan1002==turn)  if(pan1102==turn)  if(pan1202==turn)  win++;     
+                if(pan0803==turn)  if(pan0903==turn)  if(pan1003==turn)  if(pan1103==turn)  if(pan1203==turn)  win++;     
+                if(pan0804==turn)  if(pan0904==turn)  if(pan1004==turn)  if(pan1104==turn)  if(pan1204==turn)  win++;     
+                if(pan0805==turn)  if(pan0905==turn)  if(pan1005==turn)  if(pan1105==turn)  if(pan1205==turn)  win++;     
+                if(pan0806==turn)  if(pan0906==turn)  if(pan1006==turn)  if(pan1106==turn)  if(pan1206==turn)  win++;     
+                if(pan0807==turn)  if(pan0907==turn)  if(pan1007==turn)  if(pan1107==turn)  if(pan1207==turn)  win++;     
+                if(pan0808==turn)  if(pan0908==turn)  if(pan1008==turn)  if(pan1108==turn)  if(pan1208==turn)  win++;     
+                if(pan0809==turn)  if(pan0909==turn)  if(pan1009==turn)  if(pan1109==turn)  if(pan1209==turn)  win++;     
+                if(pan0810==turn)  if(pan0910==turn)  if(pan1010==turn)  if(pan1110==turn)  if(pan1210==turn)  win++;     
+                if(pan0811==turn)  if(pan0911==turn)  if(pan1011==turn)  if(pan1111==turn)  if(pan1211==turn)  win++;     
+                if(pan0812==turn)  if(pan0912==turn)  if(pan1012==turn)  if(pan1112==turn)  if(pan1212==turn)  win++;     
+                if(pan0813==turn)  if(pan0913==turn)  if(pan1013==turn)  if(pan1113==turn)  if(pan1213==turn)  win++;     
+                if(pan0814==turn)  if(pan0914==turn)  if(pan1014==turn)  if(pan1114==turn)  if(pan1214==turn)  win++;     
+                if(pan0815==turn)  if(pan0915==turn)  if(pan1015==turn)  if(pan1115==turn)  if(pan1215==turn)  win++;     
+                if(pan0816==turn)  if(pan0916==turn)  if(pan1016==turn)  if(pan1116==turn)  if(pan1216==turn)  win++;     
+                if(pan0817==turn)  if(pan0917==turn)  if(pan1017==turn)  if(pan1117==turn)  if(pan1217==turn)  win++;     
+                if(pan0818==turn)  if(pan0918==turn)  if(pan1018==turn)  if(pan1118==turn)  if(pan1218==turn)  win++;     
+                if(pan0819==turn)  if(pan0919==turn)  if(pan1019==turn)  if(pan1119==turn)  if(pan1219==turn)  win++;     
+                if(pan0901==turn)  if(pan1001==turn)  if(pan1101==turn)  if(pan1201==turn)  if(pan1301==turn)  win++;     
+                if(pan0902==turn)  if(pan1002==turn)  if(pan1102==turn)  if(pan1202==turn)  if(pan1302==turn)  win++;     
+                if(pan0903==turn)  if(pan1003==turn)  if(pan1103==turn)  if(pan1203==turn)  if(pan1303==turn)  win++;     
+                if(pan0904==turn)  if(pan1004==turn)  if(pan1104==turn)  if(pan1204==turn)  if(pan1304==turn)  win++;     
+                if(pan0905==turn)  if(pan1005==turn)  if(pan1105==turn)  if(pan1205==turn)  if(pan1305==turn)  win++;     
+                if(pan0906==turn)  if(pan1006==turn)  if(pan1106==turn)  if(pan1206==turn)  if(pan1306==turn)  win++;     
+                if(pan0907==turn)  if(pan1007==turn)  if(pan1107==turn)  if(pan1207==turn)  if(pan1307==turn)  win++;     
+                if(pan0908==turn)  if(pan1008==turn)  if(pan1108==turn)  if(pan1208==turn)  if(pan1308==turn)  win++;     
+                if(pan0909==turn)  if(pan1009==turn)  if(pan1109==turn)  if(pan1209==turn)  if(pan1309==turn)  win++;     
+                if(pan0910==turn)  if(pan1010==turn)  if(pan1110==turn)  if(pan1210==turn)  if(pan1310==turn)  win++;     
+                if(pan0911==turn)  if(pan1011==turn)  if(pan1111==turn)  if(pan1211==turn)  if(pan1311==turn)  win++;     
+                if(pan0912==turn)  if(pan1012==turn)  if(pan1112==turn)  if(pan1212==turn)  if(pan1312==turn)  win++;     
+                if(pan0913==turn)  if(pan1013==turn)  if(pan1113==turn)  if(pan1213==turn)  if(pan1313==turn)  win++;     
+                if(pan0914==turn)  if(pan1014==turn)  if(pan1114==turn)  if(pan1214==turn)  if(pan1314==turn)  win++;     
+                if(pan0915==turn)  if(pan1015==turn)  if(pan1115==turn)  if(pan1215==turn)  if(pan1315==turn)  win++;     
+                if(pan0916==turn)  if(pan1016==turn)  if(pan1116==turn)  if(pan1216==turn)  if(pan1316==turn)  win++;     
+                if(pan0917==turn)  if(pan1017==turn)  if(pan1117==turn)  if(pan1217==turn)  if(pan1317==turn)  win++;     
+                if(pan0918==turn)  if(pan1018==turn)  if(pan1118==turn)  if(pan1218==turn)  if(pan1318==turn)  win++;     
+                if(pan0919==turn)  if(pan1019==turn)  if(pan1119==turn)  if(pan1219==turn)  if(pan1319==turn)  win++;     
+                if(pan1001==turn)  if(pan1101==turn)  if(pan1201==turn)  if(pan1301==turn)  if(pan1401==turn)  win++;     
+                if(pan1002==turn)  if(pan1102==turn)  if(pan1202==turn)  if(pan1302==turn)  if(pan1402==turn)  win++;     
+                if(pan1003==turn)  if(pan1103==turn)  if(pan1203==turn)  if(pan1303==turn)  if(pan1403==turn)  win++;     
+                if(pan1004==turn)  if(pan1104==turn)  if(pan1204==turn)  if(pan1304==turn)  if(pan1404==turn)  win++;     
+                if(pan1005==turn)  if(pan1105==turn)  if(pan1205==turn)  if(pan1305==turn)  if(pan1405==turn)  win++;     
+                if(pan1006==turn)  if(pan1106==turn)  if(pan1206==turn)  if(pan1306==turn)  if(pan1406==turn)  win++;     
+                if(pan1007==turn)  if(pan1107==turn)  if(pan1207==turn)  if(pan1307==turn)  if(pan1407==turn)  win++;     
+                if(pan1008==turn)  if(pan1108==turn)  if(pan1208==turn)  if(pan1308==turn)  if(pan1408==turn)  win++;     
+                if(pan1009==turn)  if(pan1109==turn)  if(pan1209==turn)  if(pan1309==turn)  if(pan1409==turn)  win++;     
+                if(pan1010==turn)  if(pan1110==turn)  if(pan1210==turn)  if(pan1310==turn)  if(pan1410==turn)  win++;     
+                if(pan1011==turn)  if(pan1111==turn)  if(pan1211==turn)  if(pan1311==turn)  if(pan1411==turn)  win++;     
+                if(pan1012==turn)  if(pan1112==turn)  if(pan1212==turn)  if(pan1312==turn)  if(pan1412==turn)  win++;     
+                if(pan1013==turn)  if(pan1113==turn)  if(pan1213==turn)  if(pan1313==turn)  if(pan1413==turn)  win++;     
+                if(pan1014==turn)  if(pan1114==turn)  if(pan1214==turn)  if(pan1314==turn)  if(pan1414==turn)  win++;     
+                if(pan1015==turn)  if(pan1115==turn)  if(pan1215==turn)  if(pan1315==turn)  if(pan1415==turn)  win++;     
+                if(pan1016==turn)  if(pan1116==turn)  if(pan1216==turn)  if(pan1316==turn)  if(pan1416==turn)  win++;     
+                if(pan1017==turn)  if(pan1117==turn)  if(pan1217==turn)  if(pan1317==turn)  if(pan1417==turn)  win++;     
+                if(pan1018==turn)  if(pan1118==turn)  if(pan1218==turn)  if(pan1318==turn)  if(pan1418==turn)  win++;     
+                if(pan1019==turn)  if(pan1119==turn)  if(pan1219==turn)  if(pan1319==turn)  if(pan1419==turn)  win++;     
+                if(pan1101==turn)  if(pan1201==turn)  if(pan1301==turn)  if(pan1401==turn)  if(pan1501==turn)  win++;     
+                if(pan1102==turn)  if(pan1202==turn)  if(pan1302==turn)  if(pan1402==turn)  if(pan1502==turn)  win++;     
+                if(pan1103==turn)  if(pan1203==turn)  if(pan1303==turn)  if(pan1403==turn)  if(pan1503==turn)  win++;     
+                if(pan1104==turn)  if(pan1204==turn)  if(pan1304==turn)  if(pan1404==turn)  if(pan1504==turn)  win++;     
+                if(pan1105==turn)  if(pan1205==turn)  if(pan1305==turn)  if(pan1405==turn)  if(pan1505==turn)  win++;     
+                if(pan1106==turn)  if(pan1206==turn)  if(pan1306==turn)  if(pan1406==turn)  if(pan1506==turn)  win++;     
+                if(pan1107==turn)  if(pan1207==turn)  if(pan1307==turn)  if(pan1407==turn)  if(pan1507==turn)  win++;     
+                if(pan1108==turn)  if(pan1208==turn)  if(pan1308==turn)  if(pan1408==turn)  if(pan1508==turn)  win++;     
+                if(pan1109==turn)  if(pan1209==turn)  if(pan1309==turn)  if(pan1409==turn)  if(pan1509==turn)  win++;     
+                if(pan1110==turn)  if(pan1210==turn)  if(pan1310==turn)  if(pan1410==turn)  if(pan1510==turn)  win++;     
+                if(pan1111==turn)  if(pan1211==turn)  if(pan1311==turn)  if(pan1411==turn)  if(pan1511==turn)  win++;     
+                if(pan1112==turn)  if(pan1212==turn)  if(pan1312==turn)  if(pan1412==turn)  if(pan1512==turn)  win++;     
+                if(pan1113==turn)  if(pan1213==turn)  if(pan1313==turn)  if(pan1413==turn)  if(pan1513==turn)  win++;     
+                if(pan1114==turn)  if(pan1214==turn)  if(pan1314==turn)  if(pan1414==turn)  if(pan1514==turn)  win++;     
+                if(pan1115==turn)  if(pan1215==turn)  if(pan1315==turn)  if(pan1415==turn)  if(pan1515==turn)  win++;     
+                if(pan1116==turn)  if(pan1216==turn)  if(pan1316==turn)  if(pan1416==turn)  if(pan1516==turn)  win++;     
+                if(pan1117==turn)  if(pan1217==turn)  if(pan1317==turn)  if(pan1417==turn)  if(pan1517==turn)  win++;     
+                if(pan1118==turn)  if(pan1218==turn)  if(pan1318==turn)  if(pan1418==turn)  if(pan1518==turn)  win++;     
+                if(pan1119==turn)  if(pan1219==turn)  if(pan1319==turn)  if(pan1419==turn)  if(pan1519==turn)  win++;     
+                if(pan1201==turn)  if(pan1301==turn)  if(pan1401==turn)  if(pan1501==turn)  if(pan1601==turn)  win++;     
+                if(pan1202==turn)  if(pan1302==turn)  if(pan1402==turn)  if(pan1502==turn)  if(pan1602==turn)  win++;     
+                if(pan1203==turn)  if(pan1303==turn)  if(pan1403==turn)  if(pan1503==turn)  if(pan1603==turn)  win++;     
+                if(pan1204==turn)  if(pan1304==turn)  if(pan1404==turn)  if(pan1504==turn)  if(pan1604==turn)  win++;     
+                if(pan1205==turn)  if(pan1305==turn)  if(pan1405==turn)  if(pan1505==turn)  if(pan1605==turn)  win++;     
+                if(pan1206==turn)  if(pan1306==turn)  if(pan1406==turn)  if(pan1506==turn)  if(pan1606==turn)  win++;     
+                if(pan1207==turn)  if(pan1307==turn)  if(pan1407==turn)  if(pan1507==turn)  if(pan1607==turn)  win++;     
+                if(pan1208==turn)  if(pan1308==turn)  if(pan1408==turn)  if(pan1508==turn)  if(pan1608==turn)  win++;     
+                if(pan1209==turn)  if(pan1309==turn)  if(pan1409==turn)  if(pan1509==turn)  if(pan1609==turn)  win++;     
+                if(pan1210==turn)  if(pan1310==turn)  if(pan1410==turn)  if(pan1510==turn)  if(pan1610==turn)  win++;     
+                if(pan1211==turn)  if(pan1311==turn)  if(pan1411==turn)  if(pan1511==turn)  if(pan1611==turn)  win++;     
+                if(pan1212==turn)  if(pan1312==turn)  if(pan1412==turn)  if(pan1512==turn)  if(pan1612==turn)  win++;     
+                if(pan1213==turn)  if(pan1313==turn)  if(pan1413==turn)  if(pan1513==turn)  if(pan1613==turn)  win++;     
+                if(pan1214==turn)  if(pan1314==turn)  if(pan1414==turn)  if(pan1514==turn)  if(pan1614==turn)  win++;     
+                if(pan1215==turn)  if(pan1315==turn)  if(pan1415==turn)  if(pan1515==turn)  if(pan1615==turn)  win++;     
+                if(pan1216==turn)  if(pan1316==turn)  if(pan1416==turn)  if(pan1516==turn)  if(pan1616==turn)  win++;     
+                if(pan1217==turn)  if(pan1317==turn)  if(pan1417==turn)  if(pan1517==turn)  if(pan1617==turn)  win++;     
+                if(pan1218==turn)  if(pan1318==turn)  if(pan1418==turn)  if(pan1518==turn)  if(pan1618==turn)  win++;     
+                if(pan1219==turn)  if(pan1319==turn)  if(pan1419==turn)  if(pan1519==turn)  if(pan1619==turn)  win++;     
+                if(pan1301==turn)  if(pan1401==turn)  if(pan1501==turn)  if(pan1601==turn)  if(pan1701==turn)  win++;     
+                if(pan1302==turn)  if(pan1402==turn)  if(pan1502==turn)  if(pan1602==turn)  if(pan1702==turn)  win++;     
+                if(pan1303==turn)  if(pan1403==turn)  if(pan1503==turn)  if(pan1603==turn)  if(pan1703==turn)  win++;     
+                if(pan1304==turn)  if(pan1404==turn)  if(pan1504==turn)  if(pan1604==turn)  if(pan1704==turn)  win++;     
+                if(pan1305==turn)  if(pan1405==turn)  if(pan1505==turn)  if(pan1605==turn)  if(pan1705==turn)  win++;     
+                if(pan1306==turn)  if(pan1406==turn)  if(pan1506==turn)  if(pan1606==turn)  if(pan1706==turn)  win++;     
+                if(pan1307==turn)  if(pan1407==turn)  if(pan1507==turn)  if(pan1607==turn)  if(pan1707==turn)  win++;     
+                if(pan1308==turn)  if(pan1408==turn)  if(pan1508==turn)  if(pan1608==turn)  if(pan1708==turn)  win++;     
+                if(pan1309==turn)  if(pan1409==turn)  if(pan1509==turn)  if(pan1609==turn)  if(pan1709==turn)  win++;     
+                if(pan1310==turn)  if(pan1410==turn)  if(pan1510==turn)  if(pan1610==turn)  if(pan1710==turn)  win++;     
+                if(pan1311==turn)  if(pan1411==turn)  if(pan1511==turn)  if(pan1611==turn)  if(pan1711==turn)  win++;     
+                if(pan1312==turn)  if(pan1412==turn)  if(pan1512==turn)  if(pan1612==turn)  if(pan1712==turn)  win++;     
+                if(pan1313==turn)  if(pan1413==turn)  if(pan1513==turn)  if(pan1613==turn)  if(pan1713==turn)  win++;     
+                if(pan1314==turn)  if(pan1414==turn)  if(pan1514==turn)  if(pan1614==turn)  if(pan1714==turn)  win++;     
+                if(pan1315==turn)  if(pan1415==turn)  if(pan1515==turn)  if(pan1615==turn)  if(pan1715==turn)  win++;     
+                if(pan1316==turn)  if(pan1416==turn)  if(pan1516==turn)  if(pan1616==turn)  if(pan1716==turn)  win++;     
+                if(pan1317==turn)  if(pan1417==turn)  if(pan1517==turn)  if(pan1617==turn)  if(pan1717==turn)  win++;     
+                if(pan1318==turn)  if(pan1418==turn)  if(pan1518==turn)  if(pan1618==turn)  if(pan1718==turn)  win++;     
+                if(pan1319==turn)  if(pan1419==turn)  if(pan1519==turn)  if(pan1619==turn)  if(pan1719==turn)  win++;     
+                if(pan1401==turn)  if(pan1501==turn)  if(pan1601==turn)  if(pan1701==turn)  if(pan1801==turn)  win++;     
+                if(pan1402==turn)  if(pan1502==turn)  if(pan1602==turn)  if(pan1702==turn)  if(pan1802==turn)  win++;     
+                if(pan1403==turn)  if(pan1503==turn)  if(pan1603==turn)  if(pan1703==turn)  if(pan1803==turn)  win++;     
+                if(pan1404==turn)  if(pan1504==turn)  if(pan1604==turn)  if(pan1704==turn)  if(pan1804==turn)  win++;     
+                if(pan1405==turn)  if(pan1505==turn)  if(pan1605==turn)  if(pan1705==turn)  if(pan1805==turn)  win++;     
+                if(pan1406==turn)  if(pan1506==turn)  if(pan1606==turn)  if(pan1706==turn)  if(pan1806==turn)  win++;     
+                if(pan1407==turn)  if(pan1507==turn)  if(pan1607==turn)  if(pan1707==turn)  if(pan1807==turn)  win++;     
+                if(pan1408==turn)  if(pan1508==turn)  if(pan1608==turn)  if(pan1708==turn)  if(pan1808==turn)  win++;     
+                if(pan1409==turn)  if(pan1509==turn)  if(pan1609==turn)  if(pan1709==turn)  if(pan1809==turn)  win++;     
+                if(pan1410==turn)  if(pan1510==turn)  if(pan1610==turn)  if(pan1710==turn)  if(pan1810==turn)  win++;     
+                if(pan1411==turn)  if(pan1511==turn)  if(pan1611==turn)  if(pan1711==turn)  if(pan1811==turn)  win++;     
+                if(pan1412==turn)  if(pan1512==turn)  if(pan1612==turn)  if(pan1712==turn)  if(pan1812==turn)  win++;     
+                if(pan1413==turn)  if(pan1513==turn)  if(pan1613==turn)  if(pan1713==turn)  if(pan1813==turn)  win++;     
+                if(pan1414==turn)  if(pan1514==turn)  if(pan1614==turn)  if(pan1714==turn)  if(pan1814==turn)  win++;     
+                if(pan1415==turn)  if(pan1515==turn)  if(pan1615==turn)  if(pan1715==turn)  if(pan1815==turn)  win++;     
+                if(pan1416==turn)  if(pan1516==turn)  if(pan1616==turn)  if(pan1716==turn)  if(pan1816==turn)  win++;     
+                if(pan1417==turn)  if(pan1517==turn)  if(pan1617==turn)  if(pan1717==turn)  if(pan1817==turn)  win++;     
+                if(pan1418==turn)  if(pan1518==turn)  if(pan1618==turn)  if(pan1718==turn)  if(pan1818==turn)  win++;     
+                if(pan1419==turn)  if(pan1519==turn)  if(pan1619==turn)  if(pan1719==turn)  if(pan1819==turn)  win++;     
+                if(pan1501==turn)  if(pan1601==turn)  if(pan1701==turn)  if(pan1801==turn)  if(pan1901==turn)  win++;     
+                if(pan1502==turn)  if(pan1602==turn)  if(pan1702==turn)  if(pan1802==turn)  if(pan1902==turn)  win++;     
+                if(pan1503==turn)  if(pan1603==turn)  if(pan1703==turn)  if(pan1803==turn)  if(pan1903==turn)  win++;     
+                if(pan1504==turn)  if(pan1604==turn)  if(pan1704==turn)  if(pan1804==turn)  if(pan1904==turn)  win++;     
+                if(pan1505==turn)  if(pan1605==turn)  if(pan1705==turn)  if(pan1805==turn)  if(pan1905==turn)  win++;     
+                if(pan1506==turn)  if(pan1606==turn)  if(pan1706==turn)  if(pan1806==turn)  if(pan1906==turn)  win++;     
+                if(pan1507==turn)  if(pan1607==turn)  if(pan1707==turn)  if(pan1807==turn)  if(pan1907==turn)  win++;     
+                if(pan1508==turn)  if(pan1608==turn)  if(pan1708==turn)  if(pan1808==turn)  if(pan1908==turn)  win++;     
+                if(pan1509==turn)  if(pan1609==turn)  if(pan1709==turn)  if(pan1809==turn)  if(pan1909==turn)  win++;     
+                if(pan1510==turn)  if(pan1610==turn)  if(pan1710==turn)  if(pan1810==turn)  if(pan1910==turn)  win++;     
+                if(pan1511==turn)  if(pan1611==turn)  if(pan1711==turn)  if(pan1811==turn)  if(pan1911==turn)  win++;     
+                if(pan1512==turn)  if(pan1612==turn)  if(pan1712==turn)  if(pan1812==turn)  if(pan1912==turn)  win++;     
+                if(pan1513==turn)  if(pan1613==turn)  if(pan1713==turn)  if(pan1813==turn)  if(pan1913==turn)  win++;     
+                if(pan1514==turn)  if(pan1614==turn)  if(pan1714==turn)  if(pan1814==turn)  if(pan1914==turn)  win++;     
+                if(pan1515==turn)  if(pan1615==turn)  if(pan1715==turn)  if(pan1815==turn)  if(pan1915==turn)  win++;     
+                if(pan1516==turn)  if(pan1616==turn)  if(pan1716==turn)  if(pan1816==turn)  if(pan1916==turn)  win++;     
+                if(pan1517==turn)  if(pan1617==turn)  if(pan1717==turn)  if(pan1817==turn)  if(pan1917==turn)  win++;     
+                if(pan1518==turn)  if(pan1618==turn)  if(pan1718==turn)  if(pan1818==turn)  if(pan1918==turn)  win++;     
+                if(pan1519==turn)  if(pan1619==turn)  if(pan1719==turn)  if(pan1819==turn)  if(pan1919==turn)  win++;     
 
                 /////////////////// y = -x 대각선 검사 ////////////////////////////
-                if(Pan0101==turn) { if(Pan0202==turn) { if(Pan0303==turn) { if(Pan0404==turn) { if(Pan0505==turn) { win++; } } } } }
-                if(Pan0102==turn) { if(Pan0203==turn) { if(Pan0304==turn) { if(Pan0405==turn) { if(Pan0506==turn) { win++; } } } } }
-                if(Pan0103==turn) { if(Pan0204==turn) { if(Pan0305==turn) { if(Pan0406==turn) { if(Pan0507==turn) { win++; } } } } }
-                if(Pan0104==turn) { if(Pan0205==turn) { if(Pan0306==turn) { if(Pan0407==turn) { if(Pan0508==turn) { win++; } } } } }
-                if(Pan0105==turn) { if(Pan0206==turn) { if(Pan0307==turn) { if(Pan0408==turn) { if(Pan0509==turn) { win++; } } } } }
-                if(Pan0110==turn) { if(Pan0211==turn) { if(Pan0312==turn) { if(Pan0413==turn) { if(Pan0514==turn) { win++; } } } } }
-                if(Pan0111==turn) { if(Pan0212==turn) { if(Pan0313==turn) { if(Pan0414==turn) { if(Pan0515==turn) { win++; } } } } }
-                if(Pan0112==turn) { if(Pan0213==turn) { if(Pan0314==turn) { if(Pan0415==turn) { if(Pan0516==turn) { win++; } } } } }
-                if(Pan0113==turn) { if(Pan0214==turn) { if(Pan0315==turn) { if(Pan0416==turn) { if(Pan0517==turn) { win++; } } } } }
-                if(Pan0114==turn) { if(Pan0215==turn) { if(Pan0316==turn) { if(Pan0417==turn) { if(Pan0518==turn) { win++; } } } } }
-                if(Pan0115==turn) { if(Pan0216==turn) { if(Pan0317==turn) { if(Pan0418==turn) { if(Pan0519==turn) { win++; } } } } }
-                if(Pan0201==turn) { if(Pan0302==turn) { if(Pan0403==turn) { if(Pan0504==turn) { if(Pan0605==turn) { win++; } } } } }
-                if(Pan0202==turn) { if(Pan0303==turn) { if(Pan0404==turn) { if(Pan0505==turn) { if(Pan0606==turn) { win++; } } } } }
-                if(Pan0203==turn) { if(Pan0304==turn) { if(Pan0405==turn) { if(Pan0506==turn) { if(Pan0607==turn) { win++; } } } } }
-                if(Pan0204==turn) { if(Pan0305==turn) { if(Pan0406==turn) { if(Pan0507==turn) { if(Pan0608==turn) { win++; } } } } }
-                if(Pan0205==turn) { if(Pan0306==turn) { if(Pan0407==turn) { if(Pan0508==turn) { if(Pan0609==turn) { win++; } } } } }
-                if(Pan0210==turn) { if(Pan0311==turn) { if(Pan0412==turn) { if(Pan0513==turn) { if(Pan0614==turn) { win++; } } } } }
-                if(Pan0211==turn) { if(Pan0312==turn) { if(Pan0413==turn) { if(Pan0514==turn) { if(Pan0615==turn) { win++; } } } } }
-                if(Pan0212==turn) { if(Pan0313==turn) { if(Pan0414==turn) { if(Pan0515==turn) { if(Pan0616==turn) { win++; } } } } }
-                if(Pan0213==turn) { if(Pan0314==turn) { if(Pan0415==turn) { if(Pan0516==turn) { if(Pan0617==turn) { win++; } } } } }
-                if(Pan0214==turn) { if(Pan0315==turn) { if(Pan0416==turn) { if(Pan0517==turn) { if(Pan0618==turn) { win++; } } } } }
-                if(Pan0215==turn) { if(Pan0316==turn) { if(Pan0417==turn) { if(Pan0518==turn) { if(Pan0619==turn) { win++; } } } } }
-                if(Pan0301==turn) { if(Pan0402==turn) { if(Pan0503==turn) { if(Pan0604==turn) { if(Pan0705==turn) { win++; } } } } }
-                if(Pan0302==turn) { if(Pan0403==turn) { if(Pan0504==turn) { if(Pan0605==turn) { if(Pan0706==turn) { win++; } } } } }
-                if(Pan0303==turn) { if(Pan0404==turn) { if(Pan0505==turn) { if(Pan0606==turn) { if(Pan0707==turn) { win++; } } } } }
-                if(Pan0304==turn) { if(Pan0405==turn) { if(Pan0506==turn) { if(Pan0607==turn) { if(Pan0708==turn) { win++; } } } } }
-                if(Pan0305==turn) { if(Pan0406==turn) { if(Pan0507==turn) { if(Pan0608==turn) { if(Pan0709==turn) { win++; } } } } }
-                if(Pan0310==turn) { if(Pan0411==turn) { if(Pan0512==turn) { if(Pan0613==turn) { if(Pan0714==turn) { win++; } } } } }
-                if(Pan0311==turn) { if(Pan0412==turn) { if(Pan0513==turn) { if(Pan0614==turn) { if(Pan0715==turn) { win++; } } } } }
-                if(Pan0312==turn) { if(Pan0413==turn) { if(Pan0514==turn) { if(Pan0615==turn) { if(Pan0716==turn) { win++; } } } } }
-                if(Pan0313==turn) { if(Pan0414==turn) { if(Pan0515==turn) { if(Pan0616==turn) { if(Pan0717==turn) { win++; } } } } }
-                if(Pan0314==turn) { if(Pan0415==turn) { if(Pan0516==turn) { if(Pan0617==turn) { if(Pan0718==turn) { win++; } } } } }
-                if(Pan0315==turn) { if(Pan0416==turn) { if(Pan0517==turn) { if(Pan0618==turn) { if(Pan0719==turn) { win++; } } } } }
-                if(Pan0401==turn) { if(Pan0502==turn) { if(Pan0603==turn) { if(Pan0704==turn) { if(Pan0805==turn) { win++; } } } } }
-                if(Pan0402==turn) { if(Pan0503==turn) { if(Pan0604==turn) { if(Pan0705==turn) { if(Pan0806==turn) { win++; } } } } }
-                if(Pan0403==turn) { if(Pan0504==turn) { if(Pan0605==turn) { if(Pan0706==turn) { if(Pan0807==turn) { win++; } } } } }
-                if(Pan0404==turn) { if(Pan0505==turn) { if(Pan0606==turn) { if(Pan0707==turn) { if(Pan0808==turn) { win++; } } } } }
-                if(Pan0405==turn) { if(Pan0506==turn) { if(Pan0607==turn) { if(Pan0708==turn) { if(Pan0809==turn) { win++; } } } } }
-                if(Pan0410==turn) { if(Pan0511==turn) { if(Pan0612==turn) { if(Pan0713==turn) { if(Pan0814==turn) { win++; } } } } }
-                if(Pan0411==turn) { if(Pan0512==turn) { if(Pan0613==turn) { if(Pan0714==turn) { if(Pan0815==turn) { win++; } } } } }
-                if(Pan0412==turn) { if(Pan0513==turn) { if(Pan0614==turn) { if(Pan0715==turn) { if(Pan0816==turn) { win++; } } } } }
-                if(Pan0413==turn) { if(Pan0514==turn) { if(Pan0615==turn) { if(Pan0716==turn) { if(Pan0817==turn) { win++; } } } } }
-                if(Pan0414==turn) { if(Pan0515==turn) { if(Pan0616==turn) { if(Pan0717==turn) { if(Pan0818==turn) { win++; } } } } }
-                if(Pan0415==turn) { if(Pan0516==turn) { if(Pan0617==turn) { if(Pan0718==turn) { if(Pan0819==turn) { win++; } } } } }
-                if(Pan0501==turn) { if(Pan0602==turn) { if(Pan0703==turn) { if(Pan0804==turn) { if(Pan0905==turn) { win++; } } } } }
-                if(Pan0502==turn) { if(Pan0603==turn) { if(Pan0704==turn) { if(Pan0805==turn) { if(Pan0906==turn) { win++; } } } } }
-                if(Pan0503==turn) { if(Pan0604==turn) { if(Pan0705==turn) { if(Pan0806==turn) { if(Pan0907==turn) { win++; } } } } }
-                if(Pan0504==turn) { if(Pan0605==turn) { if(Pan0706==turn) { if(Pan0807==turn) { if(Pan0908==turn) { win++; } } } } }
-                if(Pan0505==turn) { if(Pan0606==turn) { if(Pan0707==turn) { if(Pan0808==turn) { if(Pan0909==turn) { win++; } } } } }
-                if(Pan0510==turn) { if(Pan0611==turn) { if(Pan0712==turn) { if(Pan0813==turn) { if(Pan0914==turn) { win++; } } } } }
-                if(Pan0511==turn) { if(Pan0612==turn) { if(Pan0713==turn) { if(Pan0814==turn) { if(Pan0915==turn) { win++; } } } } }
-                if(Pan0512==turn) { if(Pan0613==turn) { if(Pan0714==turn) { if(Pan0815==turn) { if(Pan0916==turn) { win++; } } } } }
-                if(Pan0513==turn) { if(Pan0614==turn) { if(Pan0715==turn) { if(Pan0816==turn) { if(Pan0917==turn) { win++; } } } } }
-                if(Pan0514==turn) { if(Pan0615==turn) { if(Pan0716==turn) { if(Pan0817==turn) { if(Pan0918==turn) { win++; } } } } }
-                if(Pan0515==turn) { if(Pan0616==turn) { if(Pan0717==turn) { if(Pan0818==turn) { if(Pan0919==turn) { win++; } } } } }
-                if(Pan0606==turn) { if(Pan0707==turn) { if(Pan0808==turn) { if(Pan0909==turn) { if(Pan1010==turn) { win++; } } } } }
-                if(Pan0610==turn) { if(Pan0711==turn) { if(Pan0812==turn) { if(Pan0913==turn) { if(Pan1014==turn) { win++; } } } } }
-                if(Pan0611==turn) { if(Pan0712==turn) { if(Pan0813==turn) { if(Pan0914==turn) { if(Pan1015==turn) { win++; } } } } }
-                if(Pan0612==turn) { if(Pan0713==turn) { if(Pan0814==turn) { if(Pan0915==turn) { if(Pan1016==turn) { win++; } } } } }
-                if(Pan0613==turn) { if(Pan0714==turn) { if(Pan0815==turn) { if(Pan0916==turn) { if(Pan1017==turn) { win++; } } } } }
-                if(Pan0614==turn) { if(Pan0715==turn) { if(Pan0816==turn) { if(Pan0917==turn) { if(Pan1018==turn) { win++; } } } } }
-                if(Pan0615==turn) { if(Pan0716==turn) { if(Pan0817==turn) { if(Pan0918==turn) { if(Pan1019==turn) { win++; } } } } }
-                if(Pan0707==turn) { if(Pan0808==turn) { if(Pan0909==turn) { if(Pan1010==turn) { if(Pan1111==turn) { win++; } } } } }
-                if(Pan0710==turn) { if(Pan0811==turn) { if(Pan0912==turn) { if(Pan1013==turn) { if(Pan1114==turn) { win++; } } } } }
-                if(Pan0711==turn) { if(Pan0812==turn) { if(Pan0913==turn) { if(Pan1014==turn) { if(Pan1115==turn) { win++; } } } } }
-                if(Pan0712==turn) { if(Pan0813==turn) { if(Pan0914==turn) { if(Pan1015==turn) { if(Pan1116==turn) { win++; } } } } }
-                if(Pan0713==turn) { if(Pan0814==turn) { if(Pan0915==turn) { if(Pan1016==turn) { if(Pan1117==turn) { win++; } } } } }
-                if(Pan0714==turn) { if(Pan0815==turn) { if(Pan0916==turn) { if(Pan1017==turn) { if(Pan1118==turn) { win++; } } } } }
-                if(Pan0715==turn) { if(Pan0816==turn) { if(Pan0917==turn) { if(Pan1018==turn) { if(Pan1119==turn) { win++; } } } } }
-                if(Pan0808==turn) { if(Pan0909==turn) { if(Pan1010==turn) { if(Pan1111==turn) { if(Pan1212==turn) { win++; } } } } }
-                if(Pan0810==turn) { if(Pan0911==turn) { if(Pan1012==turn) { if(Pan1113==turn) { if(Pan1214==turn) { win++; } } } } }
-                if(Pan0811==turn) { if(Pan0912==turn) { if(Pan1013==turn) { if(Pan1114==turn) { if(Pan1215==turn) { win++; } } } } }
-                if(Pan0812==turn) { if(Pan0913==turn) { if(Pan1014==turn) { if(Pan1115==turn) { if(Pan1216==turn) { win++; } } } } }
-                if(Pan0813==turn) { if(Pan0914==turn) { if(Pan1015==turn) { if(Pan1116==turn) { if(Pan1217==turn) { win++; } } } } }
-                if(Pan0814==turn) { if(Pan0915==turn) { if(Pan1016==turn) { if(Pan1117==turn) { if(Pan1218==turn) { win++; } } } } }
-                if(Pan0815==turn) { if(Pan0916==turn) { if(Pan1017==turn) { if(Pan1118==turn) { if(Pan1219==turn) { win++; } } } } }
-                if(Pan0909==turn) { if(Pan1010==turn) { if(Pan1111==turn) { if(Pan1212==turn) { if(Pan1313==turn) { win++; } } } } }
-                if(Pan0910==turn) { if(Pan1011==turn) { if(Pan1112==turn) { if(Pan1213==turn) { if(Pan1314==turn) { win++; } } } } }
-                if(Pan0911==turn) { if(Pan1012==turn) { if(Pan1113==turn) { if(Pan1214==turn) { if(Pan1315==turn) { win++; } } } } }
-                if(Pan0912==turn) { if(Pan1013==turn) { if(Pan1114==turn) { if(Pan1215==turn) { if(Pan1316==turn) { win++; } } } } }
-                if(Pan0913==turn) { if(Pan1014==turn) { if(Pan1115==turn) { if(Pan1216==turn) { if(Pan1317==turn) { win++; } } } } }
-                if(Pan0914==turn) { if(Pan1015==turn) { if(Pan1116==turn) { if(Pan1217==turn) { if(Pan1318==turn) { win++; } } } } }
-                if(Pan0915==turn) { if(Pan1016==turn) { if(Pan1117==turn) { if(Pan1218==turn) { if(Pan1319==turn) { win++; } } } } }
-                if(Pan1001==turn) { if(Pan1102==turn) { if(Pan1203==turn) { if(Pan1304==turn) { if(Pan1405==turn) { win++; } } } } }
-                if(Pan1002==turn) { if(Pan1103==turn) { if(Pan1204==turn) { if(Pan1305==turn) { if(Pan1406==turn) { win++; } } } } }
-                if(Pan1003==turn) { if(Pan1104==turn) { if(Pan1205==turn) { if(Pan1306==turn) { if(Pan1407==turn) { win++; } } } } }
-                if(Pan1004==turn) { if(Pan1105==turn) { if(Pan1206==turn) { if(Pan1307==turn) { if(Pan1408==turn) { win++; } } } } }
-                if(Pan1005==turn) { if(Pan1106==turn) { if(Pan1207==turn) { if(Pan1308==turn) { if(Pan1409==turn) { win++; } } } } }
-                if(Pan1006==turn) { if(Pan1107==turn) { if(Pan1208==turn) { if(Pan1309==turn) { if(Pan1410==turn) { win++; } } } } }
-                if(Pan1007==turn) { if(Pan1108==turn) { if(Pan1209==turn) { if(Pan1310==turn) { if(Pan1411==turn) { win++; } } } } }
-                if(Pan1008==turn) { if(Pan1109==turn) { if(Pan1210==turn) { if(Pan1311==turn) { if(Pan1412==turn) { win++; } } } } }
-                if(Pan1009==turn) { if(Pan1110==turn) { if(Pan1211==turn) { if(Pan1312==turn) { if(Pan1413==turn) { win++; } } } } }
-                if(Pan1010==turn) { if(Pan1111==turn) { if(Pan1212==turn) { if(Pan1313==turn) { if(Pan1414==turn) { win++; } } } } }
-                if(Pan1011==turn) { if(Pan1112==turn) { if(Pan1213==turn) { if(Pan1314==turn) { if(Pan1415==turn) { win++; } } } } }
-                if(Pan1012==turn) { if(Pan1113==turn) { if(Pan1214==turn) { if(Pan1315==turn) { if(Pan1416==turn) { win++; } } } } }
-                if(Pan1013==turn) { if(Pan1114==turn) { if(Pan1215==turn) { if(Pan1316==turn) { if(Pan1417==turn) { win++; } } } } }
-                if(Pan1014==turn) { if(Pan1115==turn) { if(Pan1216==turn) { if(Pan1317==turn) { if(Pan1418==turn) { win++; } } } } }
-                if(Pan1015==turn) { if(Pan1116==turn) { if(Pan1217==turn) { if(Pan1318==turn) { if(Pan1419==turn) { win++; } } } } }
-                if(Pan1101==turn) { if(Pan1202==turn) { if(Pan1303==turn) { if(Pan1404==turn) { if(Pan1505==turn) { win++; } } } } }
-                if(Pan1102==turn) { if(Pan1203==turn) { if(Pan1304==turn) { if(Pan1405==turn) { if(Pan1506==turn) { win++; } } } } }
-                if(Pan1103==turn) { if(Pan1204==turn) { if(Pan1305==turn) { if(Pan1406==turn) { if(Pan1507==turn) { win++; } } } } }
-                if(Pan1104==turn) { if(Pan1205==turn) { if(Pan1306==turn) { if(Pan1407==turn) { if(Pan1508==turn) { win++; } } } } }
-                if(Pan1105==turn) { if(Pan1206==turn) { if(Pan1307==turn) { if(Pan1408==turn) { if(Pan1509==turn) { win++; } } } } }
-                if(Pan1106==turn) { if(Pan1207==turn) { if(Pan1308==turn) { if(Pan1409==turn) { if(Pan1510==turn) { win++; } } } } }
-                if(Pan1107==turn) { if(Pan1208==turn) { if(Pan1309==turn) { if(Pan1410==turn) { if(Pan1511==turn) { win++; } } } } }
-                if(Pan1108==turn) { if(Pan1209==turn) { if(Pan1310==turn) { if(Pan1411==turn) { if(Pan1512==turn) { win++; } } } } }
-                if(Pan1109==turn) { if(Pan1210==turn) { if(Pan1311==turn) { if(Pan1412==turn) { if(Pan1513==turn) { win++; } } } } }
-                if(Pan1110==turn) { if(Pan1211==turn) { if(Pan1312==turn) { if(Pan1413==turn) { if(Pan1514==turn) { win++; } } } } }
-                if(Pan1111==turn) { if(Pan1212==turn) { if(Pan1313==turn) { if(Pan1414==turn) { if(Pan1515==turn) { win++; } } } } }
-                if(Pan1112==turn) { if(Pan1213==turn) { if(Pan1314==turn) { if(Pan1415==turn) { if(Pan1516==turn) { win++; } } } } }
-                if(Pan1113==turn) { if(Pan1214==turn) { if(Pan1315==turn) { if(Pan1416==turn) { if(Pan1517==turn) { win++; } } } } }
-                if(Pan1114==turn) { if(Pan1215==turn) { if(Pan1316==turn) { if(Pan1417==turn) { if(Pan1518==turn) { win++; } } } } }
-                if(Pan1115==turn) { if(Pan1216==turn) { if(Pan1317==turn) { if(Pan1418==turn) { if(Pan1519==turn) { win++; } } } } }
-                if(Pan1201==turn) { if(Pan1302==turn) { if(Pan1403==turn) { if(Pan1504==turn) { if(Pan1605==turn) { win++; } } } } }
-                if(Pan1202==turn) { if(Pan1303==turn) { if(Pan1404==turn) { if(Pan1505==turn) { if(Pan1606==turn) { win++; } } } } }
-                if(Pan1203==turn) { if(Pan1304==turn) { if(Pan1405==turn) { if(Pan1506==turn) { if(Pan1607==turn) { win++; } } } } }
-                if(Pan1204==turn) { if(Pan1305==turn) { if(Pan1406==turn) { if(Pan1507==turn) { if(Pan1608==turn) { win++; } } } } }
-                if(Pan1205==turn) { if(Pan1306==turn) { if(Pan1407==turn) { if(Pan1508==turn) { if(Pan1609==turn) { win++; } } } } }
-                if(Pan1206==turn) { if(Pan1307==turn) { if(Pan1408==turn) { if(Pan1509==turn) { if(Pan1610==turn) { win++; } } } } }
-                if(Pan1207==turn) { if(Pan1308==turn) { if(Pan1409==turn) { if(Pan1510==turn) { if(Pan1611==turn) { win++; } } } } }
-                if(Pan1208==turn) { if(Pan1309==turn) { if(Pan1410==turn) { if(Pan1511==turn) { if(Pan1612==turn) { win++; } } } } }
-                if(Pan1209==turn) { if(Pan1310==turn) { if(Pan1411==turn) { if(Pan1512==turn) { if(Pan1613==turn) { win++; } } } } }
-                if(Pan1210==turn) { if(Pan1311==turn) { if(Pan1412==turn) { if(Pan1513==turn) { if(Pan1614==turn) { win++; } } } } }
-                if(Pan1211==turn) { if(Pan1312==turn) { if(Pan1413==turn) { if(Pan1514==turn) { if(Pan1615==turn) { win++; } } } } }
-                if(Pan1212==turn) { if(Pan1313==turn) { if(Pan1414==turn) { if(Pan1515==turn) { if(Pan1616==turn) { win++; } } } } }
-                if(Pan1213==turn) { if(Pan1314==turn) { if(Pan1415==turn) { if(Pan1516==turn) { if(Pan1617==turn) { win++; } } } } }
-                if(Pan1214==turn) { if(Pan1315==turn) { if(Pan1416==turn) { if(Pan1517==turn) { if(Pan1618==turn) { win++; } } } } }
-                if(Pan1215==turn) { if(Pan1316==turn) { if(Pan1417==turn) { if(Pan1518==turn) { if(Pan1619==turn) { win++; } } } } }
-                if(Pan1301==turn) { if(Pan1402==turn) { if(Pan1503==turn) { if(Pan1604==turn) { if(Pan1705==turn) { win++; } } } } }
-                if(Pan1302==turn) { if(Pan1403==turn) { if(Pan1504==turn) { if(Pan1605==turn) { if(Pan1706==turn) { win++; } } } } }
-                if(Pan1303==turn) { if(Pan1404==turn) { if(Pan1505==turn) { if(Pan1606==turn) { if(Pan1707==turn) { win++; } } } } }
-                if(Pan1304==turn) { if(Pan1405==turn) { if(Pan1506==turn) { if(Pan1607==turn) { if(Pan1708==turn) { win++; } } } } }
-                if(Pan1305==turn) { if(Pan1406==turn) { if(Pan1507==turn) { if(Pan1608==turn) { if(Pan1709==turn) { win++; } } } } }
-                if(Pan1306==turn) { if(Pan1407==turn) { if(Pan1508==turn) { if(Pan1609==turn) { if(Pan1710==turn) { win++; } } } } }
-                if(Pan1307==turn) { if(Pan1408==turn) { if(Pan1509==turn) { if(Pan1610==turn) { if(Pan1711==turn) { win++; } } } } }
-                if(Pan1308==turn) { if(Pan1409==turn) { if(Pan1510==turn) { if(Pan1611==turn) { if(Pan1712==turn) { win++; } } } } }
-                if(Pan1309==turn) { if(Pan1410==turn) { if(Pan1511==turn) { if(Pan1612==turn) { if(Pan1713==turn) { win++; } } } } }
-                if(Pan1310==turn) { if(Pan1411==turn) { if(Pan1512==turn) { if(Pan1613==turn) { if(Pan1714==turn) { win++; } } } } }
-                if(Pan1311==turn) { if(Pan1412==turn) { if(Pan1513==turn) { if(Pan1614==turn) { if(Pan1715==turn) { win++; } } } } }
-                if(Pan1312==turn) { if(Pan1413==turn) { if(Pan1514==turn) { if(Pan1615==turn) { if(Pan1716==turn) { win++; } } } } }
-                if(Pan1313==turn) { if(Pan1414==turn) { if(Pan1515==turn) { if(Pan1616==turn) { if(Pan1717==turn) { win++; } } } } }
-                if(Pan1314==turn) { if(Pan1415==turn) { if(Pan1516==turn) { if(Pan1617==turn) { if(Pan1718==turn) { win++; } } } } }
-                if(Pan1315==turn) { if(Pan1416==turn) { if(Pan1517==turn) { if(Pan1618==turn) { if(Pan1719==turn) { win++; } } } } }
-                if(Pan1401==turn) { if(Pan1502==turn) { if(Pan1603==turn) { if(Pan1704==turn) { if(Pan1805==turn) { win++; } } } } }
-                if(Pan1402==turn) { if(Pan1503==turn) { if(Pan1604==turn) { if(Pan1705==turn) { if(Pan1806==turn) { win++; } } } } }
-                if(Pan1403==turn) { if(Pan1504==turn) { if(Pan1605==turn) { if(Pan1706==turn) { if(Pan1807==turn) { win++; } } } } }
-                if(Pan1404==turn) { if(Pan1505==turn) { if(Pan1606==turn) { if(Pan1707==turn) { if(Pan1808==turn) { win++; } } } } }
-                if(Pan1405==turn) { if(Pan1506==turn) { if(Pan1607==turn) { if(Pan1708==turn) { if(Pan1809==turn) { win++; } } } } }
-                if(Pan1406==turn) { if(Pan1507==turn) { if(Pan1608==turn) { if(Pan1709==turn) { if(Pan1810==turn) { win++; } } } } }
-                if(Pan1407==turn) { if(Pan1508==turn) { if(Pan1609==turn) { if(Pan1710==turn) { if(Pan1811==turn) { win++; } } } } }
-                if(Pan1408==turn) { if(Pan1509==turn) { if(Pan1610==turn) { if(Pan1711==turn) { if(Pan1812==turn) { win++; } } } } }
-                if(Pan1409==turn) { if(Pan1510==turn) { if(Pan1611==turn) { if(Pan1712==turn) { if(Pan1813==turn) { win++; } } } } }
-                if(Pan1410==turn) { if(Pan1511==turn) { if(Pan1612==turn) { if(Pan1713==turn) { if(Pan1814==turn) { win++; } } } } }
-                if(Pan1411==turn) { if(Pan1512==turn) { if(Pan1613==turn) { if(Pan1714==turn) { if(Pan1815==turn) { win++; } } } } }
-                if(Pan1412==turn) { if(Pan1513==turn) { if(Pan1614==turn) { if(Pan1715==turn) { if(Pan1816==turn) { win++; } } } } }
-                if(Pan1413==turn) { if(Pan1514==turn) { if(Pan1615==turn) { if(Pan1716==turn) { if(Pan1817==turn) { win++; } } } } }
-                if(Pan1414==turn) { if(Pan1515==turn) { if(Pan1616==turn) { if(Pan1717==turn) { if(Pan1818==turn) { win++; } } } } }
-                if(Pan1415==turn) { if(Pan1516==turn) { if(Pan1617==turn) { if(Pan1718==turn) { if(Pan1819==turn) { win++; } } } } }
-                if(Pan1501==turn) { if(Pan1602==turn) { if(Pan1703==turn) { if(Pan1804==turn) { if(Pan1905==turn) { win++; } } } } }
-                if(Pan1502==turn) { if(Pan1603==turn) { if(Pan1704==turn) { if(Pan1805==turn) { if(Pan1906==turn) { win++; } } } } }
-                if(Pan1503==turn) { if(Pan1604==turn) { if(Pan1705==turn) { if(Pan1806==turn) { if(Pan1907==turn) { win++; } } } } }
-                if(Pan1504==turn) { if(Pan1605==turn) { if(Pan1706==turn) { if(Pan1807==turn) { if(Pan1908==turn) { win++; } } } } }
-                if(Pan1505==turn) { if(Pan1606==turn) { if(Pan1707==turn) { if(Pan1808==turn) { if(Pan1909==turn) { win++; } } } } }
-                if(Pan1506==turn) { if(Pan1607==turn) { if(Pan1708==turn) { if(Pan1809==turn) { if(Pan1910==turn) { win++; } } } } }
-                if(Pan1507==turn) { if(Pan1608==turn) { if(Pan1709==turn) { if(Pan1810==turn) { if(Pan1911==turn) { win++; } } } } }
-                if(Pan1508==turn) { if(Pan1609==turn) { if(Pan1710==turn) { if(Pan1811==turn) { if(Pan1912==turn) { win++; } } } } }
-                if(Pan1509==turn) { if(Pan1610==turn) { if(Pan1711==turn) { if(Pan1812==turn) { if(Pan1913==turn) { win++; } } } } }
-                if(Pan1510==turn) { if(Pan1611==turn) { if(Pan1712==turn) { if(Pan1813==turn) { if(Pan1914==turn) { win++; } } } } }
-                if(Pan1511==turn) { if(Pan1612==turn) { if(Pan1713==turn) { if(Pan1814==turn) { if(Pan1915==turn) { win++; } } } } }
-                if(Pan1512==turn) { if(Pan1613==turn) { if(Pan1714==turn) { if(Pan1815==turn) { if(Pan1916==turn) { win++; } } } } }
-                if(Pan1513==turn) { if(Pan1614==turn) { if(Pan1715==turn) { if(Pan1816==turn) { if(Pan1917==turn) { win++; } } } } }
-                if(Pan1514==turn) { if(Pan1615==turn) { if(Pan1716==turn) { if(Pan1817==turn) { if(Pan1918==turn) { win++; } } } } }
-                if(Pan1515==turn) { if(Pan1616==turn) { if(Pan1717==turn) { if(Pan1818==turn) { if(Pan1919==turn) { win++; } } } } }
+                if(pan0101==turn)  if(pan0202==turn)  if(pan0303==turn)  if(pan0404==turn)  if(pan0505==turn)  win++;     
+                if(pan0102==turn)  if(pan0203==turn)  if(pan0304==turn)  if(pan0405==turn)  if(pan0506==turn)  win++;     
+                if(pan0103==turn)  if(pan0204==turn)  if(pan0305==turn)  if(pan0406==turn)  if(pan0507==turn)  win++;     
+                if(pan0104==turn)  if(pan0205==turn)  if(pan0306==turn)  if(pan0407==turn)  if(pan0508==turn)  win++;     
+                if(pan0105==turn)  if(pan0206==turn)  if(pan0307==turn)  if(pan0408==turn)  if(pan0509==turn)  win++;     
+                if(pan0110==turn)  if(pan0211==turn)  if(pan0312==turn)  if(pan0413==turn)  if(pan0514==turn)  win++;     
+                if(pan0111==turn)  if(pan0212==turn)  if(pan0313==turn)  if(pan0414==turn)  if(pan0515==turn)  win++;     
+                if(pan0112==turn)  if(pan0213==turn)  if(pan0314==turn)  if(pan0415==turn)  if(pan0516==turn)  win++;     
+                if(pan0113==turn)  if(pan0214==turn)  if(pan0315==turn)  if(pan0416==turn)  if(pan0517==turn)  win++;     
+                if(pan0114==turn)  if(pan0215==turn)  if(pan0316==turn)  if(pan0417==turn)  if(pan0518==turn)  win++;     
+                if(pan0115==turn)  if(pan0216==turn)  if(pan0317==turn)  if(pan0418==turn)  if(pan0519==turn)  win++;     
+                if(pan0201==turn)  if(pan0302==turn)  if(pan0403==turn)  if(pan0504==turn)  if(pan0605==turn)  win++;     
+                if(pan0202==turn)  if(pan0303==turn)  if(pan0404==turn)  if(pan0505==turn)  if(pan0606==turn)  win++;     
+                if(pan0203==turn)  if(pan0304==turn)  if(pan0405==turn)  if(pan0506==turn)  if(pan0607==turn)  win++;     
+                if(pan0204==turn)  if(pan0305==turn)  if(pan0406==turn)  if(pan0507==turn)  if(pan0608==turn)  win++;     
+                if(pan0205==turn)  if(pan0306==turn)  if(pan0407==turn)  if(pan0508==turn)  if(pan0609==turn)  win++;     
+                if(pan0210==turn)  if(pan0311==turn)  if(pan0412==turn)  if(pan0513==turn)  if(pan0614==turn)  win++;     
+                if(pan0211==turn)  if(pan0312==turn)  if(pan0413==turn)  if(pan0514==turn)  if(pan0615==turn)  win++;     
+                if(pan0212==turn)  if(pan0313==turn)  if(pan0414==turn)  if(pan0515==turn)  if(pan0616==turn)  win++;     
+                if(pan0213==turn)  if(pan0314==turn)  if(pan0415==turn)  if(pan0516==turn)  if(pan0617==turn)  win++;     
+                if(pan0214==turn)  if(pan0315==turn)  if(pan0416==turn)  if(pan0517==turn)  if(pan0618==turn)  win++;     
+                if(pan0215==turn)  if(pan0316==turn)  if(pan0417==turn)  if(pan0518==turn)  if(pan0619==turn)  win++;     
+                if(pan0301==turn)  if(pan0402==turn)  if(pan0503==turn)  if(pan0604==turn)  if(pan0705==turn)  win++;     
+                if(pan0302==turn)  if(pan0403==turn)  if(pan0504==turn)  if(pan0605==turn)  if(pan0706==turn)  win++;     
+                if(pan0303==turn)  if(pan0404==turn)  if(pan0505==turn)  if(pan0606==turn)  if(pan0707==turn)  win++;     
+                if(pan0304==turn)  if(pan0405==turn)  if(pan0506==turn)  if(pan0607==turn)  if(pan0708==turn)  win++;     
+                if(pan0305==turn)  if(pan0406==turn)  if(pan0507==turn)  if(pan0608==turn)  if(pan0709==turn)  win++;     
+                if(pan0310==turn)  if(pan0411==turn)  if(pan0512==turn)  if(pan0613==turn)  if(pan0714==turn)  win++;     
+                if(pan0311==turn)  if(pan0412==turn)  if(pan0513==turn)  if(pan0614==turn)  if(pan0715==turn)  win++;     
+                if(pan0312==turn)  if(pan0413==turn)  if(pan0514==turn)  if(pan0615==turn)  if(pan0716==turn)  win++;     
+                if(pan0313==turn)  if(pan0414==turn)  if(pan0515==turn)  if(pan0616==turn)  if(pan0717==turn)  win++;     
+                if(pan0314==turn)  if(pan0415==turn)  if(pan0516==turn)  if(pan0617==turn)  if(pan0718==turn)  win++;     
+                if(pan0315==turn)  if(pan0416==turn)  if(pan0517==turn)  if(pan0618==turn)  if(pan0719==turn)  win++;     
+                if(pan0401==turn)  if(pan0502==turn)  if(pan0603==turn)  if(pan0704==turn)  if(pan0805==turn)  win++;     
+                if(pan0402==turn)  if(pan0503==turn)  if(pan0604==turn)  if(pan0705==turn)  if(pan0806==turn)  win++;     
+                if(pan0403==turn)  if(pan0504==turn)  if(pan0605==turn)  if(pan0706==turn)  if(pan0807==turn)  win++;     
+                if(pan0404==turn)  if(pan0505==turn)  if(pan0606==turn)  if(pan0707==turn)  if(pan0808==turn)  win++;     
+                if(pan0405==turn)  if(pan0506==turn)  if(pan0607==turn)  if(pan0708==turn)  if(pan0809==turn)  win++;     
+                if(pan0410==turn)  if(pan0511==turn)  if(pan0612==turn)  if(pan0713==turn)  if(pan0814==turn)  win++;     
+                if(pan0411==turn)  if(pan0512==turn)  if(pan0613==turn)  if(pan0714==turn)  if(pan0815==turn)  win++;     
+                if(pan0412==turn)  if(pan0513==turn)  if(pan0614==turn)  if(pan0715==turn)  if(pan0816==turn)  win++;     
+                if(pan0413==turn)  if(pan0514==turn)  if(pan0615==turn)  if(pan0716==turn)  if(pan0817==turn)  win++;     
+                if(pan0414==turn)  if(pan0515==turn)  if(pan0616==turn)  if(pan0717==turn)  if(pan0818==turn)  win++;     
+                if(pan0415==turn)  if(pan0516==turn)  if(pan0617==turn)  if(pan0718==turn)  if(pan0819==turn)  win++;     
+                if(pan0501==turn)  if(pan0602==turn)  if(pan0703==turn)  if(pan0804==turn)  if(pan0905==turn)  win++;     
+                if(pan0502==turn)  if(pan0603==turn)  if(pan0704==turn)  if(pan0805==turn)  if(pan0906==turn)  win++;     
+                if(pan0503==turn)  if(pan0604==turn)  if(pan0705==turn)  if(pan0806==turn)  if(pan0907==turn)  win++;     
+                if(pan0504==turn)  if(pan0605==turn)  if(pan0706==turn)  if(pan0807==turn)  if(pan0908==turn)  win++;     
+                if(pan0505==turn)  if(pan0606==turn)  if(pan0707==turn)  if(pan0808==turn)  if(pan0909==turn)  win++;     
+                if(pan0510==turn)  if(pan0611==turn)  if(pan0712==turn)  if(pan0813==turn)  if(pan0914==turn)  win++;     
+                if(pan0511==turn)  if(pan0612==turn)  if(pan0713==turn)  if(pan0814==turn)  if(pan0915==turn)  win++;     
+                if(pan0512==turn)  if(pan0613==turn)  if(pan0714==turn)  if(pan0815==turn)  if(pan0916==turn)  win++;     
+                if(pan0513==turn)  if(pan0614==turn)  if(pan0715==turn)  if(pan0816==turn)  if(pan0917==turn)  win++;     
+                if(pan0514==turn)  if(pan0615==turn)  if(pan0716==turn)  if(pan0817==turn)  if(pan0918==turn)  win++;     
+                if(pan0515==turn)  if(pan0616==turn)  if(pan0717==turn)  if(pan0818==turn)  if(pan0919==turn)  win++;     
+                if(pan0606==turn)  if(pan0707==turn)  if(pan0808==turn)  if(pan0909==turn)  if(pan1010==turn)  win++;     
+                if(pan0610==turn)  if(pan0711==turn)  if(pan0812==turn)  if(pan0913==turn)  if(pan1014==turn)  win++;     
+                if(pan0611==turn)  if(pan0712==turn)  if(pan0813==turn)  if(pan0914==turn)  if(pan1015==turn)  win++;     
+                if(pan0612==turn)  if(pan0713==turn)  if(pan0814==turn)  if(pan0915==turn)  if(pan1016==turn)  win++;     
+                if(pan0613==turn)  if(pan0714==turn)  if(pan0815==turn)  if(pan0916==turn)  if(pan1017==turn)  win++;     
+                if(pan0614==turn)  if(pan0715==turn)  if(pan0816==turn)  if(pan0917==turn)  if(pan1018==turn)  win++;     
+                if(pan0615==turn)  if(pan0716==turn)  if(pan0817==turn)  if(pan0918==turn)  if(pan1019==turn)  win++;     
+                if(pan0707==turn)  if(pan0808==turn)  if(pan0909==turn)  if(pan1010==turn)  if(pan1111==turn)  win++;     
+                if(pan0710==turn)  if(pan0811==turn)  if(pan0912==turn)  if(pan1013==turn)  if(pan1114==turn)  win++;     
+                if(pan0711==turn)  if(pan0812==turn)  if(pan0913==turn)  if(pan1014==turn)  if(pan1115==turn)  win++;     
+                if(pan0712==turn)  if(pan0813==turn)  if(pan0914==turn)  if(pan1015==turn)  if(pan1116==turn)  win++;     
+                if(pan0713==turn)  if(pan0814==turn)  if(pan0915==turn)  if(pan1016==turn)  if(pan1117==turn)  win++;     
+                if(pan0714==turn)  if(pan0815==turn)  if(pan0916==turn)  if(pan1017==turn)  if(pan1118==turn)  win++;     
+                if(pan0715==turn)  if(pan0816==turn)  if(pan0917==turn)  if(pan1018==turn)  if(pan1119==turn)  win++;     
+                if(pan0808==turn)  if(pan0909==turn)  if(pan1010==turn)  if(pan1111==turn)  if(pan1212==turn)  win++;     
+                if(pan0810==turn)  if(pan0911==turn)  if(pan1012==turn)  if(pan1113==turn)  if(pan1214==turn)  win++;     
+                if(pan0811==turn)  if(pan0912==turn)  if(pan1013==turn)  if(pan1114==turn)  if(pan1215==turn)  win++;     
+                if(pan0812==turn)  if(pan0913==turn)  if(pan1014==turn)  if(pan1115==turn)  if(pan1216==turn)  win++;     
+                if(pan0813==turn)  if(pan0914==turn)  if(pan1015==turn)  if(pan1116==turn)  if(pan1217==turn)  win++;     
+                if(pan0814==turn)  if(pan0915==turn)  if(pan1016==turn)  if(pan1117==turn)  if(pan1218==turn)  win++;     
+                if(pan0815==turn)  if(pan0916==turn)  if(pan1017==turn)  if(pan1118==turn)  if(pan1219==turn)  win++;     
+                if(pan0909==turn)  if(pan1010==turn)  if(pan1111==turn)  if(pan1212==turn)  if(pan1313==turn)  win++;     
+                if(pan0910==turn)  if(pan1011==turn)  if(pan1112==turn)  if(pan1213==turn)  if(pan1314==turn)  win++;     
+                if(pan0911==turn)  if(pan1012==turn)  if(pan1113==turn)  if(pan1214==turn)  if(pan1315==turn)  win++;     
+                if(pan0912==turn)  if(pan1013==turn)  if(pan1114==turn)  if(pan1215==turn)  if(pan1316==turn)  win++;     
+                if(pan0913==turn)  if(pan1014==turn)  if(pan1115==turn)  if(pan1216==turn)  if(pan1317==turn)  win++;     
+                if(pan0914==turn)  if(pan1015==turn)  if(pan1116==turn)  if(pan1217==turn)  if(pan1318==turn)  win++;     
+                if(pan0915==turn)  if(pan1016==turn)  if(pan1117==turn)  if(pan1218==turn)  if(pan1319==turn)  win++;     
+                if(pan1001==turn)  if(pan1102==turn)  if(pan1203==turn)  if(pan1304==turn)  if(pan1405==turn)  win++;     
+                if(pan1002==turn)  if(pan1103==turn)  if(pan1204==turn)  if(pan1305==turn)  if(pan1406==turn)  win++;     
+                if(pan1003==turn)  if(pan1104==turn)  if(pan1205==turn)  if(pan1306==turn)  if(pan1407==turn)  win++;     
+                if(pan1004==turn)  if(pan1105==turn)  if(pan1206==turn)  if(pan1307==turn)  if(pan1408==turn)  win++;     
+                if(pan1005==turn)  if(pan1106==turn)  if(pan1207==turn)  if(pan1308==turn)  if(pan1409==turn)  win++;     
+                if(pan1006==turn)  if(pan1107==turn)  if(pan1208==turn)  if(pan1309==turn)  if(pan1410==turn)  win++;     
+                if(pan1007==turn)  if(pan1108==turn)  if(pan1209==turn)  if(pan1310==turn)  if(pan1411==turn)  win++;     
+                if(pan1008==turn)  if(pan1109==turn)  if(pan1210==turn)  if(pan1311==turn)  if(pan1412==turn)  win++;     
+                if(pan1009==turn)  if(pan1110==turn)  if(pan1211==turn)  if(pan1312==turn)  if(pan1413==turn)  win++;     
+                if(pan1010==turn)  if(pan1111==turn)  if(pan1212==turn)  if(pan1313==turn)  if(pan1414==turn)  win++;     
+                if(pan1011==turn)  if(pan1112==turn)  if(pan1213==turn)  if(pan1314==turn)  if(pan1415==turn)  win++;     
+                if(pan1012==turn)  if(pan1113==turn)  if(pan1214==turn)  if(pan1315==turn)  if(pan1416==turn)  win++;     
+                if(pan1013==turn)  if(pan1114==turn)  if(pan1215==turn)  if(pan1316==turn)  if(pan1417==turn)  win++;     
+                if(pan1014==turn)  if(pan1115==turn)  if(pan1216==turn)  if(pan1317==turn)  if(pan1418==turn)  win++;     
+                if(pan1015==turn)  if(pan1116==turn)  if(pan1217==turn)  if(pan1318==turn)  if(pan1419==turn)  win++;     
+                if(pan1101==turn)  if(pan1202==turn)  if(pan1303==turn)  if(pan1404==turn)  if(pan1505==turn)  win++;     
+                if(pan1102==turn)  if(pan1203==turn)  if(pan1304==turn)  if(pan1405==turn)  if(pan1506==turn)  win++;     
+                if(pan1103==turn)  if(pan1204==turn)  if(pan1305==turn)  if(pan1406==turn)  if(pan1507==turn)  win++;     
+                if(pan1104==turn)  if(pan1205==turn)  if(pan1306==turn)  if(pan1407==turn)  if(pan1508==turn)  win++;     
+                if(pan1105==turn)  if(pan1206==turn)  if(pan1307==turn)  if(pan1408==turn)  if(pan1509==turn)  win++;     
+                if(pan1106==turn)  if(pan1207==turn)  if(pan1308==turn)  if(pan1409==turn)  if(pan1510==turn)  win++;     
+                if(pan1107==turn)  if(pan1208==turn)  if(pan1309==turn)  if(pan1410==turn)  if(pan1511==turn)  win++;     
+                if(pan1108==turn)  if(pan1209==turn)  if(pan1310==turn)  if(pan1411==turn)  if(pan1512==turn)  win++;     
+                if(pan1109==turn)  if(pan1210==turn)  if(pan1311==turn)  if(pan1412==turn)  if(pan1513==turn)  win++;     
+                if(pan1110==turn)  if(pan1211==turn)  if(pan1312==turn)  if(pan1413==turn)  if(pan1514==turn)  win++;     
+                if(pan1111==turn)  if(pan1212==turn)  if(pan1313==turn)  if(pan1414==turn)  if(pan1515==turn)  win++;     
+                if(pan1112==turn)  if(pan1213==turn)  if(pan1314==turn)  if(pan1415==turn)  if(pan1516==turn)  win++;     
+                if(pan1113==turn)  if(pan1214==turn)  if(pan1315==turn)  if(pan1416==turn)  if(pan1517==turn)  win++;     
+                if(pan1114==turn)  if(pan1215==turn)  if(pan1316==turn)  if(pan1417==turn)  if(pan1518==turn)  win++;     
+                if(pan1115==turn)  if(pan1216==turn)  if(pan1317==turn)  if(pan1418==turn)  if(pan1519==turn)  win++;     
+                if(pan1201==turn)  if(pan1302==turn)  if(pan1403==turn)  if(pan1504==turn)  if(pan1605==turn)  win++;     
+                if(pan1202==turn)  if(pan1303==turn)  if(pan1404==turn)  if(pan1505==turn)  if(pan1606==turn)  win++;     
+                if(pan1203==turn)  if(pan1304==turn)  if(pan1405==turn)  if(pan1506==turn)  if(pan1607==turn)  win++;     
+                if(pan1204==turn)  if(pan1305==turn)  if(pan1406==turn)  if(pan1507==turn)  if(pan1608==turn)  win++;     
+                if(pan1205==turn)  if(pan1306==turn)  if(pan1407==turn)  if(pan1508==turn)  if(pan1609==turn)  win++;     
+                if(pan1206==turn)  if(pan1307==turn)  if(pan1408==turn)  if(pan1509==turn)  if(pan1610==turn)  win++;     
+                if(pan1207==turn)  if(pan1308==turn)  if(pan1409==turn)  if(pan1510==turn)  if(pan1611==turn)  win++;     
+                if(pan1208==turn)  if(pan1309==turn)  if(pan1410==turn)  if(pan1511==turn)  if(pan1612==turn)  win++;     
+                if(pan1209==turn)  if(pan1310==turn)  if(pan1411==turn)  if(pan1512==turn)  if(pan1613==turn)  win++;     
+                if(pan1210==turn)  if(pan1311==turn)  if(pan1412==turn)  if(pan1513==turn)  if(pan1614==turn)  win++;     
+                if(pan1211==turn)  if(pan1312==turn)  if(pan1413==turn)  if(pan1514==turn)  if(pan1615==turn)  win++;     
+                if(pan1212==turn)  if(pan1313==turn)  if(pan1414==turn)  if(pan1515==turn)  if(pan1616==turn)  win++;     
+                if(pan1213==turn)  if(pan1314==turn)  if(pan1415==turn)  if(pan1516==turn)  if(pan1617==turn)  win++;     
+                if(pan1214==turn)  if(pan1315==turn)  if(pan1416==turn)  if(pan1517==turn)  if(pan1618==turn)  win++;     
+                if(pan1215==turn)  if(pan1316==turn)  if(pan1417==turn)  if(pan1518==turn)  if(pan1619==turn)  win++;     
+                if(pan1301==turn)  if(pan1402==turn)  if(pan1503==turn)  if(pan1604==turn)  if(pan1705==turn)  win++;     
+                if(pan1302==turn)  if(pan1403==turn)  if(pan1504==turn)  if(pan1605==turn)  if(pan1706==turn)  win++;     
+                if(pan1303==turn)  if(pan1404==turn)  if(pan1505==turn)  if(pan1606==turn)  if(pan1707==turn)  win++;     
+                if(pan1304==turn)  if(pan1405==turn)  if(pan1506==turn)  if(pan1607==turn)  if(pan1708==turn)  win++;     
+                if(pan1305==turn)  if(pan1406==turn)  if(pan1507==turn)  if(pan1608==turn)  if(pan1709==turn)  win++;     
+                if(pan1306==turn)  if(pan1407==turn)  if(pan1508==turn)  if(pan1609==turn)  if(pan1710==turn)  win++;     
+                if(pan1307==turn)  if(pan1408==turn)  if(pan1509==turn)  if(pan1610==turn)  if(pan1711==turn)  win++;     
+                if(pan1308==turn)  if(pan1409==turn)  if(pan1510==turn)  if(pan1611==turn)  if(pan1712==turn)  win++;     
+                if(pan1309==turn)  if(pan1410==turn)  if(pan1511==turn)  if(pan1612==turn)  if(pan1713==turn)  win++;     
+                if(pan1310==turn)  if(pan1411==turn)  if(pan1512==turn)  if(pan1613==turn)  if(pan1714==turn)  win++;     
+                if(pan1311==turn)  if(pan1412==turn)  if(pan1513==turn)  if(pan1614==turn)  if(pan1715==turn)  win++;     
+                if(pan1312==turn)  if(pan1413==turn)  if(pan1514==turn)  if(pan1615==turn)  if(pan1716==turn)  win++;     
+                if(pan1313==turn)  if(pan1414==turn)  if(pan1515==turn)  if(pan1616==turn)  if(pan1717==turn)  win++;     
+                if(pan1314==turn)  if(pan1415==turn)  if(pan1516==turn)  if(pan1617==turn)  if(pan1718==turn)  win++;     
+                if(pan1315==turn)  if(pan1416==turn)  if(pan1517==turn)  if(pan1618==turn)  if(pan1719==turn)  win++;     
+                if(pan1401==turn)  if(pan1502==turn)  if(pan1603==turn)  if(pan1704==turn)  if(pan1805==turn)  win++;     
+                if(pan1402==turn)  if(pan1503==turn)  if(pan1604==turn)  if(pan1705==turn)  if(pan1806==turn)  win++;     
+                if(pan1403==turn)  if(pan1504==turn)  if(pan1605==turn)  if(pan1706==turn)  if(pan1807==turn)  win++;     
+                if(pan1404==turn)  if(pan1505==turn)  if(pan1606==turn)  if(pan1707==turn)  if(pan1808==turn)  win++;     
+                if(pan1405==turn)  if(pan1506==turn)  if(pan1607==turn)  if(pan1708==turn)  if(pan1809==turn)  win++;     
+                if(pan1406==turn)  if(pan1507==turn)  if(pan1608==turn)  if(pan1709==turn)  if(pan1810==turn)  win++;     
+                if(pan1407==turn)  if(pan1508==turn)  if(pan1609==turn)  if(pan1710==turn)  if(pan1811==turn)  win++;     
+                if(pan1408==turn)  if(pan1509==turn)  if(pan1610==turn)  if(pan1711==turn)  if(pan1812==turn)  win++;     
+                if(pan1409==turn)  if(pan1510==turn)  if(pan1611==turn)  if(pan1712==turn)  if(pan1813==turn)  win++;     
+                if(pan1410==turn)  if(pan1511==turn)  if(pan1612==turn)  if(pan1713==turn)  if(pan1814==turn)  win++;     
+                if(pan1411==turn)  if(pan1512==turn)  if(pan1613==turn)  if(pan1714==turn)  if(pan1815==turn)  win++;     
+                if(pan1412==turn)  if(pan1513==turn)  if(pan1614==turn)  if(pan1715==turn)  if(pan1816==turn)  win++;     
+                if(pan1413==turn)  if(pan1514==turn)  if(pan1615==turn)  if(pan1716==turn)  if(pan1817==turn)  win++;     
+                if(pan1414==turn)  if(pan1515==turn)  if(pan1616==turn)  if(pan1717==turn)  if(pan1818==turn)  win++;     
+                if(pan1415==turn)  if(pan1516==turn)  if(pan1617==turn)  if(pan1718==turn)  if(pan1819==turn)  win++;     
+                if(pan1501==turn)  if(pan1602==turn)  if(pan1703==turn)  if(pan1804==turn)  if(pan1905==turn)  win++;     
+                if(pan1502==turn)  if(pan1603==turn)  if(pan1704==turn)  if(pan1805==turn)  if(pan1906==turn)  win++;     
+                if(pan1503==turn)  if(pan1604==turn)  if(pan1705==turn)  if(pan1806==turn)  if(pan1907==turn)  win++;     
+                if(pan1504==turn)  if(pan1605==turn)  if(pan1706==turn)  if(pan1807==turn)  if(pan1908==turn)  win++;     
+                if(pan1505==turn)  if(pan1606==turn)  if(pan1707==turn)  if(pan1808==turn)  if(pan1909==turn)  win++;     
+                if(pan1506==turn)  if(pan1607==turn)  if(pan1708==turn)  if(pan1809==turn)  if(pan1910==turn)  win++;     
+                if(pan1507==turn)  if(pan1608==turn)  if(pan1709==turn)  if(pan1810==turn)  if(pan1911==turn)  win++;     
+                if(pan1508==turn)  if(pan1609==turn)  if(pan1710==turn)  if(pan1811==turn)  if(pan1912==turn)  win++;     
+                if(pan1509==turn)  if(pan1610==turn)  if(pan1711==turn)  if(pan1812==turn)  if(pan1913==turn)  win++;     
+                if(pan1510==turn)  if(pan1611==turn)  if(pan1712==turn)  if(pan1813==turn)  if(pan1914==turn)  win++;     
+                if(pan1511==turn)  if(pan1612==turn)  if(pan1713==turn)  if(pan1814==turn)  if(pan1915==turn)  win++;     
+                if(pan1512==turn)  if(pan1613==turn)  if(pan1714==turn)  if(pan1815==turn)  if(pan1916==turn)  win++;     
+                if(pan1513==turn)  if(pan1614==turn)  if(pan1715==turn)  if(pan1816==turn)  if(pan1917==turn)  win++;     
+                if(pan1514==turn)  if(pan1615==turn)  if(pan1716==turn)  if(pan1817==turn)  if(pan1918==turn)  win++;     
+                if(pan1515==turn)  if(pan1616==turn)  if(pan1717==turn)  if(pan1818==turn)  if(pan1919==turn)  win++;     
 
                 ////////////////// y = x 대각선 검사 //////////////////////////////
-                if(Pan0105==turn) { if(Pan0204==turn) { if(Pan0303==turn) { if(Pan0402==turn) { if(Pan0501==turn) { win++; } } } } }
-                if(Pan0106==turn) { if(Pan0205==turn) { if(Pan0304==turn) { if(Pan0403==turn) { if(Pan0502==turn) { win++; } } } } }
-                if(Pan0107==turn) { if(Pan0206==turn) { if(Pan0305==turn) { if(Pan0404==turn) { if(Pan0503==turn) { win++; } } } } }
-                if(Pan0108==turn) { if(Pan0207==turn) { if(Pan0306==turn) { if(Pan0405==turn) { if(Pan0504==turn) { win++; } } } } }
-                if(Pan0109==turn) { if(Pan0208==turn) { if(Pan0307==turn) { if(Pan0406==turn) { if(Pan0505==turn) { win++; } } } } }
-                if(Pan0113==turn) { if(Pan0212==turn) { if(Pan0311==turn) { if(Pan0410==turn) { if(Pan0509==turn) { win++; } } } } }
-                if(Pan0114==turn) { if(Pan0213==turn) { if(Pan0312==turn) { if(Pan0411==turn) { if(Pan0510==turn) { win++; } } } } }
-                if(Pan0115==turn) { if(Pan0214==turn) { if(Pan0313==turn) { if(Pan0412==turn) { if(Pan0511==turn) { win++; } } } } }
-                if(Pan0116==turn) { if(Pan0215==turn) { if(Pan0314==turn) { if(Pan0413==turn) { if(Pan0512==turn) { win++; } } } } }
-                if(Pan0117==turn) { if(Pan0216==turn) { if(Pan0315==turn) { if(Pan0414==turn) { if(Pan0513==turn) { win++; } } } } }
-                if(Pan0118==turn) { if(Pan0217==turn) { if(Pan0316==turn) { if(Pan0415==turn) { if(Pan0514==turn) { win++; } } } } }
-                if(Pan0119==turn) { if(Pan0218==turn) { if(Pan0317==turn) { if(Pan0416==turn) { if(Pan0515==turn) { win++; } } } } }
-                if(Pan0205==turn) { if(Pan0304==turn) { if(Pan0403==turn) { if(Pan0502==turn) { if(Pan0601==turn) { win++; } } } } }
-                if(Pan0206==turn) { if(Pan0305==turn) { if(Pan0404==turn) { if(Pan0503==turn) { if(Pan0602==turn) { win++; } } } } }
-                if(Pan0207==turn) { if(Pan0306==turn) { if(Pan0405==turn) { if(Pan0504==turn) { if(Pan0603==turn) { win++; } } } } }
-                if(Pan0208==turn) { if(Pan0307==turn) { if(Pan0406==turn) { if(Pan0505==turn) { if(Pan0604==turn) { win++; } } } } }
-                if(Pan0209==turn) { if(Pan0308==turn) { if(Pan0407==turn) { if(Pan0506==turn) { if(Pan0605==turn) { win++; } } } } }
-                if(Pan0213==turn) { if(Pan0312==turn) { if(Pan0411==turn) { if(Pan0510==turn) { if(Pan0609==turn) { win++; } } } } }
-                if(Pan0214==turn) { if(Pan0313==turn) { if(Pan0412==turn) { if(Pan0511==turn) { if(Pan0610==turn) { win++; } } } } }
-                if(Pan0215==turn) { if(Pan0314==turn) { if(Pan0413==turn) { if(Pan0512==turn) { if(Pan0611==turn) { win++; } } } } }
-                if(Pan0216==turn) { if(Pan0315==turn) { if(Pan0414==turn) { if(Pan0513==turn) { if(Pan0612==turn) { win++; } } } } }
-                if(Pan0217==turn) { if(Pan0316==turn) { if(Pan0415==turn) { if(Pan0514==turn) { if(Pan0613==turn) { win++; } } } } }
-                if(Pan0218==turn) { if(Pan0317==turn) { if(Pan0416==turn) { if(Pan0515==turn) { if(Pan0614==turn) { win++; } } } } }
-                if(Pan0219==turn) { if(Pan0318==turn) { if(Pan0417==turn) { if(Pan0516==turn) { if(Pan0615==turn) { win++; } } } } }
-                if(Pan0305==turn) { if(Pan0404==turn) { if(Pan0503==turn) { if(Pan0602==turn) { if(Pan0701==turn) { win++; } } } } }
-                if(Pan0306==turn) { if(Pan0405==turn) { if(Pan0504==turn) { if(Pan0603==turn) { if(Pan0702==turn) { win++; } } } } }
-                if(Pan0307==turn) { if(Pan0406==turn) { if(Pan0505==turn) { if(Pan0604==turn) { if(Pan0703==turn) { win++; } } } } }
-                if(Pan0308==turn) { if(Pan0407==turn) { if(Pan0506==turn) { if(Pan0605==turn) { if(Pan0704==turn) { win++; } } } } }
-                if(Pan0309==turn) { if(Pan0408==turn) { if(Pan0507==turn) { if(Pan0606==turn) { if(Pan0705==turn) { win++; } } } } }
-                if(Pan0313==turn) { if(Pan0412==turn) { if(Pan0511==turn) { if(Pan0610==turn) { if(Pan0709==turn) { win++; } } } } }
-                if(Pan0314==turn) { if(Pan0413==turn) { if(Pan0512==turn) { if(Pan0611==turn) { if(Pan0710==turn) { win++; } } } } }
-                if(Pan0315==turn) { if(Pan0414==turn) { if(Pan0513==turn) { if(Pan0612==turn) { if(Pan0711==turn) { win++; } } } } }
-                if(Pan0316==turn) { if(Pan0415==turn) { if(Pan0514==turn) { if(Pan0613==turn) { if(Pan0712==turn) { win++; } } } } }
-                if(Pan0317==turn) { if(Pan0416==turn) { if(Pan0515==turn) { if(Pan0614==turn) { if(Pan0713==turn) { win++; } } } } }
-                if(Pan0318==turn) { if(Pan0417==turn) { if(Pan0516==turn) { if(Pan0615==turn) { if(Pan0714==turn) { win++; } } } } }
-                if(Pan0319==turn) { if(Pan0418==turn) { if(Pan0517==turn) { if(Pan0616==turn) { if(Pan0715==turn) { win++; } } } } }
-                if(Pan0405==turn) { if(Pan0504==turn) { if(Pan0603==turn) { if(Pan0702==turn) { if(Pan0801==turn) { win++; } } } } }
-                if(Pan0406==turn) { if(Pan0505==turn) { if(Pan0604==turn) { if(Pan0703==turn) { if(Pan0802==turn) { win++; } } } } }
-                if(Pan0407==turn) { if(Pan0506==turn) { if(Pan0605==turn) { if(Pan0704==turn) { if(Pan0803==turn) { win++; } } } } }
-                if(Pan0408==turn) { if(Pan0507==turn) { if(Pan0606==turn) { if(Pan0705==turn) { if(Pan0804==turn) { win++; } } } } }
-                if(Pan0409==turn) { if(Pan0508==turn) { if(Pan0607==turn) { if(Pan0706==turn) { if(Pan0805==turn) { win++; } } } } }
-                if(Pan0413==turn) { if(Pan0512==turn) { if(Pan0611==turn) { if(Pan0710==turn) { if(Pan0809==turn) { win++; } } } } }
-                if(Pan0414==turn) { if(Pan0513==turn) { if(Pan0612==turn) { if(Pan0711==turn) { if(Pan0810==turn) { win++; } } } } }
-                if(Pan0415==turn) { if(Pan0514==turn) { if(Pan0613==turn) { if(Pan0712==turn) { if(Pan0811==turn) { win++; } } } } }
-                if(Pan0416==turn) { if(Pan0515==turn) { if(Pan0614==turn) { if(Pan0713==turn) { if(Pan0812==turn) { win++; } } } } }
-                if(Pan0417==turn) { if(Pan0516==turn) { if(Pan0615==turn) { if(Pan0714==turn) { if(Pan0813==turn) { win++; } } } } }
-                if(Pan0418==turn) { if(Pan0517==turn) { if(Pan0616==turn) { if(Pan0715==turn) { if(Pan0814==turn) { win++; } } } } }
-                if(Pan0419==turn) { if(Pan0518==turn) { if(Pan0617==turn) { if(Pan0716==turn) { if(Pan0815==turn) { win++; } } } } }
-                if(Pan0505==turn) { if(Pan0604==turn) { if(Pan0703==turn) { if(Pan0802==turn) { if(Pan0901==turn) { win++; } } } } }
-                if(Pan0506==turn) { if(Pan0605==turn) { if(Pan0704==turn) { if(Pan0803==turn) { if(Pan0902==turn) { win++; } } } } }
-                if(Pan0507==turn) { if(Pan0606==turn) { if(Pan0705==turn) { if(Pan0804==turn) { if(Pan0903==turn) { win++; } } } } }
-                if(Pan0508==turn) { if(Pan0607==turn) { if(Pan0706==turn) { if(Pan0805==turn) { if(Pan0904==turn) { win++; } } } } }
-                if(Pan0509==turn) { if(Pan0608==turn) { if(Pan0707==turn) { if(Pan0806==turn) { if(Pan0905==turn) { win++; } } } } }
-                if(Pan0513==turn) { if(Pan0612==turn) { if(Pan0711==turn) { if(Pan0810==turn) { if(Pan0909==turn) { win++; } } } } }
-                if(Pan0514==turn) { if(Pan0613==turn) { if(Pan0712==turn) { if(Pan0811==turn) { if(Pan0910==turn) { win++; } } } } }
-                if(Pan0515==turn) { if(Pan0614==turn) { if(Pan0713==turn) { if(Pan0812==turn) { if(Pan0911==turn) { win++; } } } } }
-                if(Pan0516==turn) { if(Pan0615==turn) { if(Pan0714==turn) { if(Pan0813==turn) { if(Pan0912==turn) { win++; } } } } }
-                if(Pan0517==turn) { if(Pan0616==turn) { if(Pan0715==turn) { if(Pan0814==turn) { if(Pan0913==turn) { win++; } } } } }
-                if(Pan0518==turn) { if(Pan0617==turn) { if(Pan0716==turn) { if(Pan0815==turn) { if(Pan0914==turn) { win++; } } } } }
-                if(Pan0519==turn) { if(Pan0618==turn) { if(Pan0717==turn) { if(Pan0816==turn) { if(Pan0915==turn) { win++; } } } } }
-                if(Pan0605==turn) { if(Pan0704==turn) { if(Pan0803==turn) { if(Pan0902==turn) { if(Pan1001==turn) { win++; } } } } }
-                if(Pan0606==turn) { if(Pan0705==turn) { if(Pan0804==turn) { if(Pan0903==turn) { if(Pan1002==turn) { win++; } } } } }
-                if(Pan0607==turn) { if(Pan0706==turn) { if(Pan0805==turn) { if(Pan0904==turn) { if(Pan1003==turn) { win++; } } } } }
-                if(Pan0608==turn) { if(Pan0707==turn) { if(Pan0806==turn) { if(Pan0905==turn) { if(Pan1004==turn) { win++; } } } } }
-                if(Pan0609==turn) { if(Pan0708==turn) { if(Pan0807==turn) { if(Pan0906==turn) { if(Pan1005==turn) { win++; } } } } }
-                if(Pan0613==turn) { if(Pan0712==turn) { if(Pan0811==turn) { if(Pan0910==turn) { if(Pan1009==turn) { win++; } } } } }
-                if(Pan0614==turn) { if(Pan0713==turn) { if(Pan0812==turn) { if(Pan0911==turn) { if(Pan1010==turn) { win++; } } } } }
-                if(Pan0615==turn) { if(Pan0714==turn) { if(Pan0813==turn) { if(Pan0912==turn) { if(Pan1011==turn) { win++; } } } } }
-                if(Pan0616==turn) { if(Pan0715==turn) { if(Pan0814==turn) { if(Pan0913==turn) { if(Pan1012==turn) { win++; } } } } }
-                if(Pan0617==turn) { if(Pan0716==turn) { if(Pan0815==turn) { if(Pan0914==turn) { if(Pan1013==turn) { win++; } } } } }
-                if(Pan0618==turn) { if(Pan0717==turn) { if(Pan0816==turn) { if(Pan0915==turn) { if(Pan1014==turn) { win++; } } } } }
-                if(Pan0619==turn) { if(Pan0718==turn) { if(Pan0817==turn) { if(Pan0916==turn) { if(Pan1015==turn) { win++; } } } } }
-                if(Pan0705==turn) { if(Pan0804==turn) { if(Pan0903==turn) { if(Pan1002==turn) { if(Pan1101==turn) { win++; } } } } }
-                if(Pan0706==turn) { if(Pan0805==turn) { if(Pan0904==turn) { if(Pan1003==turn) { if(Pan1102==turn) { win++; } } } } }
-                if(Pan0707==turn) { if(Pan0806==turn) { if(Pan0905==turn) { if(Pan1004==turn) { if(Pan1103==turn) { win++; } } } } }
-                if(Pan0708==turn) { if(Pan0807==turn) { if(Pan0906==turn) { if(Pan1005==turn) { if(Pan1104==turn) { win++; } } } } }
-                if(Pan0709==turn) { if(Pan0808==turn) { if(Pan0907==turn) { if(Pan1006==turn) { if(Pan1105==turn) { win++; } } } } }
-                if(Pan0712==turn) { if(Pan0811==turn) { if(Pan0910==turn) { if(Pan1009==turn) { if(Pan1108==turn) { win++; } } } } }
-                if(Pan0713==turn) { if(Pan0812==turn) { if(Pan0911==turn) { if(Pan1010==turn) { if(Pan1109==turn) { win++; } } } } }
-                if(Pan0714==turn) { if(Pan0813==turn) { if(Pan0912==turn) { if(Pan1011==turn) { if(Pan1110==turn) { win++; } } } } }
-                if(Pan0715==turn) { if(Pan0814==turn) { if(Pan0913==turn) { if(Pan1012==turn) { if(Pan1111==turn) { win++; } } } } }
-                if(Pan0716==turn) { if(Pan0815==turn) { if(Pan0914==turn) { if(Pan1013==turn) { if(Pan1112==turn) { win++; } } } } }
-                if(Pan0717==turn) { if(Pan0816==turn) { if(Pan0915==turn) { if(Pan1014==turn) { if(Pan1113==turn) { win++; } } } } }
-                if(Pan0718==turn) { if(Pan0817==turn) { if(Pan0916==turn) { if(Pan1015==turn) { if(Pan1114==turn) { win++; } } } } }
-                if(Pan0719==turn) { if(Pan0818==turn) { if(Pan0917==turn) { if(Pan1016==turn) { if(Pan1115==turn) { win++; } } } } }
-                if(Pan0805==turn) { if(Pan0904==turn) { if(Pan1003==turn) { if(Pan1102==turn) { if(Pan1201==turn) { win++; } } } } }
-                if(Pan0806==turn) { if(Pan0905==turn) { if(Pan1004==turn) { if(Pan1103==turn) { if(Pan1202==turn) { win++; } } } } }
-                if(Pan0807==turn) { if(Pan0906==turn) { if(Pan1005==turn) { if(Pan1104==turn) { if(Pan1203==turn) { win++; } } } } }
-                if(Pan0808==turn) { if(Pan0907==turn) { if(Pan1006==turn) { if(Pan1105==turn) { if(Pan1204==turn) { win++; } } } } }
-                if(Pan0809==turn) { if(Pan0908==turn) { if(Pan1007==turn) { if(Pan1106==turn) { if(Pan1205==turn) { win++; } } } } }
-                if(Pan0811==turn) { if(Pan0910==turn) { if(Pan1009==turn) { if(Pan1108==turn) { if(Pan1207==turn) { win++; } } } } }
-                if(Pan0813==turn) { if(Pan0912==turn) { if(Pan1011==turn) { if(Pan1110==turn) { if(Pan1209==turn) { win++; } } } } }
-                if(Pan0814==turn) { if(Pan0913==turn) { if(Pan1012==turn) { if(Pan1111==turn) { if(Pan1210==turn) { win++; } } } } }
-                if(Pan0815==turn) { if(Pan0914==turn) { if(Pan1013==turn) { if(Pan1112==turn) { if(Pan1211==turn) { win++; } } } } }
-                if(Pan0816==turn) { if(Pan0915==turn) { if(Pan1014==turn) { if(Pan1113==turn) { if(Pan1212==turn) { win++; } } } } }
-                if(Pan0817==turn) { if(Pan0916==turn) { if(Pan1015==turn) { if(Pan1114==turn) { if(Pan1213==turn) { win++; } } } } }
-                if(Pan0818==turn) { if(Pan0917==turn) { if(Pan1016==turn) { if(Pan1115==turn) { if(Pan1214==turn) { win++; } } } } }
-                if(Pan0819==turn) { if(Pan0918==turn) { if(Pan1017==turn) { if(Pan1116==turn) { if(Pan1215==turn) { win++; } } } } }
-                if(Pan0905==turn) { if(Pan1004==turn) { if(Pan1103==turn) { if(Pan1202==turn) { if(Pan1301==turn) { win++; } } } } }
-                if(Pan0906==turn) { if(Pan1005==turn) { if(Pan1104==turn) { if(Pan1203==turn) { if(Pan1302==turn) { win++; } } } } }
-                if(Pan0907==turn) { if(Pan1006==turn) { if(Pan1105==turn) { if(Pan1204==turn) { if(Pan1303==turn) { win++; } } } } }
-                if(Pan0908==turn) { if(Pan1007==turn) { if(Pan1106==turn) { if(Pan1205==turn) { if(Pan1304==turn) { win++; } } } } }
-                if(Pan0909==turn) { if(Pan1008==turn) { if(Pan1107==turn) { if(Pan1206==turn) { if(Pan1305==turn) { win++; } } } } }
-                if(Pan0910==turn) { if(Pan1009==turn) { if(Pan1108==turn) { if(Pan1207==turn) { if(Pan1306==turn) { win++; } } } } }
-                if(Pan0913==turn) { if(Pan1012==turn) { if(Pan1111==turn) { if(Pan1210==turn) { if(Pan1309==turn) { win++; } } } } }
-                if(Pan0914==turn) { if(Pan1013==turn) { if(Pan1112==turn) { if(Pan1211==turn) { if(Pan1310==turn) { win++; } } } } }
-                if(Pan0915==turn) { if(Pan1014==turn) { if(Pan1113==turn) { if(Pan1212==turn) { if(Pan1311==turn) { win++; } } } } }
-                if(Pan0916==turn) { if(Pan1015==turn) { if(Pan1114==turn) { if(Pan1213==turn) { if(Pan1312==turn) { win++; } } } } }
-                if(Pan0917==turn) { if(Pan1016==turn) { if(Pan1115==turn) { if(Pan1214==turn) { if(Pan1313==turn) { win++; } } } } }
-                if(Pan0918==turn) { if(Pan1017==turn) { if(Pan1116==turn) { if(Pan1215==turn) { if(Pan1314==turn) { win++; } } } } }
-                if(Pan0919==turn) { if(Pan1018==turn) { if(Pan1117==turn) { if(Pan1216==turn) { if(Pan1315==turn) { win++; } } } } }
-                if(Pan1005==turn) { if(Pan1104==turn) { if(Pan1203==turn) { if(Pan1302==turn) { if(Pan1401==turn) { win++; } } } } }
-                if(Pan1006==turn) { if(Pan1105==turn) { if(Pan1204==turn) { if(Pan1303==turn) { if(Pan1402==turn) { win++; } } } } }
-                if(Pan1007==turn) { if(Pan1106==turn) { if(Pan1205==turn) { if(Pan1304==turn) { if(Pan1403==turn) { win++; } } } } }
-                if(Pan1008==turn) { if(Pan1107==turn) { if(Pan1206==turn) { if(Pan1305==turn) { if(Pan1404==turn) { win++; } } } } }
-                if(Pan1009==turn) { if(Pan1108==turn) { if(Pan1207==turn) { if(Pan1306==turn) { if(Pan1405==turn) { win++; } } } } }
-                if(Pan1010==turn) { if(Pan1109==turn) { if(Pan1208==turn) { if(Pan1307==turn) { if(Pan1406==turn) { win++; } } } } }
-                if(Pan1011==turn) { if(Pan1110==turn) { if(Pan1209==turn) { if(Pan1308==turn) { if(Pan1407==turn) { win++; } } } } }
-                if(Pan1012==turn) { if(Pan1111==turn) { if(Pan1210==turn) { if(Pan1309==turn) { if(Pan1408==turn) { win++; } } } } }
-                if(Pan1013==turn) { if(Pan1112==turn) { if(Pan1211==turn) { if(Pan1310==turn) { if(Pan1409==turn) { win++; } } } } }
-                if(Pan1014==turn) { if(Pan1113==turn) { if(Pan1212==turn) { if(Pan1311==turn) { if(Pan1410==turn) { win++; } } } } }
-                if(Pan1015==turn) { if(Pan1114==turn) { if(Pan1213==turn) { if(Pan1312==turn) { if(Pan1411==turn) { win++; } } } } }
-                if(Pan1016==turn) { if(Pan1115==turn) { if(Pan1214==turn) { if(Pan1313==turn) { if(Pan1412==turn) { win++; } } } } }
-                if(Pan1017==turn) { if(Pan1116==turn) { if(Pan1215==turn) { if(Pan1314==turn) { if(Pan1413==turn) { win++; } } } } }
-                if(Pan1018==turn) { if(Pan1117==turn) { if(Pan1216==turn) { if(Pan1315==turn) { if(Pan1414==turn) { win++; } } } } }
-                if(Pan1019==turn) { if(Pan1118==turn) { if(Pan1217==turn) { if(Pan1316==turn) { if(Pan1415==turn) { win++; } } } } }
-                if(Pan1105==turn) { if(Pan1204==turn) { if(Pan1303==turn) { if(Pan1402==turn) { if(Pan1501==turn) { win++; } } } } }
-                if(Pan1106==turn) { if(Pan1205==turn) { if(Pan1304==turn) { if(Pan1403==turn) { if(Pan1502==turn) { win++; } } } } }
-                if(Pan1107==turn) { if(Pan1206==turn) { if(Pan1305==turn) { if(Pan1404==turn) { if(Pan1503==turn) { win++; } } } } }
-                if(Pan1108==turn) { if(Pan1207==turn) { if(Pan1306==turn) { if(Pan1405==turn) { if(Pan1504==turn) { win++; } } } } }
-                if(Pan1109==turn) { if(Pan1208==turn) { if(Pan1307==turn) { if(Pan1406==turn) { if(Pan1505==turn) { win++; } } } } }
-                if(Pan1110==turn) { if(Pan1209==turn) { if(Pan1308==turn) { if(Pan1407==turn) { if(Pan1506==turn) { win++; } } } } }
-                if(Pan1111==turn) { if(Pan1210==turn) { if(Pan1309==turn) { if(Pan1408==turn) { if(Pan1507==turn) { win++; } } } } }
-                if(Pan1112==turn) { if(Pan1211==turn) { if(Pan1310==turn) { if(Pan1409==turn) { if(Pan1508==turn) { win++; } } } } }
-                if(Pan1113==turn) { if(Pan1212==turn) { if(Pan1311==turn) { if(Pan1410==turn) { if(Pan1509==turn) { win++; } } } } }
-                if(Pan1114==turn) { if(Pan1213==turn) { if(Pan1312==turn) { if(Pan1411==turn) { if(Pan1510==turn) { win++; } } } } }
-                if(Pan1115==turn) { if(Pan1214==turn) { if(Pan1313==turn) { if(Pan1412==turn) { if(Pan1511==turn) { win++; } } } } }
-                if(Pan1116==turn) { if(Pan1215==turn) { if(Pan1314==turn) { if(Pan1413==turn) { if(Pan1512==turn) { win++; } } } } }
-                if(Pan1117==turn) { if(Pan1216==turn) { if(Pan1315==turn) { if(Pan1414==turn) { if(Pan1513==turn) { win++; } } } } }
-                if(Pan1118==turn) { if(Pan1217==turn) { if(Pan1316==turn) { if(Pan1415==turn) { if(Pan1514==turn) { win++; } } } } }
-                if(Pan1119==turn) { if(Pan1218==turn) { if(Pan1317==turn) { if(Pan1416==turn) { if(Pan1515==turn) { win++; } } } } }
-                if(Pan1205==turn) { if(Pan1304==turn) { if(Pan1403==turn) { if(Pan1502==turn) { if(Pan1601==turn) { win++; } } } } }
-                if(Pan1206==turn) { if(Pan1305==turn) { if(Pan1404==turn) { if(Pan1503==turn) { if(Pan1602==turn) { win++; } } } } }
-                if(Pan1207==turn) { if(Pan1306==turn) { if(Pan1405==turn) { if(Pan1504==turn) { if(Pan1603==turn) { win++; } } } } }
-                if(Pan1208==turn) { if(Pan1307==turn) { if(Pan1406==turn) { if(Pan1505==turn) { if(Pan1604==turn) { win++; } } } } }
-                if(Pan1209==turn) { if(Pan1308==turn) { if(Pan1407==turn) { if(Pan1506==turn) { if(Pan1605==turn) { win++; } } } } }
-                if(Pan1210==turn) { if(Pan1309==turn) { if(Pan1408==turn) { if(Pan1507==turn) { if(Pan1606==turn) { win++; } } } } }
-                if(Pan1211==turn) { if(Pan1310==turn) { if(Pan1409==turn) { if(Pan1508==turn) { if(Pan1607==turn) { win++; } } } } }
-                if(Pan1212==turn) { if(Pan1311==turn) { if(Pan1410==turn) { if(Pan1509==turn) { if(Pan1608==turn) { win++; } } } } }
-                if(Pan1213==turn) { if(Pan1312==turn) { if(Pan1411==turn) { if(Pan1510==turn) { if(Pan1609==turn) { win++; } } } } }
-                if(Pan1214==turn) { if(Pan1313==turn) { if(Pan1412==turn) { if(Pan1511==turn) { if(Pan1610==turn) { win++; } } } } }
-                if(Pan1215==turn) { if(Pan1314==turn) { if(Pan1413==turn) { if(Pan1512==turn) { if(Pan1611==turn) { win++; } } } } }
-                if(Pan1216==turn) { if(Pan1315==turn) { if(Pan1414==turn) { if(Pan1513==turn) { if(Pan1612==turn) { win++; } } } } }
-                if(Pan1217==turn) { if(Pan1316==turn) { if(Pan1415==turn) { if(Pan1514==turn) { if(Pan1613==turn) { win++; } } } } }
-                if(Pan1218==turn) { if(Pan1317==turn) { if(Pan1416==turn) { if(Pan1515==turn) { if(Pan1614==turn) { win++; } } } } }
-                if(Pan1219==turn) { if(Pan1318==turn) { if(Pan1417==turn) { if(Pan1516==turn) { if(Pan1615==turn) { win++; } } } } }
-                if(Pan1305==turn) { if(Pan1404==turn) { if(Pan1503==turn) { if(Pan1602==turn) { if(Pan1701==turn) { win++; } } } } }
-                if(Pan1306==turn) { if(Pan1405==turn) { if(Pan1504==turn) { if(Pan1603==turn) { if(Pan1702==turn) { win++; } } } } }
-                if(Pan1307==turn) { if(Pan1406==turn) { if(Pan1505==turn) { if(Pan1604==turn) { if(Pan1703==turn) { win++; } } } } }
-                if(Pan1308==turn) { if(Pan1407==turn) { if(Pan1506==turn) { if(Pan1605==turn) { if(Pan1704==turn) { win++; } } } } }
-                if(Pan1309==turn) { if(Pan1408==turn) { if(Pan1507==turn) { if(Pan1606==turn) { if(Pan1705==turn) { win++; } } } } }
-                if(Pan1310==turn) { if(Pan1409==turn) { if(Pan1508==turn) { if(Pan1607==turn) { if(Pan1706==turn) { win++; } } } } }
-                if(Pan1311==turn) { if(Pan1410==turn) { if(Pan1509==turn) { if(Pan1608==turn) { if(Pan1707==turn) { win++; } } } } }
-                if(Pan1312==turn) { if(Pan1411==turn) { if(Pan1510==turn) { if(Pan1609==turn) { if(Pan1708==turn) { win++; } } } } }
-                if(Pan1313==turn) { if(Pan1412==turn) { if(Pan1511==turn) { if(Pan1610==turn) { if(Pan1709==turn) { win++; } } } } }
-                if(Pan1314==turn) { if(Pan1413==turn) { if(Pan1512==turn) { if(Pan1611==turn) { if(Pan1710==turn) { win++; } } } } }
-                if(Pan1315==turn) { if(Pan1414==turn) { if(Pan1513==turn) { if(Pan1612==turn) { if(Pan1711==turn) { win++; } } } } }
-                if(Pan1316==turn) { if(Pan1415==turn) { if(Pan1514==turn) { if(Pan1613==turn) { if(Pan1712==turn) { win++; } } } } }
-                if(Pan1317==turn) { if(Pan1416==turn) { if(Pan1515==turn) { if(Pan1614==turn) { if(Pan1713==turn) { win++; } } } } }
-                if(Pan1318==turn) { if(Pan1417==turn) { if(Pan1516==turn) { if(Pan1615==turn) { if(Pan1714==turn) { win++; } } } } }
-                if(Pan1319==turn) { if(Pan1418==turn) { if(Pan1517==turn) { if(Pan1616==turn) { if(Pan1715==turn) { win++; } } } } }
-                if(Pan1405==turn) { if(Pan1504==turn) { if(Pan1603==turn) { if(Pan1702==turn) { if(Pan1801==turn) { win++; } } } } }
-                if(Pan1406==turn) { if(Pan1505==turn) { if(Pan1604==turn) { if(Pan1703==turn) { if(Pan1802==turn) { win++; } } } } }
-                if(Pan1407==turn) { if(Pan1506==turn) { if(Pan1605==turn) { if(Pan1704==turn) { if(Pan1803==turn) { win++; } } } } }
-                if(Pan1408==turn) { if(Pan1507==turn) { if(Pan1606==turn) { if(Pan1705==turn) { if(Pan1804==turn) { win++; } } } } }
-                if(Pan1409==turn) { if(Pan1508==turn) { if(Pan1607==turn) { if(Pan1706==turn) { if(Pan1805==turn) { win++; } } } } }
-                if(Pan1410==turn) { if(Pan1509==turn) { if(Pan1608==turn) { if(Pan1707==turn) { if(Pan1806==turn) { win++; } } } } }
-                if(Pan1411==turn) { if(Pan1510==turn) { if(Pan1609==turn) { if(Pan1708==turn) { if(Pan1807==turn) { win++; } } } } }
-                if(Pan1412==turn) { if(Pan1511==turn) { if(Pan1610==turn) { if(Pan1709==turn) { if(Pan1808==turn) { win++; } } } } }
-                if(Pan1413==turn) { if(Pan1512==turn) { if(Pan1611==turn) { if(Pan1710==turn) { if(Pan1809==turn) { win++; } } } } }
-                if(Pan1414==turn) { if(Pan1513==turn) { if(Pan1612==turn) { if(Pan1711==turn) { if(Pan1810==turn) { win++; } } } } }
-                if(Pan1415==turn) { if(Pan1514==turn) { if(Pan1613==turn) { if(Pan1712==turn) { if(Pan1811==turn) { win++; } } } } }
-                if(Pan1416==turn) { if(Pan1515==turn) { if(Pan1614==turn) { if(Pan1713==turn) { if(Pan1812==turn) { win++; } } } } }
-                if(Pan1417==turn) { if(Pan1516==turn) { if(Pan1615==turn) { if(Pan1714==turn) { if(Pan1813==turn) { win++; } } } } }
-                if(Pan1418==turn) { if(Pan1517==turn) { if(Pan1616==turn) { if(Pan1715==turn) { if(Pan1814==turn) { win++; } } } } }
-                if(Pan1419==turn) { if(Pan1518==turn) { if(Pan1617==turn) { if(Pan1716==turn) { if(Pan1815==turn) { win++; } } } } }
-                if(Pan1505==turn) { if(Pan1604==turn) { if(Pan1703==turn) { if(Pan1802==turn) { if(Pan1901==turn) { win++; } } } } }
-                if(Pan1506==turn) { if(Pan1605==turn) { if(Pan1704==turn) { if(Pan1803==turn) { if(Pan1902==turn) { win++; } } } } }
-                if(Pan1507==turn) { if(Pan1606==turn) { if(Pan1705==turn) { if(Pan1804==turn) { if(Pan1903==turn) { win++; } } } } }
-                if(Pan1508==turn) { if(Pan1607==turn) { if(Pan1706==turn) { if(Pan1805==turn) { if(Pan1904==turn) { win++; } } } } }
-                if(Pan1509==turn) { if(Pan1608==turn) { if(Pan1707==turn) { if(Pan1806==turn) { if(Pan1905==turn) { win++; } } } } }
-                if(Pan1510==turn) { if(Pan1609==turn) { if(Pan1708==turn) { if(Pan1807==turn) { if(Pan1906==turn) { win++; } } } } }
-                if(Pan1511==turn) { if(Pan1610==turn) { if(Pan1709==turn) { if(Pan1808==turn) { if(Pan1907==turn) { win++; } } } } }
-                if(Pan1512==turn) { if(Pan1611==turn) { if(Pan1710==turn) { if(Pan1809==turn) { if(Pan1908==turn) { win++; } } } } }
-                if(Pan1513==turn) { if(Pan1612==turn) { if(Pan1711==turn) { if(Pan1810==turn) { if(Pan1909==turn) { win++; } } } } }
-                if(Pan1514==turn) { if(Pan1613==turn) { if(Pan1712==turn) { if(Pan1811==turn) { if(Pan1910==turn) { win++; } } } } }
-                if(Pan1515==turn) { if(Pan1614==turn) { if(Pan1713==turn) { if(Pan1812==turn) { if(Pan1911==turn) { win++; } } } } }
-                if(Pan1516==turn) { if(Pan1615==turn) { if(Pan1714==turn) { if(Pan1813==turn) { if(Pan1912==turn) { win++; } } } } }
-                if(Pan1517==turn) { if(Pan1616==turn) { if(Pan1715==turn) { if(Pan1814==turn) { if(Pan1913==turn) { win++; } } } } }
-                if(Pan1518==turn) { if(Pan1617==turn) { if(Pan1716==turn) { if(Pan1815==turn) { if(Pan1914==turn) { win++; } } } } }
-                if(Pan1519==turn) { if(Pan1618==turn) { if(Pan1717==turn) { if(Pan1816==turn) { if(Pan1915==turn) { win++; } } } } }
+                if(pan0105==turn)  if(pan0204==turn)  if(pan0303==turn)  if(pan0402==turn)  if(pan0501==turn)  win++;     
+                if(pan0106==turn)  if(pan0205==turn)  if(pan0304==turn)  if(pan0403==turn)  if(pan0502==turn)  win++;     
+                if(pan0107==turn)  if(pan0206==turn)  if(pan0305==turn)  if(pan0404==turn)  if(pan0503==turn)  win++;     
+                if(pan0108==turn)  if(pan0207==turn)  if(pan0306==turn)  if(pan0405==turn)  if(pan0504==turn)  win++;     
+                if(pan0109==turn)  if(pan0208==turn)  if(pan0307==turn)  if(pan0406==turn)  if(pan0505==turn)  win++;     
+                if(pan0113==turn)  if(pan0212==turn)  if(pan0311==turn)  if(pan0410==turn)  if(pan0509==turn)  win++;     
+                if(pan0114==turn)  if(pan0213==turn)  if(pan0312==turn)  if(pan0411==turn)  if(pan0510==turn)  win++;     
+                if(pan0115==turn)  if(pan0214==turn)  if(pan0313==turn)  if(pan0412==turn)  if(pan0511==turn)  win++;     
+                if(pan0116==turn)  if(pan0215==turn)  if(pan0314==turn)  if(pan0413==turn)  if(pan0512==turn)  win++;     
+                if(pan0117==turn)  if(pan0216==turn)  if(pan0315==turn)  if(pan0414==turn)  if(pan0513==turn)  win++;     
+                if(pan0118==turn)  if(pan0217==turn)  if(pan0316==turn)  if(pan0415==turn)  if(pan0514==turn)  win++;     
+                if(pan0119==turn)  if(pan0218==turn)  if(pan0317==turn)  if(pan0416==turn)  if(pan0515==turn)  win++;     
+                if(pan0205==turn)  if(pan0304==turn)  if(pan0403==turn)  if(pan0502==turn)  if(pan0601==turn)  win++;     
+                if(pan0206==turn)  if(pan0305==turn)  if(pan0404==turn)  if(pan0503==turn)  if(pan0602==turn)  win++;     
+                if(pan0207==turn)  if(pan0306==turn)  if(pan0405==turn)  if(pan0504==turn)  if(pan0603==turn)  win++;     
+                if(pan0208==turn)  if(pan0307==turn)  if(pan0406==turn)  if(pan0505==turn)  if(pan0604==turn)  win++;     
+                if(pan0209==turn)  if(pan0308==turn)  if(pan0407==turn)  if(pan0506==turn)  if(pan0605==turn)  win++;     
+                if(pan0213==turn)  if(pan0312==turn)  if(pan0411==turn)  if(pan0510==turn)  if(pan0609==turn)  win++;     
+                if(pan0214==turn)  if(pan0313==turn)  if(pan0412==turn)  if(pan0511==turn)  if(pan0610==turn)  win++;     
+                if(pan0215==turn)  if(pan0314==turn)  if(pan0413==turn)  if(pan0512==turn)  if(pan0611==turn)  win++;     
+                if(pan0216==turn)  if(pan0315==turn)  if(pan0414==turn)  if(pan0513==turn)  if(pan0612==turn)  win++;     
+                if(pan0217==turn)  if(pan0316==turn)  if(pan0415==turn)  if(pan0514==turn)  if(pan0613==turn)  win++;     
+                if(pan0218==turn)  if(pan0317==turn)  if(pan0416==turn)  if(pan0515==turn)  if(pan0614==turn)  win++;     
+                if(pan0219==turn)  if(pan0318==turn)  if(pan0417==turn)  if(pan0516==turn)  if(pan0615==turn)  win++;     
+                if(pan0305==turn)  if(pan0404==turn)  if(pan0503==turn)  if(pan0602==turn)  if(pan0701==turn)  win++;     
+                if(pan0306==turn)  if(pan0405==turn)  if(pan0504==turn)  if(pan0603==turn)  if(pan0702==turn)  win++;     
+                if(pan0307==turn)  if(pan0406==turn)  if(pan0505==turn)  if(pan0604==turn)  if(pan0703==turn)  win++;     
+                if(pan0308==turn)  if(pan0407==turn)  if(pan0506==turn)  if(pan0605==turn)  if(pan0704==turn)  win++;     
+                if(pan0309==turn)  if(pan0408==turn)  if(pan0507==turn)  if(pan0606==turn)  if(pan0705==turn)  win++;     
+                if(pan0313==turn)  if(pan0412==turn)  if(pan0511==turn)  if(pan0610==turn)  if(pan0709==turn)  win++;     
+                if(pan0314==turn)  if(pan0413==turn)  if(pan0512==turn)  if(pan0611==turn)  if(pan0710==turn)  win++;     
+                if(pan0315==turn)  if(pan0414==turn)  if(pan0513==turn)  if(pan0612==turn)  if(pan0711==turn)  win++;     
+                if(pan0316==turn)  if(pan0415==turn)  if(pan0514==turn)  if(pan0613==turn)  if(pan0712==turn)  win++;     
+                if(pan0317==turn)  if(pan0416==turn)  if(pan0515==turn)  if(pan0614==turn)  if(pan0713==turn)  win++;     
+                if(pan0318==turn)  if(pan0417==turn)  if(pan0516==turn)  if(pan0615==turn)  if(pan0714==turn)  win++;     
+                if(pan0319==turn)  if(pan0418==turn)  if(pan0517==turn)  if(pan0616==turn)  if(pan0715==turn)  win++;     
+                if(pan0405==turn)  if(pan0504==turn)  if(pan0603==turn)  if(pan0702==turn)  if(pan0801==turn)  win++;     
+                if(pan0406==turn)  if(pan0505==turn)  if(pan0604==turn)  if(pan0703==turn)  if(pan0802==turn)  win++;     
+                if(pan0407==turn)  if(pan0506==turn)  if(pan0605==turn)  if(pan0704==turn)  if(pan0803==turn)  win++;     
+                if(pan0408==turn)  if(pan0507==turn)  if(pan0606==turn)  if(pan0705==turn)  if(pan0804==turn)  win++;     
+                if(pan0409==turn)  if(pan0508==turn)  if(pan0607==turn)  if(pan0706==turn)  if(pan0805==turn)  win++;     
+                if(pan0413==turn)  if(pan0512==turn)  if(pan0611==turn)  if(pan0710==turn)  if(pan0809==turn)  win++;     
+                if(pan0414==turn)  if(pan0513==turn)  if(pan0612==turn)  if(pan0711==turn)  if(pan0810==turn)  win++;     
+                if(pan0415==turn)  if(pan0514==turn)  if(pan0613==turn)  if(pan0712==turn)  if(pan0811==turn)  win++;     
+                if(pan0416==turn)  if(pan0515==turn)  if(pan0614==turn)  if(pan0713==turn)  if(pan0812==turn)  win++;     
+                if(pan0417==turn)  if(pan0516==turn)  if(pan0615==turn)  if(pan0714==turn)  if(pan0813==turn)  win++;     
+                if(pan0418==turn)  if(pan0517==turn)  if(pan0616==turn)  if(pan0715==turn)  if(pan0814==turn)  win++;     
+                if(pan0419==turn)  if(pan0518==turn)  if(pan0617==turn)  if(pan0716==turn)  if(pan0815==turn)  win++;     
+                if(pan0505==turn)  if(pan0604==turn)  if(pan0703==turn)  if(pan0802==turn)  if(pan0901==turn)  win++;     
+                if(pan0506==turn)  if(pan0605==turn)  if(pan0704==turn)  if(pan0803==turn)  if(pan0902==turn)  win++;     
+                if(pan0507==turn)  if(pan0606==turn)  if(pan0705==turn)  if(pan0804==turn)  if(pan0903==turn)  win++;     
+                if(pan0508==turn)  if(pan0607==turn)  if(pan0706==turn)  if(pan0805==turn)  if(pan0904==turn)  win++;     
+                if(pan0509==turn)  if(pan0608==turn)  if(pan0707==turn)  if(pan0806==turn)  if(pan0905==turn)  win++;     
+                if(pan0513==turn)  if(pan0612==turn)  if(pan0711==turn)  if(pan0810==turn)  if(pan0909==turn)  win++;     
+                if(pan0514==turn)  if(pan0613==turn)  if(pan0712==turn)  if(pan0811==turn)  if(pan0910==turn)  win++;     
+                if(pan0515==turn)  if(pan0614==turn)  if(pan0713==turn)  if(pan0812==turn)  if(pan0911==turn)  win++;     
+                if(pan0516==turn)  if(pan0615==turn)  if(pan0714==turn)  if(pan0813==turn)  if(pan0912==turn)  win++;     
+                if(pan0517==turn)  if(pan0616==turn)  if(pan0715==turn)  if(pan0814==turn)  if(pan0913==turn)  win++;     
+                if(pan0518==turn)  if(pan0617==turn)  if(pan0716==turn)  if(pan0815==turn)  if(pan0914==turn)  win++;     
+                if(pan0519==turn)  if(pan0618==turn)  if(pan0717==turn)  if(pan0816==turn)  if(pan0915==turn)  win++;     
+                if(pan0605==turn)  if(pan0704==turn)  if(pan0803==turn)  if(pan0902==turn)  if(pan1001==turn)  win++;     
+                if(pan0606==turn)  if(pan0705==turn)  if(pan0804==turn)  if(pan0903==turn)  if(pan1002==turn)  win++;     
+                if(pan0607==turn)  if(pan0706==turn)  if(pan0805==turn)  if(pan0904==turn)  if(pan1003==turn)  win++;     
+                if(pan0608==turn)  if(pan0707==turn)  if(pan0806==turn)  if(pan0905==turn)  if(pan1004==turn)  win++;     
+                if(pan0609==turn)  if(pan0708==turn)  if(pan0807==turn)  if(pan0906==turn)  if(pan1005==turn)  win++;     
+                if(pan0613==turn)  if(pan0712==turn)  if(pan0811==turn)  if(pan0910==turn)  if(pan1009==turn)  win++;     
+                if(pan0614==turn)  if(pan0713==turn)  if(pan0812==turn)  if(pan0911==turn)  if(pan1010==turn)  win++;     
+                if(pan0615==turn)  if(pan0714==turn)  if(pan0813==turn)  if(pan0912==turn)  if(pan1011==turn)  win++;     
+                if(pan0616==turn)  if(pan0715==turn)  if(pan0814==turn)  if(pan0913==turn)  if(pan1012==turn)  win++;     
+                if(pan0617==turn)  if(pan0716==turn)  if(pan0815==turn)  if(pan0914==turn)  if(pan1013==turn)  win++;     
+                if(pan0618==turn)  if(pan0717==turn)  if(pan0816==turn)  if(pan0915==turn)  if(pan1014==turn)  win++;     
+                if(pan0619==turn)  if(pan0718==turn)  if(pan0817==turn)  if(pan0916==turn)  if(pan1015==turn)  win++;     
+                if(pan0705==turn)  if(pan0804==turn)  if(pan0903==turn)  if(pan1002==turn)  if(pan1101==turn)  win++;     
+                if(pan0706==turn)  if(pan0805==turn)  if(pan0904==turn)  if(pan1003==turn)  if(pan1102==turn)  win++;     
+                if(pan0707==turn)  if(pan0806==turn)  if(pan0905==turn)  if(pan1004==turn)  if(pan1103==turn)  win++;     
+                if(pan0708==turn)  if(pan0807==turn)  if(pan0906==turn)  if(pan1005==turn)  if(pan1104==turn)  win++;     
+                if(pan0709==turn)  if(pan0808==turn)  if(pan0907==turn)  if(pan1006==turn)  if(pan1105==turn)  win++;     
+                if(pan0712==turn)  if(pan0811==turn)  if(pan0910==turn)  if(pan1009==turn)  if(pan1108==turn)  win++;     
+                if(pan0713==turn)  if(pan0812==turn)  if(pan0911==turn)  if(pan1010==turn)  if(pan1109==turn)  win++;     
+                if(pan0714==turn)  if(pan0813==turn)  if(pan0912==turn)  if(pan1011==turn)  if(pan1110==turn)  win++;     
+                if(pan0715==turn)  if(pan0814==turn)  if(pan0913==turn)  if(pan1012==turn)  if(pan1111==turn)  win++;     
+                if(pan0716==turn)  if(pan0815==turn)  if(pan0914==turn)  if(pan1013==turn)  if(pan1112==turn)  win++;     
+                if(pan0717==turn)  if(pan0816==turn)  if(pan0915==turn)  if(pan1014==turn)  if(pan1113==turn)  win++;     
+                if(pan0718==turn)  if(pan0817==turn)  if(pan0916==turn)  if(pan1015==turn)  if(pan1114==turn)  win++;     
+                if(pan0719==turn)  if(pan0818==turn)  if(pan0917==turn)  if(pan1016==turn)  if(pan1115==turn)  win++;     
+                if(pan0805==turn)  if(pan0904==turn)  if(pan1003==turn)  if(pan1102==turn)  if(pan1201==turn)  win++;     
+                if(pan0806==turn)  if(pan0905==turn)  if(pan1004==turn)  if(pan1103==turn)  if(pan1202==turn)  win++;     
+                if(pan0807==turn)  if(pan0906==turn)  if(pan1005==turn)  if(pan1104==turn)  if(pan1203==turn)  win++;     
+                if(pan0808==turn)  if(pan0907==turn)  if(pan1006==turn)  if(pan1105==turn)  if(pan1204==turn)  win++;     
+                if(pan0809==turn)  if(pan0908==turn)  if(pan1007==turn)  if(pan1106==turn)  if(pan1205==turn)  win++;     
+                if(pan0811==turn)  if(pan0910==turn)  if(pan1009==turn)  if(pan1108==turn)  if(pan1207==turn)  win++;     
+                if(pan0813==turn)  if(pan0912==turn)  if(pan1011==turn)  if(pan1110==turn)  if(pan1209==turn)  win++;     
+                if(pan0814==turn)  if(pan0913==turn)  if(pan1012==turn)  if(pan1111==turn)  if(pan1210==turn)  win++;     
+                if(pan0815==turn)  if(pan0914==turn)  if(pan1013==turn)  if(pan1112==turn)  if(pan1211==turn)  win++;     
+                if(pan0816==turn)  if(pan0915==turn)  if(pan1014==turn)  if(pan1113==turn)  if(pan1212==turn)  win++;     
+                if(pan0817==turn)  if(pan0916==turn)  if(pan1015==turn)  if(pan1114==turn)  if(pan1213==turn)  win++;     
+                if(pan0818==turn)  if(pan0917==turn)  if(pan1016==turn)  if(pan1115==turn)  if(pan1214==turn)  win++;     
+                if(pan0819==turn)  if(pan0918==turn)  if(pan1017==turn)  if(pan1116==turn)  if(pan1215==turn)  win++;     
+                if(pan0905==turn)  if(pan1004==turn)  if(pan1103==turn)  if(pan1202==turn)  if(pan1301==turn)  win++;     
+                if(pan0906==turn)  if(pan1005==turn)  if(pan1104==turn)  if(pan1203==turn)  if(pan1302==turn)  win++;     
+                if(pan0907==turn)  if(pan1006==turn)  if(pan1105==turn)  if(pan1204==turn)  if(pan1303==turn)  win++;     
+                if(pan0908==turn)  if(pan1007==turn)  if(pan1106==turn)  if(pan1205==turn)  if(pan1304==turn)  win++;     
+                if(pan0909==turn)  if(pan1008==turn)  if(pan1107==turn)  if(pan1206==turn)  if(pan1305==turn)  win++;     
+                if(pan0910==turn)  if(pan1009==turn)  if(pan1108==turn)  if(pan1207==turn)  if(pan1306==turn)  win++;     
+                if(pan0913==turn)  if(pan1012==turn)  if(pan1111==turn)  if(pan1210==turn)  if(pan1309==turn)  win++;     
+                if(pan0914==turn)  if(pan1013==turn)  if(pan1112==turn)  if(pan1211==turn)  if(pan1310==turn)  win++;     
+                if(pan0915==turn)  if(pan1014==turn)  if(pan1113==turn)  if(pan1212==turn)  if(pan1311==turn)  win++;     
+                if(pan0916==turn)  if(pan1015==turn)  if(pan1114==turn)  if(pan1213==turn)  if(pan1312==turn)  win++;     
+                if(pan0917==turn)  if(pan1016==turn)  if(pan1115==turn)  if(pan1214==turn)  if(pan1313==turn)  win++;     
+                if(pan0918==turn)  if(pan1017==turn)  if(pan1116==turn)  if(pan1215==turn)  if(pan1314==turn)  win++;     
+                if(pan0919==turn)  if(pan1018==turn)  if(pan1117==turn)  if(pan1216==turn)  if(pan1315==turn)  win++;     
+                if(pan1005==turn)  if(pan1104==turn)  if(pan1203==turn)  if(pan1302==turn)  if(pan1401==turn)  win++;     
+                if(pan1006==turn)  if(pan1105==turn)  if(pan1204==turn)  if(pan1303==turn)  if(pan1402==turn)  win++;     
+                if(pan1007==turn)  if(pan1106==turn)  if(pan1205==turn)  if(pan1304==turn)  if(pan1403==turn)  win++;     
+                if(pan1008==turn)  if(pan1107==turn)  if(pan1206==turn)  if(pan1305==turn)  if(pan1404==turn)  win++;     
+                if(pan1009==turn)  if(pan1108==turn)  if(pan1207==turn)  if(pan1306==turn)  if(pan1405==turn)  win++;     
+                if(pan1010==turn)  if(pan1109==turn)  if(pan1208==turn)  if(pan1307==turn)  if(pan1406==turn)  win++;     
+                if(pan1011==turn)  if(pan1110==turn)  if(pan1209==turn)  if(pan1308==turn)  if(pan1407==turn)  win++;     
+                if(pan1012==turn)  if(pan1111==turn)  if(pan1210==turn)  if(pan1309==turn)  if(pan1408==turn)  win++;     
+                if(pan1013==turn)  if(pan1112==turn)  if(pan1211==turn)  if(pan1310==turn)  if(pan1409==turn)  win++;     
+                if(pan1014==turn)  if(pan1113==turn)  if(pan1212==turn)  if(pan1311==turn)  if(pan1410==turn)  win++;     
+                if(pan1015==turn)  if(pan1114==turn)  if(pan1213==turn)  if(pan1312==turn)  if(pan1411==turn)  win++;     
+                if(pan1016==turn)  if(pan1115==turn)  if(pan1214==turn)  if(pan1313==turn)  if(pan1412==turn)  win++;     
+                if(pan1017==turn)  if(pan1116==turn)  if(pan1215==turn)  if(pan1314==turn)  if(pan1413==turn)  win++;     
+                if(pan1018==turn)  if(pan1117==turn)  if(pan1216==turn)  if(pan1315==turn)  if(pan1414==turn)  win++;     
+                if(pan1019==turn)  if(pan1118==turn)  if(pan1217==turn)  if(pan1316==turn)  if(pan1415==turn)  win++;     
+                if(pan1105==turn)  if(pan1204==turn)  if(pan1303==turn)  if(pan1402==turn)  if(pan1501==turn)  win++;     
+                if(pan1106==turn)  if(pan1205==turn)  if(pan1304==turn)  if(pan1403==turn)  if(pan1502==turn)  win++;     
+                if(pan1107==turn)  if(pan1206==turn)  if(pan1305==turn)  if(pan1404==turn)  if(pan1503==turn)  win++;     
+                if(pan1108==turn)  if(pan1207==turn)  if(pan1306==turn)  if(pan1405==turn)  if(pan1504==turn)  win++;     
+                if(pan1109==turn)  if(pan1208==turn)  if(pan1307==turn)  if(pan1406==turn)  if(pan1505==turn)  win++;     
+                if(pan1110==turn)  if(pan1209==turn)  if(pan1308==turn)  if(pan1407==turn)  if(pan1506==turn)  win++;     
+                if(pan1111==turn)  if(pan1210==turn)  if(pan1309==turn)  if(pan1408==turn)  if(pan1507==turn)  win++;     
+                if(pan1112==turn)  if(pan1211==turn)  if(pan1310==turn)  if(pan1409==turn)  if(pan1508==turn)  win++;     
+                if(pan1113==turn)  if(pan1212==turn)  if(pan1311==turn)  if(pan1410==turn)  if(pan1509==turn)  win++;     
+                if(pan1114==turn)  if(pan1213==turn)  if(pan1312==turn)  if(pan1411==turn)  if(pan1510==turn)  win++;     
+                if(pan1115==turn)  if(pan1214==turn)  if(pan1313==turn)  if(pan1412==turn)  if(pan1511==turn)  win++;     
+                if(pan1116==turn)  if(pan1215==turn)  if(pan1314==turn)  if(pan1413==turn)  if(pan1512==turn)  win++;     
+                if(pan1117==turn)  if(pan1216==turn)  if(pan1315==turn)  if(pan1414==turn)  if(pan1513==turn)  win++;     
+                if(pan1118==turn)  if(pan1217==turn)  if(pan1316==turn)  if(pan1415==turn)  if(pan1514==turn)  win++;     
+                if(pan1119==turn)  if(pan1218==turn)  if(pan1317==turn)  if(pan1416==turn)  if(pan1515==turn)  win++;     
+                if(pan1205==turn)  if(pan1304==turn)  if(pan1403==turn)  if(pan1502==turn)  if(pan1601==turn)  win++;     
+                if(pan1206==turn)  if(pan1305==turn)  if(pan1404==turn)  if(pan1503==turn)  if(pan1602==turn)  win++;     
+                if(pan1207==turn)  if(pan1306==turn)  if(pan1405==turn)  if(pan1504==turn)  if(pan1603==turn)  win++;     
+                if(pan1208==turn)  if(pan1307==turn)  if(pan1406==turn)  if(pan1505==turn)  if(pan1604==turn)  win++;     
+                if(pan1209==turn)  if(pan1308==turn)  if(pan1407==turn)  if(pan1506==turn)  if(pan1605==turn)  win++;     
+                if(pan1210==turn)  if(pan1309==turn)  if(pan1408==turn)  if(pan1507==turn)  if(pan1606==turn)  win++;     
+                if(pan1211==turn)  if(pan1310==turn)  if(pan1409==turn)  if(pan1508==turn)  if(pan1607==turn)  win++;     
+                if(pan1212==turn)  if(pan1311==turn)  if(pan1410==turn)  if(pan1509==turn)  if(pan1608==turn)  win++;     
+                if(pan1213==turn)  if(pan1312==turn)  if(pan1411==turn)  if(pan1510==turn)  if(pan1609==turn)  win++;     
+                if(pan1214==turn)  if(pan1313==turn)  if(pan1412==turn)  if(pan1511==turn)  if(pan1610==turn)  win++;     
+                if(pan1215==turn)  if(pan1314==turn)  if(pan1413==turn)  if(pan1512==turn)  if(pan1611==turn)  win++;     
+                if(pan1216==turn)  if(pan1315==turn)  if(pan1414==turn)  if(pan1513==turn)  if(pan1612==turn)  win++;     
+                if(pan1217==turn)  if(pan1316==turn)  if(pan1415==turn)  if(pan1514==turn)  if(pan1613==turn)  win++;     
+                if(pan1218==turn)  if(pan1317==turn)  if(pan1416==turn)  if(pan1515==turn)  if(pan1614==turn)  win++;     
+                if(pan1219==turn)  if(pan1318==turn)  if(pan1417==turn)  if(pan1516==turn)  if(pan1615==turn)  win++;     
+                if(pan1305==turn)  if(pan1404==turn)  if(pan1503==turn)  if(pan1602==turn)  if(pan1701==turn)  win++;     
+                if(pan1306==turn)  if(pan1405==turn)  if(pan1504==turn)  if(pan1603==turn)  if(pan1702==turn)  win++;     
+                if(pan1307==turn)  if(pan1406==turn)  if(pan1505==turn)  if(pan1604==turn)  if(pan1703==turn)  win++;     
+                if(pan1308==turn)  if(pan1407==turn)  if(pan1506==turn)  if(pan1605==turn)  if(pan1704==turn)  win++;     
+                if(pan1309==turn)  if(pan1408==turn)  if(pan1507==turn)  if(pan1606==turn)  if(pan1705==turn)  win++;     
+                if(pan1310==turn)  if(pan1409==turn)  if(pan1508==turn)  if(pan1607==turn)  if(pan1706==turn)  win++;     
+                if(pan1311==turn)  if(pan1410==turn)  if(pan1509==turn)  if(pan1608==turn)  if(pan1707==turn)  win++;     
+                if(pan1312==turn)  if(pan1411==turn)  if(pan1510==turn)  if(pan1609==turn)  if(pan1708==turn)  win++;     
+                if(pan1313==turn)  if(pan1412==turn)  if(pan1511==turn)  if(pan1610==turn)  if(pan1709==turn)  win++;     
+                if(pan1314==turn)  if(pan1413==turn)  if(pan1512==turn)  if(pan1611==turn)  if(pan1710==turn)  win++;     
+                if(pan1315==turn)  if(pan1414==turn)  if(pan1513==turn)  if(pan1612==turn)  if(pan1711==turn)  win++;     
+                if(pan1316==turn)  if(pan1415==turn)  if(pan1514==turn)  if(pan1613==turn)  if(pan1712==turn)  win++;     
+                if(pan1317==turn)  if(pan1416==turn)  if(pan1515==turn)  if(pan1614==turn)  if(pan1713==turn)  win++;     
+                if(pan1318==turn)  if(pan1417==turn)  if(pan1516==turn)  if(pan1615==turn)  if(pan1714==turn)  win++;     
+                if(pan1319==turn)  if(pan1418==turn)  if(pan1517==turn)  if(pan1616==turn)  if(pan1715==turn)  win++;     
+                if(pan1405==turn)  if(pan1504==turn)  if(pan1603==turn)  if(pan1702==turn)  if(pan1801==turn)  win++;     
+                if(pan1406==turn)  if(pan1505==turn)  if(pan1604==turn)  if(pan1703==turn)  if(pan1802==turn)  win++;     
+                if(pan1407==turn)  if(pan1506==turn)  if(pan1605==turn)  if(pan1704==turn)  if(pan1803==turn)  win++;     
+                if(pan1408==turn)  if(pan1507==turn)  if(pan1606==turn)  if(pan1705==turn)  if(pan1804==turn)  win++;     
+                if(pan1409==turn)  if(pan1508==turn)  if(pan1607==turn)  if(pan1706==turn)  if(pan1805==turn)  win++;     
+                if(pan1410==turn)  if(pan1509==turn)  if(pan1608==turn)  if(pan1707==turn)  if(pan1806==turn)  win++;     
+                if(pan1411==turn)  if(pan1510==turn)  if(pan1609==turn)  if(pan1708==turn)  if(pan1807==turn)  win++;     
+                if(pan1412==turn)  if(pan1511==turn)  if(pan1610==turn)  if(pan1709==turn)  if(pan1808==turn)  win++;     
+                if(pan1413==turn)  if(pan1512==turn)  if(pan1611==turn)  if(pan1710==turn)  if(pan1809==turn)  win++;     
+                if(pan1414==turn)  if(pan1513==turn)  if(pan1612==turn)  if(pan1711==turn)  if(pan1810==turn)  win++;     
+                if(pan1415==turn)  if(pan1514==turn)  if(pan1613==turn)  if(pan1712==turn)  if(pan1811==turn)  win++;     
+                if(pan1416==turn)  if(pan1515==turn)  if(pan1614==turn)  if(pan1713==turn)  if(pan1812==turn)  win++;     
+                if(pan1417==turn)  if(pan1516==turn)  if(pan1615==turn)  if(pan1714==turn)  if(pan1813==turn)  win++;     
+                if(pan1418==turn)  if(pan1517==turn)  if(pan1616==turn)  if(pan1715==turn)  if(pan1814==turn)  win++;     
+                if(pan1419==turn)  if(pan1518==turn)  if(pan1617==turn)  if(pan1716==turn)  if(pan1815==turn)  win++;     
+                if(pan1505==turn)  if(pan1604==turn)  if(pan1703==turn)  if(pan1802==turn)  if(pan1901==turn)  win++;     
+                if(pan1506==turn)  if(pan1605==turn)  if(pan1704==turn)  if(pan1803==turn)  if(pan1902==turn)  win++;     
+                if(pan1507==turn)  if(pan1606==turn)  if(pan1705==turn)  if(pan1804==turn)  if(pan1903==turn)  win++;     
+                if(pan1508==turn)  if(pan1607==turn)  if(pan1706==turn)  if(pan1805==turn)  if(pan1904==turn)  win++;     
+                if(pan1509==turn)  if(pan1608==turn)  if(pan1707==turn)  if(pan1806==turn)  if(pan1905==turn)  win++;     
+                if(pan1510==turn)  if(pan1609==turn)  if(pan1708==turn)  if(pan1807==turn)  if(pan1906==turn)  win++;     
+                if(pan1511==turn)  if(pan1610==turn)  if(pan1709==turn)  if(pan1808==turn)  if(pan1907==turn)  win++;     
+                if(pan1512==turn)  if(pan1611==turn)  if(pan1710==turn)  if(pan1809==turn)  if(pan1908==turn)  win++;     
+                if(pan1513==turn)  if(pan1612==turn)  if(pan1711==turn)  if(pan1810==turn)  if(pan1909==turn)  win++;     
+                if(pan1514==turn)  if(pan1613==turn)  if(pan1712==turn)  if(pan1811==turn)  if(pan1910==turn)  win++;     
+                if(pan1515==turn)  if(pan1614==turn)  if(pan1713==turn)  if(pan1812==turn)  if(pan1911==turn)  win++;     
+                if(pan1516==turn)  if(pan1615==turn)  if(pan1714==turn)  if(pan1813==turn)  if(pan1912==turn)  win++;     
+                if(pan1517==turn)  if(pan1616==turn)  if(pan1715==turn)  if(pan1814==turn)  if(pan1913==turn)  win++;     
+                if(pan1518==turn)  if(pan1617==turn)  if(pan1716==turn)  if(pan1815==turn)  if(pan1914==turn)  win++;     
+                if(pan1519==turn)  if(pan1618==turn)  if(pan1717==turn)  if(pan1816==turn)  if(pan1915==turn)  win++;     
 
                 /* 턴을 바꾼다 */
                 if(turn==1)        
