@@ -301,6 +301,13 @@ defaults:
     values:
       categories:
         - Debugging
+  # _posts/raspi3
+  - scope:
+      path: "_posts/raspi3"
+      type: posts
+    values:
+      categories:
+        - Raspi3
   # _pages
   - scope:
       path: "_pages"
