@@ -13,11 +13,12 @@ tag:
 - kernel debugging
 ---
 
-# Linux 4.16.0 arm64 kernel debug
-### for debuging with KGDB
-###### will add KDB later..
 
 ## What is this repository?
+
+### for debuging with KGDB
+
+###### will add KDB later..
 kgdb를 이용해 arm64 커널을 바로 디버깅 할 수 있도록 빌드 해놓은
 저장소입니다. <br />
 _~~영어를 못해서 한글로 적은 것은 아닙니다. ㅎㅎㅎㅎㅎㅎ ^^;;;;;~~_
@@ -119,7 +120,7 @@ target remote :1234
 ### How to get ready for compiling
 
 
-**Install Dependent Packages**
+#### Install Dependent Packages
 
 ###### Ubuntu
 ```sh
@@ -134,7 +135,7 @@ sudo dnf install ncurses-devel bison-devel bison flex-devel flex \
 ```
 > [https://sjp38.github.io/post/linux-kernel-build/](https://sjp38.github.io/post/linux-kernel-build/)
 
-**Install Compiler Package**
+#### Install Compiler Package
 
 ###### Ubuntu
 ```sh

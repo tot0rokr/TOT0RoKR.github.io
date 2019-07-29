@@ -287,6 +287,9 @@ defaults:
     values:
       categories:
         - Arm64
+      tags:
+        - arm64
+
   # _posts/linux
   - scope:
       path: "_posts/linux"
@@ -294,6 +297,9 @@ defaults:
     values:
       categories:
         - KernelCode4.16
+      tags:
+        - kernelCode4.16
+
   # _posts/Debugging
   - scope:
       path: "_posts/Debugging"
@@ -301,13 +307,29 @@ defaults:
     values:
       categories:
         - Debugging
-  # _posts/raspi3
+      tags:
+        - debugging
+
+  # _posts/Raspi3
   - scope:
-      path: "_posts/raspi3"
+      path: "_posts/Raspi3"
       type: posts
     values:
       categories:
         - Raspi3
+      tags:
+        - raspi3
+
+  # _posts/Kat
+  - scope:
+      path: "_posts/Kat"
+      type: posts
+    values:
+      categories:
+        - KAT
+      tags:
+        - kat
+
   # _pages
   - scope:
       path: "_pages"
@@ -315,6 +337,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _iamroot-history
   - scope:
       path: ""
