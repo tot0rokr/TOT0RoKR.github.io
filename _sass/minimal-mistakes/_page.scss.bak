@@ -75,12 +75,7 @@
   p,
   li,
   dl {
-    font-size: $type-size-6;
-    p,
-    li,
-    dl {
-      font-size: 1em;
-    }
+    font-size: 1em;
   }
 
   /* paragraph indents */
@@ -126,12 +121,6 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
-  }
-  
-  .toc {
-    li {
-      font-size: 1em;
-    }
   }
 }
 
