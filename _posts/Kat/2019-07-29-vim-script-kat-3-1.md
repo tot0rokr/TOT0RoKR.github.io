@@ -39,7 +39,7 @@ $ vim --version
 ```
 
 You can see the installed version of vim, compiled option, usable modules  
-설치된 vim에 대한 version과 compile 옵션, 사용할 수 있는 module을 볼 수 있다.
+**=** 설치된 vim에 대한 version과 compile 옵션, 사용할 수 있는 module을 볼 수 있다.
 
 
 ### Vimscript
@@ -56,14 +56,14 @@ You can read Vim's own documentation
 ```
 
 scriptfile.vim written vimscript is included within current vim session.  
-vim script를 현재 vim session에 포함한다.
+**=** vim script를 현재 vim session에 포함한다.
 
 ``` vim
 :call MyBackupFunc(argu1, argu2)
 ```
 
 Run MyBackupFunc() within current vim session  
-현재 vim session에 포함된 MyBackupFunc을 수행한다.
+**=** 현재 vim session에 포함된 MyBackupFunc을 수행한다.
 
 
 ``` vim
@@ -72,7 +72,7 @@ Run MyBackupFunc() within current vim session
 ```
 
 Mapped over statements to `;s` and `\b`  
-위 명령을 `;s`와 `\b` 로 키매핑  
+**=** 위 명령을 `;s`와 `\b` 로 키매핑  
 
 Generally, placed in `$HOME/.vimrc`  
 `$HOME/.vimrc`에 위치해도 된다.
@@ -129,7 +129,7 @@ call Func(argu1, argu2) " This is comment of Func()
 You can't put a comment anywhere that a string might be expected,
 as `echo` command. So you can fix the above problem by using a vertical bar
 to explicitly begin a new statement before starting the comment, like so:  
-`echo`와 같이 string으로 오해될 수 있는 곳에는 쌍따옴표만으로 comment를
+**=** `echo`와 같이 string으로 오해될 수 있는 곳에는 쌍따옴표만으로 comment를
 사용할 수 없다. 그래서 comment를 시작하기 전에 vertical bar (`|`)를 이용해서
 새 statement를 만들고(빈 statement) 그 곳에 comment를 작성한다. 다음과 같이:
 ``` vim
@@ -163,18 +163,20 @@ with explicit string keys
 Variables have no inherent type. Instead, they take on the type of the
 first value assigned to them. Variable types, once assigned, are permanent
 and strictly enforced at runtime.  
-변수는 타입을 갖지 않는다. 대신, 처음 값을 할당한 것으로 타입을 정한다.
+**=** 변수는 타입을 갖지 않는다. 대신, 처음 값을 할당한 것으로 타입을 정한다.
 한 번 정해진 변수의 타입은 runtime 동안 영구적이고 엄격하게 강제한다.
 
 #### Variable scope
 
 By default, a variable is scoped to the function in witch it is first assigned to,
 or is global if its first assignment occurs outside any function.  
-기본적으로, 변수는 선언된 함수 내의 범위를 갖거나 함수 바깥에 선언되면 전역
+**=** 기본적으로, 변수는 선언된 함수 내의 범위를 갖거나 함수 바깥에 선언되면 전역
 을 범위로 갖는다.
 
 However, variables may also be explicitly declared as belonging to other scopes,
 using a variety of prefixes.
+**=** 그렇지만, 변수는 또한 다양한 prefix를 이용해서 다른 scope에 소속하도록
+명시적으로 선언될 수 있다.
 
 |Prefix|Meaning|
 |:-----|:------|
@@ -218,12 +220,12 @@ pass others
 
 - Only the numeric value zero is false in a boolean context
 - Any non-zero numeric value is considered true  
-C와 마찬다지로 0이면 false, 이외에는 전부 true
+**=** C와 마찬다지로 0이면 false, 이외에는 전부 true
 - All the logical and comparison operators consistently return the value 1 for true  
-논리식 혹은 비교 연산은 true에 대해서 1을 return 한다.
+**=** 논리식 혹은 비교 연산은 true에 대해서 1을 return 한다.
 - When a string is used as a boolean, it is first converted to an integer,
 strings including empty string will mostly evaluate as being false  
-string은 참/거짓으로 사용될 때, 정수로 변환하는데, 빈 문자열을 포함하여
+**=** string은 참/거짓으로 사용될 때, 정수로 변환하는데, 빈 문자열을 포함하여
 거의 모든 문자열을 0으로 계산한다.
 - Solution
 ``` vim
@@ -254,7 +256,7 @@ endif
 #### Arithmetic caveats
 
 - Vim supported only integer arithmetic until version 7.2  
-7.2버전 밑의 vim은 정수 연산밖에 지원하지 않는다.
+**=** 7.2버전 밑의 vim은 정수 연산밖에 지원하지 않는다.
 - Problem with integer arithmetic
 ``` vim
 for filenum in range(filecount)
@@ -270,7 +272,7 @@ So you can as though: `echo filecount / 100.0`
 
 You can use the **imap** or **iabbrev** commands to set up key-mappings or
 abbreviations that can be used while inserting text. For example:  
-**imap** 혹은 **iabbrev** 명령을 사용하여 키매핑 혹은 약어를 만들 수 있다.
+**=** **imap** 혹은 **iabbrev** 명령을 사용하여 키매핑 혹은 약어를 만들 수 있다.
 
 ``` vim
 iabbrev <silent> CWD <C-R>=getcwd()<CR>
@@ -279,13 +281,13 @@ imap <silent> <C-C> <C-R>=string(eval(input("Calculate: ")))<CR>
 
 If you write "CWD" in insert mode it is changed your current working directory.
 And there is a simple calculator that can call by typing CTRL-C during text insertions.
-insert mode에서 CWD를 입력하면 현재 작업 디렉토리로 문자열이 치환되고,
+**=** insert mode에서 CWD를 입력하면 현재 작업 디렉토리로 문자열이 치환되고,
 CTRL-C입력을 통해서 간이 계산기를 호출할 수 있다. (계산된 문자열이 입력된다.)
 
 Just put the appropriate Vimscript expression or function call between an initial
 `<C-R>=` (which tells Vim to insert the result of evaluating what follows)
 and a final `<CR>` (which tells Vim to actually evaluate the preceding expression).
-`<C-R>=`은 약어가 입력되면 따라오는 문자열을 vim이 입력한다.
+**=** `<C-R>=`은 약어가 입력되면 따라오는 문자열을 vim이 입력한다.
 
 
 
@@ -308,10 +310,10 @@ endfunction
 
 Vimscript functions always return a value, so if no **return** is specified,
 the function automatically returns zero.  
-함수는 항상 리턴값을 가지며, return을 명시하지 않았을 경우 0을 반환한다.
+**=** 함수는 항상 리턴값을 가지며, return을 명시하지 않았을 경우 0을 반환한다.
 
 Function names in Vimscript must start with an uppercase letter:  
-함수의 이름은 항상 대문자로 시작한다.
+**=** 함수의 이름은 항상 대문자로 시작한다.
 
 
 #### Scope
@@ -324,16 +326,16 @@ Same [Variable Scope][vim-script-variable-scope]
 Function declarations are runtime statements, so if script is loaded twice,
 any functions will be executed twice. So its behavior is that a function
 redeclares
-함수 정의는 runtime 상태이기에 script를 두 번 load하면 함수들은 두 번 실행 될
+**=** 함수 정의는 runtime 상태이기에 script를 두 번 load하면 함수들은 두 번 실행 될
 것이다. 그래서 이 행위는 함수를 재정의 하는 것이다.
 
 Redeclaring a function is treated as a fatal error (to prevent collisions 
 where two separate scripts accidentally declare functions of the same name).  
-함수 재정의는 치명적 오류로 간주된다. (서로 다른 독립된 script에 우연히 같은
+**=** 함수 재정의는 치명적 오류로 간주된다. (서로 다른 독립된 script에 우연히 같은
 이름의 함수가 정의되어 생긴 충돌을 막기 위해.)
 
 So you can make function to be able to redeclare with **function!**  
-그래서 우리는 재정의 할 수 있는 함수를 **function!**을 이용해서 만들 수 있다.
+**=** 그래서 우리는 재정의 할 수 있는 함수를 **function!**을 이용해서 만들 수 있다.
 
 ``` vim
 function! s:save_backup ()
@@ -344,7 +346,7 @@ endfunction
 
 in which case the scoping already ensures that the function won’t
 collide with one from another script.  
-이 경우에 이미 다른 스크립트와 충돌 나지 않을 것을 보장한다.
+**=** 이 경우에 이미 다른 스크립트와 충돌 나지 않을 것을 보장한다.
 (이미 존재했던 함수면 이전의 함수를 무시하게 된다.)
 
 
@@ -361,11 +363,11 @@ collide with one from another script.
 
 You can specify up to 20 explicitly named parameters immediately 
 after the declaration of the subroutine’s name.  
-서브루틴의 이름 선언 후에 즉시 20개 이상의 인자를 명시할 수 있다.
+**=** 서브루틴의 이름 선언 후에 즉시 20개 이상의 인자를 명시할 수 있다.
 
 Once specified, the corresponding argument values for the current call can be 
 accessed within the function by prefixing an a: to the parameter name:  
-현재 호출동안 인자 값이 일치하는 것은 인자 이름 앞에 prefix **a:**으로 함수안에서
+**=** 현재 호출동안 인자 값이 일치하는 것은 인자 이름 앞에 prefix **a:**으로 함수안에서
 접근될 수 있다.
 
 ``` vim
@@ -380,7 +382,7 @@ variadic parameter list, using an ellipsis **(...)** instead of named parameters
 Those values are collected into a single variable: and array named **a:000**
 Individual arguments are also given positional parameter names: **a:1, a:2, a:3, etc.**
 The number of arguments is available as **a:0.**  
-만약 얼마나 많은 인자를 필요로 하는지 알 수 없다면, 인자 이름 대신에 생략부호
+**=** 만약 얼마나 많은 인자를 필요로 하는지 알 수 없다면, 인자 이름 대신에 생략부호
 **(...)** 를 이용해서 가변 인자를 명시할 수 있다.
 그 변수들은 하나의 변수로 모아진다. 그 배열의 이름은 **a:000**이다.
 각각 변수는 인자 위치에 따라 이름이 주어진다. **a:1, a:2, a:3, etc..**
@@ -449,7 +451,7 @@ But if you specified a range before the `call`:
 The function is invoked only once, and two special arguments, a:firstline and
 a:lastline, are set to the first and last line numbers in the range. If no range
 is specified, both a:firstline and a:lastline are set to the current line number.  
-함수는 한번에 적용된다. 그리고 두 특별한 인자는 range의 첫 번째와 마지막 라인 숫자가
+**=** 함수는 한번에 적용된다. 그리고 두 특별한 인자는 range의 첫 번째와 마지막 라인 숫자가
 지정된다(**a:firstline**, **a:lastline**). 만약 range가 명시되지 않으면,
 **a:firstline**과 **a:lastline**은 현재 커서 라인 숫자로 지정된다.
 
@@ -476,6 +478,7 @@ endfunction
 #### Visual ranges
 
 You can make a visual block of text in visual-mode, and you can apply in there.
+**=** visual block을 이용해서 위의 함수를 적용할 수도 있다.
 
 
 
