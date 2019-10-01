@@ -9,7 +9,7 @@ tags:
 - syntax
 - vim script
 - viml
-excerpt: "Vim script(VimL) Syntax 문법"
+excerpt: "(ENG/KR) Vim script(VimL) Basic Syntax 문법"
 ---
 
 ## Intro
