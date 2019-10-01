@@ -280,13 +280,13 @@ imap <silent> <C-C> <C-R>=string(eval(input("Calculate: ")))<CR>
 ```
 
 If you write "CWD" in insert mode it is changed your current working directory.
-And there is a simple calculator that can call by typing CTRL-C during text insertions.
+And there is a simple calculator that can call by typing CTRL-C during text insertions.  
 **=** insert mode에서 CWD를 입력하면 현재 작업 디렉토리로 문자열이 치환되고,
 CTRL-C입력을 통해서 간이 계산기를 호출할 수 있다. (계산된 문자열이 입력된다.)
 
 Just put the appropriate Vimscript expression or function call between an initial
 `<C-R>=` (which tells Vim to insert the result of evaluating what follows)
-and a final `<CR>` (which tells Vim to actually evaluate the preceding expression).
+and a final `<CR>` (which tells Vim to actually evaluate the preceding expression).  
 **=** `<C-R>=`은 약어가 입력되면 따라오는 문자열을 vim이 입력한다.
 
 
@@ -325,7 +325,7 @@ Same [Variable Scope][vim-script-variable-scope]
 
 Function declarations are runtime statements, so if script is loaded twice,
 any functions will be executed twice. So its behavior is that a function
-redeclares
+redeclares  
 **=** 함수 정의는 runtime 상태이기에 script를 두 번 load하면 함수들은 두 번 실행 될
 것이다. 그래서 이 행위는 함수를 재정의 하는 것이다.
 
