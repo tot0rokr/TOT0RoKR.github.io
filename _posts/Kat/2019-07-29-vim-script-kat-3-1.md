@@ -30,7 +30,8 @@ excerpt: "Vim script(VimL) Syntax 문법"
 
 ## Scripting the Vim editor
 
-[Vim editor Tutorials][vim-edit-tuto]
+This Chapter is refering on [Vim editor Tutorials][vim-edit-tuto]
+이 카테고리는 [Vim editor Tutorials][vim-edit-tuto]를 바탕으로 작성되었습니다.
 
 ### vim version
 
