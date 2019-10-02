@@ -364,7 +364,7 @@ collide with one from another script.
 
 You can specify up to 20 explicitly named parameters immediately 
 after the declaration of the subroutine’s name.  
-**=** 서브루틴의 이름 선언 후에 즉시 20개 이상의 인자를 명시할 수 있다.
+**=** 서브루틴의 이름 선언 후에 즉시 20개 까지 인자를 명시할 수 있다.
 
 Once specified, the corresponding argument values for the current call can be 
 accessed within the function by prefixing an a: to the parameter name:  
