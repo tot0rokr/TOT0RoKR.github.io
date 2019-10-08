@@ -12,7 +12,9 @@ excerpt: "RasPi3 qemu compile & How to use \"qemu\""
 ---
 
 [qemu official][qemu]
+
 [raspberry pi 3 support for qemu][bzt/qemu]
+
 [compile dependency package of qemu compile][qemu compile package]
 
 ```
