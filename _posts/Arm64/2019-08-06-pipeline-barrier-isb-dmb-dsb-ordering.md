@@ -85,7 +85,7 @@ WB은 레지스터 쓰기를 수행합니다. Mem단계에서 읽어온 메모�
 그런데 문제가 발생합니다. 레지스터에 쓰기는 5단계에서 수행하는데, 읽기는 2단계에서
 수행됩니다. 즉,
 
-``` asm
+``` assembly
 ldr r0, [sp+1000]
 add r1, r1, r0
 ```
@@ -106,7 +106,7 @@ DE단계와 `add`명령을 수행하는 EX단계가 끝나고 MEM단계에 이�
 instruction을 `ldr`과 `add` 사이에 끼워넣는 방법입니다. `ldr` 위에 있는 instruction이나,
 `add` 아래있는 instruction 중, 예를 들면,
 
-``` asm
+``` assembly
 ldr r0, [sp+1000]
 add r1, r1, r0
 ldr r2, [sp+2000]
@@ -116,7 +116,7 @@ ldr r3, [sp+3000]
 
 이렇게 구성된 구문을 
 
-``` asm
+``` assembly
 ldr r0, [sp+1000]
 ldr r2, [sp+2000]
 ldr r3, [sp+3000]
@@ -160,7 +160,7 @@ SY를 유일한 option으로 가지며, default 값이고, 생략 가능합니�
 
 어셈으로 예를 들면,
 
-``` asm
+``` assembly
 str r0, [sp+1000]
 ldr r1, [sp+2000]
 and r1, #11
@@ -171,7 +171,7 @@ and r3, #8
 
 이런 구문이 있다고 가정하겠습니다. 이 동작을 "Optimization"하게되면 cpu는
 
-``` asm
+``` assembly
 str r0, [sp+1000]
 str r2, [sp+1004]
 ldr r3, [sp+1996]
@@ -200,7 +200,7 @@ DMB는 그렇기 때문에 만들어 졌습니다.
 `dmb` instruction은 memory에 대한 access의 순서가 `dmb` 위 아래로 memory access의
 순서가 변경되지 않음을 보장합니다. 즉 위에서 말한 사태가 벌어지지 않기 위해서
 
-``` asm
+``` assembly
 str r0, [sp+1000]
 ldr r1, [sp+2000]
 and r1, #11
@@ -214,7 +214,7 @@ and r3, #8
 물론 위와 같은 상황에선 인접한 `str`과 `ldr`의 순서도 바뀔 가능성이 전혀 없는 것은 아니기
 때문에 (cpu 입장에서 의존성을 확인할 수 없으므로) 정확히 하기 위해서
 
-``` asm
+``` assembly
 str r0, [sp+1000]
 dmb
 ldr r1, [sp+2000]
@@ -259,11 +259,11 @@ coprocessor(보조프로세서)인 CP15의 담당인데, 그들의 동작과 `ds
 
 DSB와 DMB는 공통 옵션이 있습니다.
 
-- `NSH`는 non-sharable 의 약자로, sharable 하지않는, 즉, dsb 명령이 동작하는 core에서만
-독점해서 사용하고 있는 메모리의 접근에 대해서만 dsb 명령을 수행하겠다라는 뜻입니다.
-- SY는 전체 System을 의미하며, default 값이고, 생략가능합니다.
-- ISH는 in-sharable - SMP 환경에서 core끼리만 공유
-- OSH는 out-sharable - MMU를 비롯한 다른 옵저버들 간에도 공유
+- `NSH`는 non-sharable 의 약자로, sharable 하지않는, 즉, `dsb` 명령이 동작하는 core에서만
+독점해서 사용하고 있는 메모리의 접근에 대해서만 `dsb` 명령을 수행하겠다라는 뜻입니다.
+- `SY`는 전체 System을 의미하며, default 값이고, 생략가능합니다.
+- `ISH`는 in-sharable - SMP 환경에서 core끼리만 공유
+- `OSH`는 out-sharable - MMU를 비롯한 다른 옵저버들 간에도 공유
 
 여기에 ST가 붙으면 load를 제외한 store에 대한 명령에 대해서만 dsb 명령을
 수행하는 것이라고 보면 될 것 같습니다.
