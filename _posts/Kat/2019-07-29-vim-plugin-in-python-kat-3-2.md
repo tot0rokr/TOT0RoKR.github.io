@@ -145,7 +145,158 @@ Plugin 함수 수행
 ![SampleFunc](https://user-images.githubusercontent.com/24751868/62057815-4c193800-b25b-11e9-829e-b88fab1cb4d2.png)
 
 
-### Vim Scripting through Python
+## The Python Interface to Vim
+
+This documentation is from [Here: Part of python of Vim Official Documentation][vim help].  
+**=** 이 문서는 [이곳][vim help]을 베이스로 작성되었습니다.
+
+### Commands
+
+``` vim
+:[range]py[thon]3 {statement}
+```
+
+``` vim
+:[range]py[thon]3 << [endmarker]
+{script}
+{endmarker}
+```
+
+The `{endmarker}` below the `{script}` must NOT be preceded by any white space.  
+**=** `{script}`아래의 `{endmarker}`의 앞에는 절대로 공백이 와서는 안된다.
+
+
+``` vim
+:[range]py3do {body}
+```
+
+`{body}` for each line in the `[range]`, with the function arguments begin set to
+the text of each line in turn.
+The default for `[range]` is the whole file: `"1,$"`  
+**=** `[range]`의 각 라인을 돌면서 `{body}`의 내용으로 각 라인을 치환한다.
+`[range]`의 기본 값은 파일 전체이다.
+
+``` vim
+:[range]pyf[ile] {file}
+```
+
+Execute the Python script in `{file}`.  
+**=** `{file}` 안의 파이썬 스크립트를 실행한다.
+
+
+
+### Modules
+
+#### Overview
+
+``` vim
+:py print "Hello"               # displays a message
+:py vim.command(cmd)            # execute an Ex command
+:py w = vim.windows[n]          # gets window "n"
+:py cw = vim.current.window     # gets the current window
+:py b = vim.buffers[n]          # gets buffer "n"
+:py cb = vim.current.buffer     # gets the current buffer
+:py w.height = lines            # sets the window height
+:py w.cursor = (row, col)       # sets the window cursor position
+:py pos = w.cursor              # gets a tuple (row, col)
+:py name = b.name               # gets the buffer file name
+:py line = b[n]                 # gets a line from the buffer
+:py lines = b[n:m]              # gets a list of lines
+:py num = len(b)                # gets the number of lines
+:py b[n] = str                  # sets a line in the buffer
+:py b[n:m] = [str1, str2, str3] # sets a number of lines at once
+:py del b[n]                    # deletes a line
+:py del b[n:m]                  # deletes a number of lines
+
+
+```
+
+1. `vim.command(str)` : Executes the vim (ex-mode) command str. Returns None.
+``` vim
+:py vim.command("set tw=72")
+:py vim.command("%s/aaa/bbb/g")
+```
+
+1. `vim.eval(str)` : Evaluates the expression str using the vim intenal expression.
+evaluator. Returns a string if it evaluates a string or number, list if list,
+dictionary if dictionary.
+``` vim
+			:" value of the 'textwidth' option
+            :py text_width = vim.eval("&tw")
+            :
+            :" contents of the 'a' register
+            :py a_reg = vim.eval("@a") 
+            :
+            :" Result is a string! Use string.atoi() to convert to a number.
+            :py str = vim.eval("12+12")
+            :
+            :py tagList = vim.eval('taglist("eval_expr")')
+```
+
+1. `vim.bindeval(str)` : Like python-eval, but returns special objects described in 
+        python-bindeval-objects. These python objects let you modify (List 
+                or Dictionary) or call (Funcref) vim objects.
+
+1. `vim.chdir(*args, **kwargs)` / `vim.fchdir(*args, **kwargs)` : Run os.chdir or
+os.fchdir.
+
+1. `vim.buffers` : list of buffers.
+``` vim
+            :py b = vim.buffers[i]      # Indexing (read-only)
+            :py b in vim.buffers        # Membership test
+            :py n = len(vim.buffers)    # Number of elements
+            :py for b in vim.buffers:   # Iterating over buffer list
+```
+
+1. `vim.windows` : list of windows.
+``` vim
+	    :py w = vim.windows[i]	# Indexing (read-only)
+	    :py w in vim.windows	# Membership test
+	    :py n = len(vim.windows)	# Number of elements
+	    :py for w in vim.windows:	# Sequential access
+```
+
+1. `vim.tabpages` : list of tab pages.
+``` vim
+	    :py t = vim.tabpages[i]	# Indexing (read-only)
+	    :py t in vim.tabpages	# Membership test
+	    :py n = len(vim.tabpages)	# Number of elements
+	    :py for t in vim.tabpages:	# Sequential access
+```
+
+1. `vim.current` : various "current" objects available in vim.  
+    - vim.current.line	The current line (RW)		String  
+	- vim.current.buffer	The current buffer (RW)		Buffer  
+	- vim.current.window	The current window (RW)		Window  
+	- vim.current.tabpage	The current tab page (RW)	TabPage  
+	- vim.current.range	The current line range (RO)	Range  
+    - How to switch without triggering autocommands use
+    ``` vim
+	    py << EOF
+	    saved_eventignore = vim.options['eventignore']
+	    vim.options['eventignore'] = 'all'
+	    try:
+	        vim.current.buffer = vim.buffers[2] # Switch to buffer 2
+	    finally:
+	        vim.options['eventignore'] = saved_eventignore
+	    EOF
+    ```
+
+1. `vim.vars` : Dictionary-like objects holding dictionaries with global (g:).
+    - `vim.vars['name_except_prefix_g:']`
+1. `vim.vvars` : vim (v:) variables respectively.
+
+
+
+
+
+
+
+
+
+
+
+## Another reference of Vim scripting through Python
 
 [Vim Scripting through Python](http://heather.cs.ucdavis.edu/~matloff/Python/PyVimscript.html)
 

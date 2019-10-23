@@ -12,26 +12,25 @@ tags:
 excerpt: "(ENG/KR) Vim script(VimL) Basic Syntax 문법"
 ---
 
-## Intro
-
-## vim 한글번역 문서
+## Vim official documentation
 
 [![vim-koimage](https://user-images.githubusercontent.com/24751868/62033978-1ad34480-b228-11e9-9652-0e460942d17b.png)][vim-ko]
 
-[Vim User Manual][vim-ko manual]
+[(KR)Vim User Manual][vim-ko manual]
+[(ENG)Vim User Manual][vim manual]
 
 
 ### Fold
 
-[manual involving folding/Fold에 관련된 manual][vim-ko fold]을 살펴볼 수 있다.
+[manual involving folding/Fold에 관련된 manual][vim-ko fold] 을 살펴볼 수 있다.
 
 
 
 
 ## Scripting the Vim editor
 
-This Chapter is refering on [Vim editor Tutorials][vim-edit-tuto]
-이 카테고리는 [Vim editor Tutorials][vim-edit-tuto]를 바탕으로 작성되었습니다.
+This Chapter is refering on [(ENG)Vim editor Tutorials][vim-edit-tuto]
+이 카테고리는 [(ENG)Vim editor Tutorials][vim-edit-tuto]를 바탕으로 작성되었습니다.
 
 ### vim version
 
@@ -225,9 +224,10 @@ pass others
 - All the logical and comparison operators consistently return the value 1 for true  
 **=** 논리식 혹은 비교 연산은 true에 대해서 1을 return 한다.
 - When a string is used as a boolean, it is first converted to an integer,
-strings including empty string will mostly evaluate as being false  
+strings including empty string will mostly evaluate as being false( 0 if string
+is not started by number )  
 **=** string은 참/거짓으로 사용될 때, 정수로 변환하는데, 빈 문자열을 포함하여
-거의 모든 문자열을 0으로 계산한다.
+거의 모든 문자열을 0으로 계산한다. (숫자로 시작하지 않는 문자열은 모두 숫자 0)
 - Solution
 ``` vim
 if empty(result_string)
@@ -482,9 +482,44 @@ You can make a visual block of text in visual-mode, and you can apply in there.
 **=** visual block을 이용해서 위의 함수를 적용할 수도 있다.
 
 
+## Another Topic
+
+#### autocmd
+
+``` vim
+:autocmd [group] {events} {file_pattern} [nested] {command}
+```
+
+
+#### options
+
+1. default
+    ``` vim
+    se[t] {option}&
+    ```
+1. setlocal
+    ``` vim
+    setl[ocal] {option}
+    ```
+1. setglobal
+    ``` vim
+    setg[lobal] {option}
+    ```
 
 
 
+
+## Other Reference
+
+1. Key mapping
+    - [KR)noremap에 대한 좋은 설명][vim-map-Gyu-Wan]
+    - [KR)map에 대한 기본적인 설명][vim-map-bamangke]
+
+2. Autocommand
+    - [KR)vim의 autocmd 이벤트들][vim-autocmd-wireframe]
+
+
+[vim manual]: https://vimhelp.org/
 [vim-ko]: http://vim-ko.github.io/ "vim-ko github page"
 [vim-ko manual]: http://vim-ko.github.io/doc/usr_toc.html#usr_toc.txt
 [vim-ko fold]: http://vim-ko.github.io/doc/usr_28.html#usr_28.txt
@@ -492,3 +527,7 @@ You can make a visual block of text in visual-mode, and you can apply in there.
 [vim-edit-tuto]: https://developer.ibm.com/articles/l-vim-script-1/
 
 [vim-script-variable-scope]: https://tot0rokr.github.io/kat/vim/vim-script-kat-3-1/#variable-scope
+
+[vim-map-Gyu-Wan]: http://cubic0814.blogspot.com/2017/11/vim-key-mapping.html
+[vim-map-bamangke]: http://blog.naver.com/PostView.nhn?blogId=nfwscho&logNo=220407221737
+[vim-autocmd-wireframe]: https://soooprmx.com/archives/3469
