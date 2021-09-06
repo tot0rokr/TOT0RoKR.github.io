@@ -13,6 +13,7 @@ excerpt: "variable, loop, conditional만으로 오목 만들기 소스 생성코
 
 어릴 때 만들었던 변수(배열x), 반복문, 조건문 만으로 오목만들기 프로젝트.
 반복되는 소스코드 자동생성기.
+[이게 완성된 오목코드 소스](https://tot0rokr.github.io/clang/omok-source/)
 
 ## 변수선언
 

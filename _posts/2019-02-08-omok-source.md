@@ -6,7 +6,7 @@ categories:
 - Clang
 tags:
 - clang
-excerpt: "variable, loop, conditional을 사용하지 않고 오목만들기 소스코드"
+excerpt: "variable, loop, conditional만 사용하여 오목만들기 소스코드"
 ---
 
 ## Intro
@@ -18,6 +18,12 @@ excerpt: "variable, loop, conditional을 사용하지 않고 오목만들기 소
 오로지 printf, scanf, if문, for문만을 사용하고 있다. 배열도 사용하지 않는다.
 주석을 보면 어릴 때라 그런지 되게 즐거워 하면서 코딩한 것으로 보인다.
 ~~_나 자신이지만 귀엽다_~~
+
+당연히 이 코드를 손으로 작성할 수 없다. ~~아무리 열정이 있어도 그건 쫌..~~,
+때문에 코드를 작성하는 코드를 작성하였다. 물론 배열은 쓰지 않는다.
+[오목 소스코드 생성기](https://tot0rokr.github.io/clang/omok-creator/)
+
+
 
 
 ## 소스코드
