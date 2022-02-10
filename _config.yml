@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "TOT0Ro"
   avatar           : "/assets/images/TOT0Ro.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Amazing Kernel Developer (is my dream)"
+  bio              : "Kernel Developer"
   location         : "South Korea"
   email            : "tot0roprog@gmail.com"
   links:
@@ -136,7 +136,7 @@ footer:
 include:
   - .htaccess
   - _pages
-exclude: 
+exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -279,7 +279,7 @@ defaults:
       toc: true
       toc_label: "목차"
       toc_sticky: false
-      
+
   # _posts/Arm64
   - scope:
       path: "_posts/Arm64"
@@ -330,6 +330,14 @@ defaults:
       tags:
         - kat
 
+  # _posts/BLE
+  - scope:
+      path: "_posts/BLE"
+      type: posts
+    values:
+      categories:
+      tags:
+
   # _pages
   - scope:
       path: "_pages"
@@ -365,7 +373,7 @@ defaults:
       # toc_sticky: false
       # sidebar:
         # nav: "arm64kernel"
-      
+
   # # _arm64kernel/4.16
   # - scope:
       # path: "_arm64kernel/4.16"
