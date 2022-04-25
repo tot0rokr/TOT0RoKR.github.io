@@ -91,3 +91,19 @@ heartbeat_subscription_set(self, src, dst, period)  # heartbeat subscription 설
 - count: log 값. $2^{count_{get}} - 1 < count_{real} < 2^{count_{get}}$
 - min/max hop: Heartbeat 메시지가 전달되는 동안 거친 최소/최대 hop 수
 
+
+
+
+### aci_cmd
+
+#### HandleGet
+
+```python
+device.send(cmd.HandleGet(<element_index>, 0x<model_id><company_id>)
+
+# 0x____FFFF: SIG models
+device.send(cmd.HandleGet(0, 0x0000FFFF)) Heartbeat server
+device.send(cmd.HandleGet(0, 0x0002FFFF)) Health Server
+```
+
+
