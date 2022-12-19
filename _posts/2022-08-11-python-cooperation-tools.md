@@ -150,7 +150,7 @@ repos:
         entry: pylint
         language: system
         types: [python]
-        requre_serial: true
+        require_serial: true
 ```
 
 원격 repo에 있는 pylint는 로컬 라이브러리(패키지)에 접근할 수 없어서
@@ -246,7 +246,7 @@ repos:
         entry: mypy
         language: system
         types: [python]
-        requre_serial: true
+        require_serial: true
 ```
 
 mypy 또한 외부 패키지를 이용하므로, 설치된 로컬 패키지를 접근하기 위해,
