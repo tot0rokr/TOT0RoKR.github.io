@@ -32,9 +32,6 @@ Plug 'dart-lang/dart-vim-plugin'
 let g:dart_html_in_string = v:true
 let g:dart_style_guide = 2
 let g:dart_format_on_save = v:true
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
-let g:lsc_auto_map = v:true
 ```
 
 - Coc flutter plugin 설치
@@ -92,7 +89,7 @@ sudo apt-get install clang cmake git ninja-build pkg-config libgtk-3-dev liblzma
 
 ### Test Drive
 
-[Test Drive](https://docs.flutter.dev/get-started/test-drive?tab=terminal)
+[공식 문서](https://docs.flutter.dev/get-started/test-drive?tab=terminal)
 
 Terminals & editor 페이지를 살펴보면 된다. 어렵지 않다.
 
@@ -115,7 +112,15 @@ Emulator를 사용하고 싶은 경우, 다음 패키지를 다운 받아야 한
     ```sh
     sudo apt install libpulse0
     ```
-
-- Emulator 리스트 확인: `flutter emulators`
-- Emulator 생성: `flutter emulators --create --name test_emu`
-- Emulator 실행: `flutter emulators --launch test_emu`
+- Emulator 리스트 확인
+    ```sh
+    flutter emulators
+    ```
+- Emulator 생성
+    ```sh
+    flutter emulators --create --name test_emu
+    ```
+- Emulator 실행
+    ```sh
+    flutter emulators --launch test_emu
+    ```
