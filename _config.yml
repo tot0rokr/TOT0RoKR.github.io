@@ -256,13 +256,6 @@ compress_html:
     envs: development
 
 
-# Coleections
-collections:
-  iamroot-history:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _posts
@@ -345,16 +338,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-  # _iamroot-history
-  - scope:
-      path: ""
-      type: iamroot-history
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
 
   # # _arm64kernel
   # - scope:

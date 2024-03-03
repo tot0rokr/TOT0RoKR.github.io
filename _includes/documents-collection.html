@@ -14,14 +14,6 @@
   {% endif %}
 {% endif %}
 
-{% if include.collection == 'iamroot-history' %}
-<hr>
-<p style="font-size:17px">
-  {% include iamroot-history-short.html %}
-</p>
-<hr>
-{% endif %}
-
 {%- for post in entries -%}
   {% include archive-single.html %}
 {%- endfor -%}
