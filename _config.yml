@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "TOT0Ro's Kernel Blog"
+title                    : "TOT0Ro's Blog"
 title_separator          : "-"
 name                     : &name "TOT0Ro"
 description              : &description "Amazing Kernel Blog"
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "TOT0Ro"
   avatar           : "/assets/images/TOT0Ro.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Kernel Developer"
+  bio              : "On Happy😁"
   location         : "South Korea"
   email            : "tot0roprog@gmail.com"
   links:
