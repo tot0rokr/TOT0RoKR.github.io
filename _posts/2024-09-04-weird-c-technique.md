@@ -160,3 +160,26 @@ struct my_struct {
 타입캐스팅을 하면 끝이다.
 
 Linked-list 뿐만 아니라 tree구조 등 자료구조는 모두 동일한 방법으로 사용 가능하다.
+
+## Address combined data
+
+Linux Kernel에는 현재 대부분 Maple Tree로 대체된 Red-Black Tree(RBTree)가 있다. kernel에서 RBTree는
+메모리를 절약하기 위해 해괴한 방법을 사용하는데, 이는 address에 data를 결합하는 방법이다.
+
+```c
+struct rb_node {
+    unsigned long  __rb_parent_color; /* rb parent and color */
+    struct rb_node *rb_right;
+    struct rb_node *rb_left;
+} __attribute__((aligned(sizeof(long))));
+```
+
+`aligned(sizeof(long))` attribute를 사용해서 해당 자료구조를 할당 시에 long 타입 길이 단위로
+정렬한다. 그려면 32-bit(혹은 64-bit) 시스템에서는 4바이트(혹은 8바이트) 단위로 메모리가 정렬되어
+주소값의 하위 2비트(혹은 3비트)가 0임이 보장된다. 이를 이용하여 해당 2비트(혹은 3비트)에 데이터를
+주소값과 함께 long타입에 저장하는 테크닉이 존재한다.
+
+단점은 저대로 주소에 접근하면 당연히 잘못된 주소에 접근하게 되므로 encoding/decoding이 필요하며,
+매번 타입캐스팅도 해주어야 한다. 하지만 RBTree에서 parent의 주소는 오직 rotation 되는 동작에서만
+필요하기 때문에 탐색과정의 시간을 줄이고자 하는 RBTree의 특성상 크게 성능에 지장을 주지 않는다.
+오히려 메모리를 아끼면서 얻게되는 캐시 히트율에 더 큰 성능 향상을 기대할 수 있다.
