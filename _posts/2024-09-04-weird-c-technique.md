@@ -1,6 +1,6 @@
 ---
 title: "Weird C-lang coding technique with Linux"
-last_modified_at: 2024-09-05T00:00:00-09:00
+last_modified_at: 2024-09-06T00:00:00-09:00
 categories:
 - C
 tags:
@@ -183,3 +183,138 @@ struct rb_node {
 매번 타입캐스팅도 해주어야 한다. 하지만 RBTree에서 parent의 주소는 오직 rotation 되는 동작에서만
 필요하기 때문에 탐색과정의 시간을 줄이고자 하는 RBTree의 특성상 크게 성능에 지장을 주지 않는다.
 오히려 메모리를 아끼면서 얻게되는 캐시 히트율에 더 큰 성능 향상을 기대할 수 있다.
+
+## Inheritance
+
+Linux Kernel에서 네트워크 소켓 자료구조를 보면 일종의 상속을 사용한다. 하위 계층에 사용하는 소켓
+자료구조를 상위 계층 소켓이 첫 번째 필드로 가져가며, define 매크로를 통해 다이렉트로 접근하는 것처럼
+하여 상위계층 소켓을 감춘다. 이렇게 하여 네트워크 전체 계층에서 사용하는 소켓에 대한 메모리를 한번에
+할당하여 이득을 취한다.
+
+```c
+/* In include/net/inet_sock.h */
+struct inet_sock {
+	/* sk and pinet6 has to be the first two members of inet_sock */
+	struct sock		sk;
+#if IS_ENABLED(CONFIG_IPV6)
+	struct ipv6_pinfo	*pinet6;
+#endif
+	/* Socket demultiplex comparisons on incoming packets. */
+#define inet_daddr		sk.__sk_common.skc_daddr
+#define inet_rcv_saddr		sk.__sk_common.skc_rcv_saddr
+#define inet_dport		sk.__sk_common.skc_dport
+#define inet_num		sk.__sk_common.skc_num
+
+	__be32			inet_saddr;
+	__s16			uc_ttl;
+	__u16			cmsg_flags;
+	__be16			inet_sport;
+	__u16			inet_id;
+
+    /*
+     * Leave out...
+     */
+
+};
+```
+
+```c
+/* In include/net/sock.h */
+struct sock {
+	/*
+	 * Now struct inet_timewait_sock also uses sock_common, so please just
+	 * don't add nothing before this first member (__sk_common) --acme
+	 */
+	struct sock_common	__sk_common;
+#define sk_node			__sk_common.skc_node
+#define sk_nulls_node		__sk_common.skc_nulls_node
+#define sk_refcnt		__sk_common.skc_refcnt
+#define sk_tx_queue_mapping	__sk_common.skc_tx_queue_mapping
+#ifdef CONFIG_XPS
+#define sk_rx_queue_mapping	__sk_common.skc_rx_queue_mapping
+#endif
+
+#define sk_dontcopy_begin	__sk_common.skc_dontcopy_begin
+#define sk_dontcopy_end		__sk_common.skc_dontcopy_end
+#define sk_hash			__sk_common.skc_hash
+#define sk_portpair		__sk_common.skc_portpair
+#define sk_num			__sk_common.skc_num
+#define sk_dport		__sk_common.skc_dport
+#define sk_addrpair		__sk_common.skc_addrpair
+#define sk_daddr		__sk_common.skc_daddr
+#define sk_rcv_saddr		__sk_common.skc_rcv_saddr
+#define sk_family		__sk_common.skc_family
+#define sk_state		__sk_common.skc_state
+#define sk_reuse		__sk_common.skc_reuse
+#define sk_reuseport		__sk_common.skc_reuseport
+#define sk_ipv6only		__sk_common.skc_ipv6only
+#define sk_net_refcnt		__sk_common.skc_net_refcnt
+#define sk_bound_dev_if		__sk_common.skc_bound_dev_if
+#define sk_bind_node		__sk_common.skc_bind_node
+#define sk_prot			__sk_common.skc_prot
+#define sk_net			__sk_common.skc_net
+#define sk_v6_daddr		__sk_common.skc_v6_daddr
+#define sk_v6_rcv_saddr	__sk_common.skc_v6_rcv_saddr
+#define sk_cookie		__sk_common.skc_cookie
+#define sk_incoming_cpu		__sk_common.skc_incoming_cpu
+#define sk_flags		__sk_common.skc_flags
+#define sk_rxhash		__sk_common.skc_rxhash
+
+	socket_lock_t		sk_lock;
+	atomic_t		sk_drops;
+	int			sk_rcvlowat;
+	struct sk_buff_head	sk_error_queue;
+	struct sk_buff_head	sk_receive_queue;
+
+    /*
+     * Leave out...
+     */
+};
+```
+
+```c
+/* In include/net/sock.h */
+struct sock_common {
+	/* skc_daddr and skc_rcv_saddr must be grouped on a 8 bytes aligned
+	 * address on 64bit arches : cf INET_MATCH()
+	 */
+	union {
+		__addrpair	skc_addrpair;
+		struct {
+			__be32	skc_daddr;
+			__be32	skc_rcv_saddr;
+		};
+	};
+	union  {
+		unsigned int	skc_hash;
+		__u16		skc_u16hashes[2];
+	};
+	/* skc_dport && skc_num must be grouped as well */
+	union {
+		__portpair	skc_portpair;
+		struct {
+			__be16	skc_dport;
+			__u16	skc_num;
+		};
+	};
+
+    /*
+     * Leave out...
+     */
+
+	refcount_t		skc_refcnt;
+	/* private: */
+	int                     skc_dontcopy_end[0];
+	union {
+		u32		skc_rxhash;
+		u32		skc_window_clamp;
+		u32		skc_tw_snd_nxt; /* struct tcp_timewait_sock */
+	};
+	/* public: */
+};
+```
+
+이렇게 하면 `struct inet_sock`의 인스턴스인 `inet`에 대하여 `inet.daddr`을 통해서 `struct
+sock_common`에 있는 `sock_daddr` 필드를 접근할 수 있게 한다.
+여기서 장점은 ip 프로토콜에서 사용하는 소켓인 `struct inet_sock` 뿐만 아니다 다른 프로토콜에서도
+`struct sock_common`을 상속하여 동일한 API를 사용할 수 있다는 것이 장점이다.
