@@ -46,6 +46,8 @@ let g:dart_format_on_save = v:true
 
 ```sh
 sudo snap install flutter --classic
+flutter sdk-path
+flutter --disable-analytics
 flutter doctor -v
 ```
 
@@ -57,7 +59,7 @@ flutter doctor -v
 wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.1.1.28/android-studio-2023.1.1.28-linux.tar.gz
 tar -zxf android-studio-2023.1.1.28-linux.tar.gz android-studio
 flutter config --android-studio-dir=$HOME/android-studio
-android-studio/bin/stdio.sh
+android-studio/bin/studio.sh
 ```
 
 안드로이드 스튜디오 설치 창이 나오고, 설치를 진행한다. 이 때, SDK가 최신 버전만 설치되는데, 원하는
@@ -66,7 +68,8 @@ android-studio/bin/stdio.sh
 - sdkmanager -> SDK platform -> SDK 설치
 - sdkmanager -> SDK tools -> Android SDK command-line Tools 설치
 
-SDk를 flutter에 등록한다.
+SDk를 flutter에 등록한다. (기본으로 자동으로 등록된다. `flutter doctor -v`를 먼저 실행해보고,
+등록이 안되어 있으면 수행하자)
 
 ```sh
 flutter config --android-sdk=$HOME/Android/Sdk
