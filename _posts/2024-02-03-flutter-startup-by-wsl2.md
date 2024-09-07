@@ -62,11 +62,18 @@ flutter config --android-studio-dir=$HOME/android-studio
 android-studio/bin/studio.sh
 ```
 
+이 때, Xwindows가 실행 가능해야한다. Xming을 설치하거나 요즘은 환경변수 `DISPLAY:=0`만 줘도 실행
+되는 것 같긴 하다.
+
 안드로이드 스튜디오 설치 창이 나오고, 설치를 진행한다. 이 때, SDK가 최신 버전만 설치되는데, 원하는
-버전을 추가할 수 있고, command-line tool도 함께 설치한다.(설치 완료 후 추가 설치 가능하다)
+버전을 추가할 수 있고, command-line tool도 함께 설치한다(`studio.sh`을 재실행하면 설치 완료
+이후에도 추가 설치 가능하다). Emulator는 자유롭게 ㅎㅎ..
 
 - sdkmanager -> SDK platform -> SDK 설치
 - sdkmanager -> SDK tools -> Android SDK command-line Tools 설치
+- ![image](https://github.com/user-attachments/assets/45896748-0e64-4192-a3ea-28d482e57b51)
+- ![image](https://github.com/user-attachments/assets/15a1f9f9-7e6e-400a-8614-e4bebfe16292)
+
 
 SDk를 flutter에 등록한다. (기본으로 자동으로 등록된다. `flutter doctor -v`를 먼저 실행해보고,
 등록이 안되어 있으면 수행하자)
@@ -81,9 +88,11 @@ license 동의를 한다.
 flutter doctor --android-licenses
 ```
 
-Emulator는 자유롭게 ㅎㅎ..
+이후 `flutter doctor -v`를 실행해보면 전부 잘 체크되는 것을 볼 수 있다.
 
-마지막으로 Linux 필수 빌드 패키지들을 설치한다.
+
+마지막으로 Linux 필수 빌드 패키지들을 설치한다. 뭐, 안받아도 되는데 Linux 어플리케이션이 빌드되지는
+않는다.
 
 ```sh
 sudo apt-get install clang cmake git ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev
