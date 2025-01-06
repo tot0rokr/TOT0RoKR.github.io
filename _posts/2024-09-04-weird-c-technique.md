@@ -1,6 +1,6 @@
 ---
 title: "Weird C-lang coding technique with Linux"
-last_modified_at: 2024-09-06T00:00:00-09:00
+last_modified_at: 2025-01-06T00:00:00-09:00
 categories:
 - C
 tags:
@@ -12,7 +12,8 @@ excerpt: "종나 이상한 C언어 테크닉(하지만 리눅스를 곁들인)"
 ---
 
 Linux Kernel 분석할 때 상당히 많이 봤는데 정리해둘걸 아쉽지만 지금이라도 신기하고 이상한 테크닉을
-소개하려고 한다.
+실 사용 사례와 함께 소개하려고 한다. 만약 추가적으로 생각나거나 알게 되는 것이 있으면 더 추가할
+예정이다.
 
 ## Built-in dynamic memory allocation
 
@@ -32,11 +33,11 @@ struct pdu *new_pdu(uint8_t len)
 ```
 
 `struct pdu`를 할당 시에 원하는 만큼 더 크게 할당 받고 사용 시에는 원래 배열처럼 사용하면 된다.
-C언어는 인덱스 체크 따위를 하지 않는 특징을 이용한 개쩌는 테크닉.
+C언어는 인덱스나 길이 체크 따위를 하지 않는 특징을 이용한 개쩌는 테크닉.
 
-BlueZ 프로젝트에서 발견할 수 있다.
+BlueZ 프로젝트나 Linux Kernel 프로젝트에서 Packet Data 자료구조에서 발견할 수 있다.
 
-### 예제
+#### 예제
 
 https://github.com/tot0rokr/practice/blob/main/c/c-overflow-allocation/main.c
 
@@ -69,8 +70,9 @@ Linux Foundation에서 개발한 프로젝트에서는 웬만해서 발견할 �
 
 ## Like yeild
 
-마치 Iterator(혹은 Generator, Enumerator) 처럼 yield를 구현하는 방법이다. 타이머를 통한 스케줄링
-등을 통해 반복 수행함으로써 프로시저를 진행한다.
+마치 Iterator(혹은 Generator, Enumerator) 처럼 yield를 구현하는 방법이다. 엄현히 따지자면 다르지만
+Iterator 반복마다 Block을 하는 프로시저라면 유사하다고 볼 수 있다. 타이머를 통한 스케줄링
+등을 통해 반복 수행함으로써 한 스텝씩 프로시저를 진행한다.
 
 ```c
 void send_seg_tx(struct tx *tx)
@@ -111,7 +113,7 @@ Linux Kernel의 linked-list는 매우 단순하고, 모든 struct 자료구조�
 애초에 `({expresstion})` 표현식 자체가 Microsoft VS 컴파일러에서 해석이 안된다_(201x년도에 확인함)_.
 GCC로 컴파일 해야 컴파일 된다.
 
-### list_head
+#### list_head
 
 ```c
 /* in include/linux/types.h */
@@ -120,18 +122,18 @@ struct list_head {
 };
 ```
 
-### example struct
+#### example struct
 
 ```c
 struct my_struct {
-    char* foo;
+    int foo;
     char* bar;
     /* ... other fields ... */
     struct list_head list;
 };
 ```
 
-### offsetof
+#### offsetof
 
 ```c
 /* in include/linux/stddef.h */
@@ -143,7 +145,7 @@ struct my_struct {
 #endif
 ```
 
-### container_of
+#### container_of
 
 ```c
 /* in include/kernel.h */
@@ -155,13 +157,76 @@ struct my_struct {
 `list_head`는 매우 간단하다. 간단하기에 재사용이 쉽다. 사용하고자 하는 자료구조에 멤버변수로
 추가하기만 하면 사용할 수 있다.
 
-`offsetof`를 보면 주소값 0에서 멤버변수 접근으로 해당 object의 `list_head` 필드의 offset을 알아낸
-뒤, 실제 `list_head` 필드의 주소에 offset을 빼서 object의 주소를 알아낸다. 그 다음 해당 자료구조로
-타입캐스팅을 하면 끝이다.
+`offsetof`를 인스턴스 내 `list_head`의 offset을 알아내기 위해 사용한다. `container_of`는 이 offset을
+이용하여 인스턴스의 포인터를 알아내는 매크로이다.
 
-Linked-list 뿐만 아니라 tree구조 등 자료구조는 모두 동일한 방법으로 사용 가능하다.
+`list_head`를 통해 `my_struct`의 포인터를 얻기 위해 아래와 같이 사용할 수 있다.
 
-## Address combined data
+```c
+struct my_struct *my_struct_from_entry(struct list_head *head)
+{
+    return container_of(head, struct my_struct, list);
+}
+```
+
+Linked-list 뿐만 아니라 Tree 구조와 같은 Link를 사용하는 자료구조 모두 동일한 방법으로 사용 가능하다.
+
+## For-each statement
+
+C언어에는 for-each 구문이 없다. 그래서 다양한 프로젝트에서 다양한 방법으로 for-each 구문을 구현하고
+있다. 여기서 몇가지 방법을 소개한다.
+
+### array_for_each
+
+배열을 순회하기 위한 for-each 구문을 사용할 수 있다. 이는 아래와 같이 `sizeof`를 이용하여 구현된다.
+여기서 `pos`는 각 요소, `array`는 배열이다.
+
+```c
+#define array_for_each(pos, array)                                     \
+    for (pos = (array);                                                 \
+         pos < (array) + sizeof(array) / sizeof(array[0]);              \
+         pos++)
+
+
+void func()
+{
+    int array[] = {1, 2, 3, 4, 5};
+    int *pos;
+
+    array_for_each(pos, array) {
+        printf("%d\n", *pos);
+    }
+}
+```
+
+#### list_for_each_entry
+
+Linked-list entry를 순회하기 위한 for-each 구문을 사용할 수 있다. 이는 아래와 같이 `container_of`를
+이용하여 구현된다. 여기서 `pos`는 요소, `head`는 리스트의 헤드노드, `member`는 요소의 리스트
+멤버이다.
+
+```c
+#define list_for_each_entry(pos, head, member)                          \
+    for (pos = container_of((head)->next, typeof(*pos), member);        \
+         &pos->member != (head);                                        \
+         pos = container_of(pos->member.next, typeof(*pos), member))
+
+void func()
+{
+    struct my_struct *pos;
+    struct list_head *head;
+
+    /* 리스트 초기화 및 삽입과정 생략 */
+
+    list_for_each_entry(pos, head, list) {
+        printf("%d\n", pos->foo);
+    }
+}
+```
+
+
+
+## Compress data structure size using aligned address
 
 Linux Kernel에는 현재 대부분 Maple Tree로 대체된 Red-Black Tree(RBTree)가 있다. kernel에서 RBTree는
 메모리를 절약하기 위해 해괴한 방법을 사용하는데, 이는 address에 data를 결합하는 방법이다.
