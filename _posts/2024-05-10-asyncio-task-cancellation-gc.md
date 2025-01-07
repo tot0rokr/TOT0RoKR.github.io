@@ -1,24 +1,25 @@
 ---
-title: "Garbage collect for Asyncio Task cancellation"
-last_modified_at: 2024-05-10T00:00:00-09:00
+title: "Garbage Collect for Asyncio Task Instance cancelled in Python"
+last_modified_at: 2025-01-07T00:00:00-09:00
 categories:
 - Asyncio
 tags:
 - python
 - gc
 - garbage-collection
-excerpt: "Asyncio Task를 cancel하여 취소하면 garbage-collection 되는가?"
+excerpt: "Python Asyncio Task를 cancel하면 GC가 적절히 처리하는가? 그리고 어떻게 Cancel 할 때 GC 성능이 제일 좋은지도 측정해보자"
 ---
 
-# "Asyncio Task를 cancel하여 취소하면 garbage-collection 되는가?"
+## "Asyncio Task를 cancel하면 garbage-collection 되는가?"
 
-## 된다
+### 된다
 
-아래 `Task`를 생성하고 즉시 `cancel` 했을 때(test1), 모아서 한번에 `cancel` 했을 때(test2),
-`cancel` 하지 않았을 때(test3)의 경우에 대해서 테스트한다. test4는 아무것도 하지 않은 경우를
+Work는 무한 Sleep 상태의 Task로 한다.
+`Task`를 생성하고 즉시 `cancel` 했을 때(test1), 모아서 한번에 `cancel` 했을 때(test2),
+`cancel` 하지 않았을 때(test3)의 경우에 대해서 테스트한다. test4는 아무것도 동작하지 않은 경우를
 비교군에 추가한다.
 
-겸사겸사 성능 테스트도 해본다.
+겸사겸사 성능 테스트도 해본다. Object 크기와 GC threshold를 조절해가며 비교한다.
 
 
 ### 테스트 코드
