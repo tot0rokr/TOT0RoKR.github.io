@@ -1,5 +1,5 @@
 ---
-title: "Python co-operation tools"
+title: "Python tools"
 last_modified_at: 2022-08-11T00:00:00-09:00
 categories:
 - Contribute
@@ -8,7 +8,7 @@ tags:
 - cooperation
 - python
 - tools
-excerpt: "Python tools for co-operation"
+excerpt: "Python tools를 소개한다. pre-commit, linting, coding convention 등"
 ---
 
 # pre-commit
