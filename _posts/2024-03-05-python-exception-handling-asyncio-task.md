@@ -1,6 +1,6 @@
 ---
 title: "Handling exceptions that occur within asyncio tasks in the event loop"
-last_modified_at: 2024-03-05T00:00:00-09:00
+last_modified_at: 2025-01-07T00:00:00-09:00
 categories:
 - Python
 tags:
@@ -40,9 +40,9 @@ def main():
         raise Exception(f"test({n}) !!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     runners = []
-    runners.append(loop.create_task(test(3))) 		# line 17
-    k = loop.create_task(test(4))					# line 18
-    loop.create_task(test(5) 						# line 19
+    runners.append(loop.create_task(test(3)))       # line 17
+    k = loop.create_task(test(4))                   # line 18
+    loop.create_task(test(5)                        # line 19
 
     loop.run_forever()
 
@@ -53,10 +53,13 @@ if __name__ == '__main__':
 17/18번 라인처럼 태스크가 변수나 컨테이너에 할당되면, 내부에서 발생한 예외가 `exception_handler()`에
 전파되지 않고 태스크 자료구조에 캡쳐된 상태로 존재한다. 사실 이 동작이 정상적인 동작으로 간주해야
 한다. 그러나 19번 라인처럼 태스크 object가 변수나 컨테이너에 할당되지 않으면
-`exception_handler()`에 전파되고, 전파되지 않고 기다리던 다른 task들의 exception이 캐치된다.
+`exception_handler()`에 전파되고, 전파되지 않고 기다리던 다른 task들의 exception이 Catch된다.
+(19번 라인을 지우면 `loop`가 종료되지 않는다.)
 
-원래는 19번 라인도 전파되면 안되는 게 올바른 동작처럼 보인다. 사실 변수에 담는 행위가 영향을 끼치면
-안된다.
+~~원래는 19번 라인도 전파되면 안되는 게 올바른 동작처럼 보인다. 사실 변수에 담는 행위가 영향을 끼치면
+안된다.~~
+GC에 의해 수집되면서 exception이 Catch되는 것으로 보여진다. 실제로 `k`나 `runners`를 `del`한 경우에
+exception이 발생한다.
 
 
 ## run_coroutine_threadsafe()
@@ -123,10 +126,7 @@ def main():
             print("callback: " + str(fut.exception()))
             raise fut.exception()
 
-    def wrapper(loop, n):
-        loop.create_task(test(n)).add_done_callback(callback)
-
-    loop.call_soon(wrapper, loop, 3)
+    loop.create_task(test(3)).add_done_callback(callback)
 
     loop.run_forever()
 
@@ -139,5 +139,5 @@ task의 코루틴에서 발생한 예외는 태스크에 캡쳐되어 태스크�
 `add_done_callback()`을 이용해 추가된 callback을 순차적으로 수행하게 되는데, callback에서 발생한
 예외는 이벤트 루프의 exception handler에게 전파되는 것을 이용한다.
 
-물론 위 `run_coroutine_threadsafe` 예제와 함께 사용할 수 있다. 이 경우, 태스크를 실행하기 전
-`wrapper()`의 exception을 catch하는 용도로 사용할 수 있다.
+물론 위 `run_coroutine_threadsafe` 예제와 함께 사용할 수 있다. ~~이 경우, 태스크를 실행하기 전
+`wrapper()`의 exception을 catch하는 용도로 사용할 수 있다.~~ 사례 변경으로 삭제.
