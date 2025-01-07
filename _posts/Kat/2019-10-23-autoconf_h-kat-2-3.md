@@ -6,7 +6,7 @@ categories:
 tags:
 - autoconf
 - config
-excerpt: "(ENG/KR) What is the include/generated/autoconf.h? and When is it made? autoconf.h가 무엇이고 언제 만들어지는가?"
+excerpt: "autoconf.h가 무엇이고 언제 만들어지는가?"
 ---
 
 ## What is the autoconf.h?
